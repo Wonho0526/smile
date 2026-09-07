@@ -62,25 +62,6 @@ dialog.addEventListener('close',()=>{document.body.style.overflow='';dialogTrigg
 cards.forEach((card,index)=>card.addEventListener('click',()=>{if(suppressClick){suppressClick=false;return;}if(index!==activeService){selectService(index);return;}const item=serviceDescriptions[index];openDetail(item[1],item[0],[item[2],item[3],'본 페이지는 디자인 시안입니다. 실제 운영되는 진료 항목은 병원 안내를 확인해 주세요.']);}));
 selectService(activeService);
 
-// Scroll-linked panels are replaced by ordinary stacked sections on small screens.
-const about=document.querySelector('.about'),values=document.querySelector('.values'),vision=document.querySelector('.vision');
-const visionHeading=document.querySelector('.vision-words');
-const walker=document.createTreeWalker(visionHeading,NodeFilter.SHOW_TEXT);const textNodes=[];
-while(walker.nextNode())textNodes.push(walker.currentNode);
-textNodes.forEach(node=>{const fragment=document.createDocumentFragment();node.textContent.split(/(\s+)/).forEach(word=>{if(!word.trim()){fragment.append(document.createTextNode(word));return;}const span=document.createElement('span');span.className='vision-word';span.textContent=word;fragment.append(span);});node.replaceWith(fragment);});
-const visionWords=[...visionHeading.querySelectorAll('.vision-word')];
-const clamp=(value,min=0,max=1)=>Math.max(min,Math.min(max,value));let framePending=false;
-function updateScroll(){
-  framePending=false;if(reducedMotion||window.innerWidth<=960)return;
-  const vh=window.innerHeight, ar=about.getBoundingClientRect(),vr=values.getBoundingClientRect(),br=vision.getBoundingClientRect();
-  about.style.setProperty('--about-progress',clamp((vh*.55-ar.top)/(vh*.65)));
-  values.style.setProperty('--value-progress',clamp((-vr.top/(values.offsetHeight-vh)-.22)/.56));
-  const lit=Math.ceil(clamp((vh*.7-br.top)/(vh*.9))*visionWords.length);
-  visionWords.forEach((word,i)=>word.classList.toggle('is-lit',i<lit));
-}
-window.addEventListener('scroll',()=>{if(!framePending){framePending=true;requestAnimationFrame(updateScroll);}},{passive:true});
-window.addEventListener('resize',updateScroll,{passive:true});updateScroll();
-
 let activeSpace=0;
 const spaces=[{name:'The Lounge',title:'여유를 담은 대기 공간',lines:['따뜻한 빛과 차분한 색감이 어우러진 공간.','마음의 긴장을 내려놓고 편안하게 머무세요.']},{name:'The Care Room',title:'이야기에 집중하는 진료 공간',lines:['차분한 분위기에서 나누는 당신의 이야기.','프라이버시를 배려한 공간을 지향합니다.']}];
 function showSpace(index){activeSpace=(index+spaces.length)%spaces.length;const item=spaces[activeSpace];document.querySelector('.space-name').textContent=item.name;document.querySelector('.space-description h3').textContent=item.title;const p=document.querySelector('.space-description .body-copy');p.replaceChildren(document.createTextNode(item.lines[0]),document.createElement('br'),document.createTextNode(item.lines[1]));document.querySelectorAll('.space-image img').forEach((img,i)=>{img.classList.toggle('is-active',i===activeSpace);img.setAttribute('aria-hidden',String(i!==activeSpace));});document.querySelector('.space-current').textContent=String(activeSpace+1).padStart(2,'0');}

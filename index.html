@@ -6,7 +6,7 @@
 <title>스마일비뇨의학과 · 당신의 편안한 일상을 위해</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/main.js" defer></script>
+<link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/scroll-effects.css"><script src="assets/js/main.js" defer></script><script src="assets/js/scroll-effects.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">본문 바로가기</a>
@@ -26,7 +26,16 @@
 </div>
 <div class="hero-bottom"><div class="hero-controls"><button data-hero-prev aria-label="이전 메인 슬라이드">‹</button><span class="hero-current">01</span><span class="hero-progress"><i></i></span><span class="hero-total">03</span><button data-hero-next aria-label="다음 메인 슬라이드">›</button><button class="hero-pause" aria-label="메인 슬라이드 자동 재생 정지" aria-pressed="false">Ⅱ</button></div><a href="#about" class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></a></div><span class="hero-side-label" aria-hidden="true">SMILE UROLOGY CLINIC</span>
 </section>
-<section class="about section-pad" id="about"><div class="about-heading reveal"><span class="eyebrow">HELLO, WE ARE SMILE</span><span class="small-index">01 — OUR STORY</span></div><div class="about-content"><div class="brand-orbit" aria-hidden="true"><span>smile</span><i>✳</i></div><div><h2 class="word-reveal">건강을 이야기하는 시간,<br>마음까지 편안할 수 있도록.<br><span>당신 곁에 스마일이 있습니다.</span></h2><p class="body-copy reveal">한 사람의 이야기에 귀 기울이고,<br>이해하기 쉬운 설명으로 진료의 방향을 함께 찾습니다.<br>스마일이 생각하는 좋은 진료의 시작입니다.</p></div></div></section>
+<section class="about" id="about" aria-labelledby="about-title">
+  <div class="about-stage">
+    <div class="about-heading"><span class="eyebrow">HELLO, WE ARE SMILE</span><span class="small-index">01 — OUR STORY</span></div>
+    <div class="about-symbol" aria-hidden="true"><div class="about-symbol-crop"><img src="assets/img/logo.png" alt="" width="748" height="147"></div></div>
+    <div class="about-text">
+      <h2 class="about-paragraph" id="about-title">건강을 이야기하는 시간,<br>마음까지 편안할 수 있도록.<br><em>당신 곁에 스마일이 있습니다.</em></h2>
+      <p class="about-paragraph">한 사람의 이야기에 귀 기울이고,<br>이해하기 쉬운 설명으로 진료의 방향을 함께 찾습니다.<br>스마일이 생각하는 좋은 진료의 시작입니다.</p>
+    </div>
+  </div>
+</section>
 <section class="promise section-pad" aria-labelledby="promise-title">
   <div class="promise-watermark" aria-hidden="true">Every day, a little better.</div>
   <div class="promise-intro reveal"><span class="eyebrow">OUR PROMISE</span><h2 id="promise-title">진료의 중심에는<br>언제나 <em>당신</em>이.</h2><a class="pill-link" href="#values">스마일의 약속 <span>↗</span></a></div>
@@ -34,9 +43,12 @@
   <div class="promise-copy reveal"><span class="line-marker"></span><p>어떤 하루를 보내고 있는지,<br>무엇이 가장 불편했는지.</p><p>당신의 일상을 이해하는 것에서<br>우리의 진료는 시작됩니다.</p><p class="muted">차근차근 설명하고 함께 고민하며<br>건강한 내일을 향해 걸어갑니다.</p></div>
 </section>
 <section class="clinic section-pad" id="clinic">
-  <div class="clinic-line" aria-hidden="true"></div>
-  <article class="clinic-row"><div class="clinic-copy reveal"><span class="eyebrow">UROLOGY CLINIC</span><h2>편안한 일상을 위한<br><em>비뇨의학 진료</em></h2><p class="body-copy">혼자 고민했던 작은 불편함도<br>이제 편안하게 이야기하세요.</p><p class="body-copy">증상과 생활 습관을 함께 살피며<br>개인에게 맞는 진료 방향을 찾아갑니다.</p><a class="pill-link" href="#services">진료 분야 살펴보기 <span>↗</span></a></div><div class="clinic-photo reveal"><img src="assets/img/consultation.png" alt="따뜻한 목재와 밝은 톤으로 구성한 진료실 이미지" loading="lazy" width="1672" height="941"><span class="photo-caption">01 / PERSONALIZED CARE</span></div></article>
-  <article class="clinic-row reverse"><div class="clinic-copy reveal"><span class="eyebrow">LIFELONG WELLNESS</span><h2>건강한 오늘이<br><em>더 나은 내일로</em></h2><p class="body-copy">연령과 생활 방식에 따라 달라지는 건강 고민.<br>지금의 나에게 필요한 관리를 함께 생각합니다.</p><p class="body-copy">한 번의 만남에서 그치지 않고<br>일상으로 이어지는 세심한 관심을 지향합니다.</p><a class="pill-link" href="#values">진료 철학 알아보기 <span>↗</span></a></div><div class="clinic-photo reveal"><img src="assets/img/reception.png" alt="여유로운 좌석과 자연광이 있는 병원 라운지 이미지" loading="lazy" width="1672" height="941"><span class="photo-caption">02 / EVERYDAY WELLNESS</span></div></article>
+  <svg class="clinic-curve clinic-curve-desktop" viewBox="0 0 1920 1800" fill="none" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="clinic-gradient" x1="1700" y1="0" x2="160" y2="1800" gradientUnits="userSpaceOnUse"><stop stop-color="#c2e9df"/><stop offset=".45" stop-color="#70bcb0"/><stop offset="1" stop-color="#246d63"/></linearGradient></defs>
+    <path d="M 1980 80 C 1420 20 1670 670 1100 660 C 560 650 350 760 490 1130 C 650 1550 70 1610 -100 1770" stroke="url(#clinic-gradient)" stroke-width="25"/>
+  </svg>
+  <article class="clinic-row"><svg class="clinic-curve clinic-curve-mobile" viewBox="0 0 400 700" fill="none" preserveAspectRatio="none" aria-hidden="true"><path d="M 435 35 C 235 40 465 310 260 380 C 30 470 145 605 -35 690" stroke="#76b9aa" stroke-width="8"/></svg><div class="clinic-copy reveal"><span class="eyebrow">UROLOGY CLINIC</span><h2>편안한 일상을 위한<br><em>비뇨의학 진료</em></h2><p class="body-copy">혼자 고민했던 작은 불편함도<br>이제 편안하게 이야기하세요.</p><p class="body-copy">증상과 생활 습관을 함께 살피며<br>개인에게 맞는 진료 방향을 찾아갑니다.</p><a class="pill-link" href="#services">진료 분야 살펴보기 <span>↗</span></a></div><div class="clinic-photo reveal"><img src="assets/img/consultation.png" alt="따뜻한 목재와 밝은 톤으로 구성한 진료실 이미지" loading="lazy" width="1672" height="941"><span class="photo-caption">01 / PERSONALIZED CARE</span></div></article>
+  <article class="clinic-row reverse"><svg class="clinic-curve clinic-curve-mobile" viewBox="0 0 400 700" fill="none" preserveAspectRatio="none" aria-hidden="true"><path d="M -40 20 C 190 20 -20 230 205 360 C 420 495 205 570 440 680" stroke="#508f83" stroke-width="8"/></svg><div class="clinic-copy reveal"><span class="eyebrow">LIFELONG WELLNESS</span><h2>건강한 오늘이<br><em>더 나은 내일로</em></h2><p class="body-copy">연령과 생활 방식에 따라 달라지는 건강 고민.<br>지금의 나에게 필요한 관리를 함께 생각합니다.</p><p class="body-copy">한 번의 만남에서 그치지 않고<br>일상으로 이어지는 세심한 관심을 지향합니다.</p><a class="pill-link" href="#values">진료 철학 알아보기 <span>↗</span></a></div><div class="clinic-photo reveal"><img src="assets/img/reception.png" alt="여유로운 좌석과 자연광이 있는 병원 라운지 이미지" loading="lazy" width="1672" height="941"><span class="photo-caption">02 / EVERYDAY WELLNESS</span></div></article>
 </section>
 <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>A little care, a brighter day <i>✳</i> Your smile, our purpose <i>✳</i></span><span>A little care, a brighter day <i>✳</i> Your smile, our purpose <i>✳</i></span></div></div>
 <section class="services section-pad" id="services" aria-labelledby="services-title">
@@ -50,11 +62,44 @@
   </div></div>
   <div class="carousel-controls"><button data-service-prev aria-label="이전 진료 분야">←</button><div class="carousel-dots" aria-label="진료 분야 선택"><button aria-label="배뇨 클리닉 보기" data-service-dot="0"></button><button aria-label="전립선 클리닉 보기" data-service-dot="1"></button><button class="is-active" aria-label="여성 비뇨의학 보기" data-service-dot="2" aria-current="true"></button><button aria-label="요로결석 클리닉 보기" data-service-dot="3"></button><button aria-label="건강 검진 보기" data-service-dot="4"></button></div><button data-service-next aria-label="다음 진료 분야">→</button></div>
 </section>
-<section class="values" id="values" aria-label="스마일의 진료 철학"><div class="values-sticky">
-  <article class="value-panel value-first"><div class="value-photo"><img src="assets/img/consultation.png" alt="프라이빗한 상담실 공간 이미지" loading="lazy" width="1672" height="941"></div><div class="value-copy"><span class="eyebrow">THE WAY WE CARE <b>01</b></span><h2>이야기를 듣는 일.<br>진료의 첫 번째입니다.</h2><p>진료실 문을 열기까지의 마음을 생각합니다.<br>어떤 이야기든 편안히 꺼낼 수 있도록<br>충분히 듣고, 차근차근 설명하겠습니다.</p><span class="value-word" aria-hidden="true">Listen.</span><span class="value-pagination">01 <i></i> 02</span></div></article>
-  <article class="value-panel value-second"><div class="value-copy"><span class="eyebrow">THE WAY WE CARE <b>02</b></span><h2>한 사람을 위한 배려.<br>작은 차이를 만듭니다.</h2><p>각자의 일상도, 건강의 모습도 다르기에.<br>당신의 상황을 이해하고 함께 고민하는<br>세심한 진료를 이어가겠습니다.</p><span class="value-word" aria-hidden="true">Understand.</span><span class="value-pagination">02 <i></i> 02</span></div><div class="value-photo"><img src="assets/img/reception.png" alt="차분한 분위기의 대기실 이미지" loading="lazy" width="1672" height="941"></div></article>
-</div></section>
-<section class="vision" aria-label="스마일의 지향점"><div class="vision-inner"><span class="eyebrow">FOR ALL YOUR BETTER DAYS</span><h2 class="vision-words">조금 더 가벼운 마음으로,<br>조금 더 건강한 일상으로.<br><em>다시, 미소 짓는 당신.</em></h2><span class="vision-sign">With you, Smile.</span></div></section>
+<section class="values" id="values" aria-label="스마일의 진료 철학">
+  <div class="values-sticky">
+    <div class="value-half value-left">
+      <div class="value-base" aria-hidden="true"><img src="assets/img/reception.png" alt="" width="1672" height="941" loading="lazy"></div>
+      <article class="value-overlay value-overlay-first">
+        <div class="value-copy">
+          <span class="eyebrow">THE WAY WE CARE <b>01</b></span>
+          <h2>이야기를 듣는 일.<br>진료의 첫 번째입니다.</h2>
+          <p>진료실 문을 열기까지의 마음을 생각합니다.<br>어떤 이야기든 편안히 꺼낼 수 있도록<br>충분히 듣고, 차근차근 설명하겠습니다.</p>
+          <span class="value-word" aria-hidden="true">Listen.</span>
+          <span class="value-pagination">01 <i></i> 02</span>
+        </div>
+      </article>
+    </div>
+    <div class="value-half value-right">
+      <div class="value-base" aria-hidden="true"><img src="assets/img/consultation.png" alt="" width="1672" height="941" loading="lazy"></div>
+      <article class="value-overlay value-overlay-second">
+        <div class="value-copy">
+          <span class="eyebrow">THE WAY WE CARE <b>02</b></span>
+          <h2>한 사람을 위한 배려.<br>작은 차이를 만듭니다.</h2>
+          <p>각자의 일상도, 건강의 모습도 다르기에.<br>당신의 상황을 이해하고 함께 고민하는<br>세심한 진료를 이어가겠습니다.</p>
+          <span class="value-word" aria-hidden="true">Understand.</span>
+          <span class="value-pagination">02 <i></i> 02</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="vision" id="vision" aria-label="스마일의 지향점">
+  <div class="vision-stage">
+    <div class="vision-background" aria-hidden="true"></div>
+    <div class="vision-inner">
+      <span class="eyebrow vision-intro">FOR ALL YOUR BETTER DAYS</span>
+      <h2 class="vision-words" aria-label="조금 더 가벼운 마음으로, 조금 더 건강한 일상으로. 다시, 미소 짓는 당신."><span class="vision-line" aria-hidden="true">조금 더 가벼운 마음으로,</span><span class="vision-line" aria-hidden="true">조금 더 건강한 일상으로.</span><em class="vision-line" aria-hidden="true">다시, 미소 짓는 당신.</em></h2>
+      <span class="vision-sign">With you, Smile.</span>
+    </div>
+  </div>
+</section>
 <section class="space section-pad" id="space"><div class="space-copy"><span class="eyebrow reveal">A SPACE FOR YOUR COMFORT</span><h2 class="reveal">잠시 머무는 시간도<br><em>편안할 수 있도록</em></h2><div class="space-description" aria-live="polite"><span class="space-name">The Lounge</span><h3>여유를 담은 대기 공간</h3><p class="body-copy">따뜻한 빛과 차분한 색감이 어우러진 공간.<br>마음의 긴장을 내려놓고 편안하게 머무세요.</p></div><div class="space-controls"><button data-space-prev aria-label="이전 공간">←</button><button data-space-next aria-label="다음 공간">→</button><span class="space-current">01</span><span class="space-line"></span><span>02</span></div><p class="image-note">공간 이미지는 디자인을 위한 연출 이미지입니다.</p></div><div class="space-image"><img class="is-active" src="assets/img/reception.png" alt="자연광이 비치는 대기 라운지 이미지" loading="lazy" width="1672" height="941"><img src="assets/img/consultation.png" alt="프라이빗한 진료 공간 이미지" loading="lazy" width="1672" height="941"><span class="space-image-label">SMILE / OUR SPACE</span></div></section>
 <section class="news section-pad" id="news"><div class="news-heading reveal"><div><span class="eyebrow">WHAT'S NEW AT SMILE</span><h2>스마일의 <em>새로운 소식</em></h2></div><span class="news-sidenote">우리의 이야기를 전합니다.</span></div><div class="news-grid"><div class="news-feature"><img src="assets/img/reception.png" alt="스마일 소식 대표 공간 이미지" loading="lazy" width="1672" height="941"><div><span class="eyebrow">SMILE JOURNAL</span><h3 class="news-preview-title">스마일의 새로운 공간을 소개합니다</h3></div><span class="news-hover-circle" aria-hidden="true">READ<br>STORY ↗</span></div><div class="news-list"><button data-news="0"><span class="news-meta">2026.09.01 <i>공간 이야기</i></span><strong>스마일의 새로운 공간을 소개합니다</strong><span class="news-arrow">↗</span></button><button data-news="1"><span class="news-meta">2026.08.25 <i>진료 안내</i></span><strong>처음 방문하신다면, 이렇게 준비해 주세요</strong><span class="news-arrow">↗</span></button><button data-news="2"><span class="news-meta">2026.08.18 <i>스마일 이야기</i></span><strong>편안한 상담을 위한 우리의 작은 약속</strong><span class="news-arrow">↗</span></button><button data-news="3"><span class="news-meta">2026.08.10 <i>이용 안내</i></span><strong>스마일 홈페이지에서 진료 분야를 만나보세요</strong><span class="news-arrow">↗</span></button></div></div></section>
 <section class="contact" id="contact"><div class="contact-top"><div><span class="eyebrow">LET'S FIND YOUR SMILE</span><h2>당신의 건강한 일상,<br>스마일과 함께.</h2></div><a class="contact-circle" href="#services" aria-label="진료 분야 살펴보기">진료 분야<br>살펴보기 <span>↗</span></a></div><div class="contact-bottom"><div><h3>진료시간 안내 <small>예시</small></h3><dl><div><dt>평일</dt><dd>09:00 – 18:00</dd></div><div><dt>토요일</dt><dd>09:00 – 13:00</dd></div><div><dt>점심시간</dt><dd>13:00 – 14:00</dd></div></dl><p>일요일 · 공휴일 휴진</p></div><div><h3>방문 전 안내</h3><p>진료 분야와 공간을 미리 살펴보세요.<br>실제 진료시간과 예약 방법은<br>병원 운영 정보 확정 후 안내됩니다.</p><a class="text-link" href="#space">공간 둘러보기 <span>↗</span></a></div><div class="contact-brand"><span>smile.</span><p>작은 관심에서 시작되는<br>더 건강한 매일.</p></div></div></section>
