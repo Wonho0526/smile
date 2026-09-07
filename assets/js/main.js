@@ -16,6 +16,10 @@ pause.addEventListener('click',()=>{paused=!paused;updatePause();startTimer();})
 let touchStart;hero.addEventListener('touchstart',e=>{touchStart=e.changedTouches[0].clientX;},{passive:true});hero.addEventListener('touchend',e=>{const delta=e.changedTouches[0].clientX-touchStart;if(Math.abs(delta)>60){showSlide(current+(delta<0?1:-1));startTimer();}},{passive:true});updatePause();startTimer();
 const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 function onScroll(){header.classList.toggle('is-scrolled',window.scrollY>30);}window.addEventListener('scroll',onScroll,{passive:true});onScroll();document.querySelector('.back-top').addEventListener('click',()=>window.scrollTo({top:0,behavior:reducedMotion?'instant':'smooth'}));
+const footerObserver=new IntersectionObserver(entries=>{
+  document.querySelector('.quick-menu').classList.toggle('is-footer-visible',entries[0].isIntersecting);
+},{threshold:0});
+footerObserver.observe(document.querySelector('.visit-footer'));
 // Keep the active treatment centered at every viewport width.
 const carousel=document.querySelector('.service-carousel'), track=document.querySelector('.service-track');
 const cards=[...document.querySelectorAll('.service-card')], dots=[...document.querySelectorAll('[data-service-dot]')];
