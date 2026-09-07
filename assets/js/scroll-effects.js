@@ -65,7 +65,7 @@
     const reverseRect = clinic.querySelector('.clinic-row.reverse').getBoundingClientRect();
     const mobileProgress = [
       clamp((vh * .85 - clinicRect.top) / (vh * .75)),
-      clamp((vh * .85 - reverseRect.top) / (reverseRect.height + vh * .35))
+      clamp((vh * .85 - reverseRect.top) / (vh * .75))
     ];
     mobileProgress.forEach((progress, index) => {
       if (width <= 768 && progress === 1) mobileCurveFinished[index] = true;
@@ -119,7 +119,8 @@
 
   function render() {
     renderAbout(state.about);
-    drawCurve(desktopCurve, state.clinic);
+    // Complete the closed medical outline while the clinic is still in view.
+    drawCurve(desktopCurve, phase(state.clinic, .02, .72));
     mobileCurves.forEach((path, index) => drawCurve(path, state[`mobileCurve${index}`]));
     renderValues(state.values);
     renderVision(state.vision);

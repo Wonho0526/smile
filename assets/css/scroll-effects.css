@@ -17,8 +17,8 @@
 
 .clinic { isolation: isolate; }
 .clinic-curve { position: absolute; pointer-events: none; overflow: visible; z-index: 1; }
-.clinic-curve-desktop { width: 127%; height: 110%; left: -14%; top: 8%; opacity: .65; }
-.clinic-curve path { stroke-linecap: round; }
+.clinic-curve-desktop { width: min(78vw, 1100px); height: auto; aspect-ratio: 1; left: 50%; top: 50%; transform: translate(-50%, -50%); opacity: .4; }
+.clinic-curve path { stroke-linecap: round; stroke-linejoin: round; }
 .clinic-row { z-index: auto; }
 .clinic-copy, .clinic-photo { position: relative; z-index: 2; }
 .clinic-curve-mobile { display: none; }
@@ -94,7 +94,7 @@
   .about h2 { font-size: clamp(22px, 4.7vw, 30px); line-height: 1.75; }
   .about-paragraph + .about-paragraph { font-size: 14px; margin-top: 25px; }
   .clinic-curve-desktop { display: none; }
-  .clinic-curve-mobile { display: block; inset: -5% -6% auto; width: 112%; height: 110%; opacity: .5; }
+  .clinic-curve-mobile { display: block; width: min(112%, 480px); height: auto; aspect-ratio: 1; top: 30px; left: 50%; transform: translateX(-50%); opacity: .3; }
   .clinic-row, .clinic-row.reverse { display: flex; flex-direction: column; align-items: stretch; gap: 35px; }
   .clinic-row + .clinic-row { margin-top: 90px; }
   .value-copy { min-height: 500px; padding: 65px 26px; }
