@@ -11,10 +11,10 @@
 .visit-transit { font-size: 13px; line-height: 1.8; margin-top: 4px; color: var(--gray); }
 .visit-directions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 22px; }
 .visit-direction { display: flex; justify-content: center; align-items: center; gap: 10px; min-height: 46px; padding: 10px 12px; border: 1px solid #c9cecb; border-radius: 3px; background: #fff; font-family: inherit; font-size: 12px; line-height: 1.5; white-space: nowrap; transition: border-color .2s, background .2s; }
-.visit-direction:hover, .visit-direction:focus-visible { background: #f5f8f6; border-color: var(--teal); }
+.visit-direction:not(:disabled):hover, .visit-direction:focus-visible { background: #f5f8f6; border-color: var(--teal); }
 .direction-icon { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.direction-naver { width: 18px; height: 18px; background: #03c75a; color: #fff; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 700; line-height: 1; }
-.direction-kakao { position: relative; width: 21px; height: 16px; border-radius: 50%; background: #fee500; color: #392020; font-family: 'DM Sans', sans-serif; font-size: 6px; font-weight: 700; letter-spacing: -.03em; }
+.direction-naver { width: 18px; height: 18px; background: #03c75a; color: #fff; font-family: var(--font-sans); font-size: 15px; font-weight: 700; line-height: 1; }
+.direction-kakao { position: relative; width: 21px; height: 16px; border-radius: 50%; background: #fee500; color: #392020; font-family: var(--font-sans); font-size: 6px; font-weight: 700; letter-spacing: -.03em; }
 .direction-kakao::after { content: ''; position: absolute; width: 5px; height: 5px; background: #fee500; bottom: -2px; left: 4px; transform: skewY(-35deg); }
 .direction-arrow { margin-left: auto; color: #89928f; font-size: 16px; }
 .visit-inquiry { padding-top: 23px; padding-bottom: 23px; }
@@ -33,7 +33,7 @@
 .visit-policy { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px 30px; margin-top: 28px; color: #f0f2f1; font-size: 12px; }
 .visit-policy button { padding: 5px 0; line-height: 1.8; transition: color .2s; }
 .visit-policy button:first-child { font-weight: 500; }
-.visit-policy button:hover, .visit-policy button:focus-visible { color: #81d2c8; }
+.visit-policy button:not(:disabled):hover, .visit-policy button:focus-visible { color: #81d2c8; }
 .visit-business { margin-top: 22px; font-size: 11px; line-height: 1.9; }
 .visit-business ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 3px 0; }
 .visit-business li { padding: 0 10px; }
@@ -84,3 +84,5 @@
   .visit-business li:nth-child(2) { border-left: 0; }
   .visit-copyright { font-size: 8px; margin-top: 12px; }
 }
+
+.visit-direction:disabled, .visit-policy button:disabled { cursor: default; opacity: 1; }
