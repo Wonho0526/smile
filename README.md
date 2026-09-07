@@ -1,7 +1,5 @@
 # Smile Clinic design
 
-기존 스마일 로고를 유지하고 [원안과](https://www.oneretinaclinic.com/)의 레이아웃과 인터랙션을 참고해 새로 구현한 정적 홈페이지입니다. 원본 사이트의 코드, 사진, 문구를 복제하지 않았습니다.
-
 ## 실행
 
 - `npm run dev` — http://127.0.0.1:8080
