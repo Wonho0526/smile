@@ -109,41 +109,42 @@
       <!-- Map integration point: replace the empty box contents with the map later. -->
       <div class="visit-map" id="clinic-map" role="img" aria-label="지도 연결 예정 영역"></div>
       <div class="visit-content">
-        <div class="visit-heading">
-          <p class="visit-eyebrow">( Visit Us )</p>
+        <section class="visit-address visit-info-block" aria-labelledby="visit-title">
           <h2 id="visit-title">오시는 길</h2>
-        </div>
-        <div class="visit-details">
-          <section class="visit-address" aria-labelledby="address-title">
-            <h3 id="address-title">Address</h3>
-            <address>병원 주소 입력 예정</address>
-            <p>대중교통 안내 입력 예정</p>
-          </section>
-          <section class="visit-hours" aria-labelledby="hours-title">
-            <h3 id="hours-title">Clinic Hours</h3>
-            <dl>
-              <div><dt>월–금요일</dt><dd>09:00 – 18:00</dd></div>
-              <div><dt>토요일</dt><dd>09:00 – 13:00</dd></div>
-              <div><dt>점심시간</dt><dd>13:00 – 14:00</dd></div>
-              <div><dt>일요일·공휴일</dt><dd>휴진</dd></div>
-            </dl>
-          </section>
-        </div>
+          <address>병원 주소 입력 예정</address>
+          <p class="visit-transit">주차 및 대중교통 안내 예정</p>
+          <div class="visit-directions" role="group" aria-label="길찾기">
+            <!-- Connect each provider's destination URL after the clinic address is confirmed. -->
+            <button class="visit-direction" type="button" data-direction="naver"><span class="direction-icon direction-naver" aria-hidden="true">N</span><span>네이버 길찾기</span><span class="direction-arrow" aria-hidden="true">↗</span></button>
+            <button class="visit-direction" type="button" data-direction="kakao"><span class="direction-icon direction-kakao" aria-hidden="true">TALK</span><span>카카오 길찾기</span><span class="direction-arrow" aria-hidden="true">↗</span></button>
+          </div>
+        </section>
+        <section class="visit-inquiry visit-info-block" aria-labelledby="inquiry-title">
+          <h3 id="inquiry-title">상담 및 문의</h3>
+          <p class="visit-phone">대표전화 안내 예정</p>
+        </section>
+        <section class="visit-hours visit-info-block" aria-labelledby="hours-title">
+          <h3 id="hours-title">진료시간</h3>
+          <dl>
+            <div><dt>월–금요일</dt><dd>09:00 – 18:00</dd></div>
+            <div><dt>토요일</dt><dd>09:00 – 13:00</dd></div>
+            <div class="visit-lunch"><dt>점심시간</dt><dd>13:00 – 14:00</dd></div>
+          </dl>
+          <p class="visit-closed">일요일·공휴일 휴진</p>
+        </section>
       </div>
     </div>
-    <div class="visit-footer-bottom">
+  </div>
+  <div class="visit-footer-bottom">
+    <div class="visit-bottom-inner">
       <a class="visit-footer-logo" href="#top" aria-label="스마일비뇨의학과 홈">
         <img src="assets/img/logo.png" alt="스마일비뇨의학과" width="748" height="147" loading="lazy">
       </a>
+      <nav class="visit-policy" aria-label="이용 정책"><button type="button" data-policy="privacy">개인정보처리방침</button><button type="button" data-policy="terms">이용안내</button></nav>
       <div class="visit-business">
-        <strong>스마일비뇨의학과</strong>
-        <ul aria-label="사업자 정보">
-          <li>대표자 <span>—</span></li><li>대표전화 <span>—</span></li><li>사업자등록번호 <span>—</span></li>
+        <ul aria-label="사업자 및 병원 연락 정보">
+          <li>스마일비뇨의학과</li><li>대표자 <span>—</span></li><li>주소 <span>병원 주소 입력 예정</span></li><li>대표전화 <span>—</span></li><li>사업자등록번호 <span>—</span></li><li>이메일 <span>—</span></li>
         </ul>
-        <ul aria-label="병원 연락 정보">
-          <li>주소 <span>병원 주소 입력 예정</span></li><li>이메일 <span>—</span></li>
-        </ul>
-        <nav class="visit-policy" aria-label="이용 정책"><button type="button" data-policy="privacy">개인정보처리방침</button><button type="button" data-policy="terms">이용안내</button></nav>
       </div>
       <div class="visit-copyright">
         <p>© 2026 SMILE UROLOGY CLINIC. ALL RIGHTS RESERVED.</p>
