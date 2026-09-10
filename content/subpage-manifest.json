@@ -1,0 +1,247 @@
+[
+  {
+    "path": "about",
+    "slug": "clinic-about",
+    "title": "병원 소개",
+    "category": "스마일 소개",
+    "url": "https://smileuro.com/about"
+  },
+  {
+    "path": "72",
+    "slug": "doctor",
+    "title": "병원장 소개",
+    "category": "스마일 소개",
+    "url": "https://smileuro.com/72"
+  },
+  {
+    "path": "73",
+    "slug": "equipment",
+    "title": "장비 소개",
+    "category": "스마일 소개",
+    "url": "https://smileuro.com/73"
+  },
+  {
+    "path": "74",
+    "slug": "visit",
+    "title": "진료안내·오시는 길",
+    "category": "스마일 소개",
+    "url": "https://smileuro.com/74"
+  },
+  {
+    "path": "1447080511",
+    "slug": "rezum",
+    "title": "수증기기화술(리줌)",
+    "category": "전립선",
+    "url": "https://smileuro.com/1447080511"
+  },
+  {
+    "path": "58",
+    "slug": "urolift",
+    "title": "전립선결찰술(유로리프트)",
+    "category": "전립선",
+    "url": "https://smileuro.com/58"
+  },
+  {
+    "path": "411205175",
+    "slug": "bph",
+    "title": "전립선비대증",
+    "category": "전립선",
+    "url": "https://smileuro.com/411205175"
+  },
+  {
+    "path": "84",
+    "slug": "turis",
+    "title": "플라즈마 투리스",
+    "category": "전립선",
+    "url": "https://smileuro.com/84"
+  },
+  {
+    "path": "370216099",
+    "slug": "prostatitis",
+    "title": "전립선염",
+    "category": "전립선",
+    "url": "https://smileuro.com/370216099"
+  },
+  {
+    "path": "733161439",
+    "slug": "prostate-cancer",
+    "title": "전립선암",
+    "category": "전립선",
+    "url": "https://smileuro.com/733161439"
+  },
+  {
+    "path": "Vision",
+    "slug": "stone-center",
+    "title": "24시 요로결석센터",
+    "category": "요로결석",
+    "url": "https://smileuro.com/Vision"
+  },
+  {
+    "path": "Technology",
+    "slug": "eswl",
+    "title": "체외충격파쇄석술",
+    "category": "요로결석",
+    "url": "https://smileuro.com/Technology"
+  },
+  {
+    "path": "83",
+    "slug": "urinary-stones",
+    "title": "요로결석",
+    "category": "요로결석",
+    "url": "https://smileuro.com/83"
+  },
+  {
+    "path": "37",
+    "slug": "male-surgery",
+    "title": "남성수술",
+    "category": "남성 진료",
+    "url": "https://smileuro.com/37"
+  },
+  {
+    "path": "35",
+    "slug": "vasectomy",
+    "title": "정관수술",
+    "category": "남성 진료",
+    "url": "https://smileuro.com/35"
+  },
+  {
+    "path": "36",
+    "slug": "circumcision",
+    "title": "포경수술",
+    "category": "남성 진료",
+    "url": "https://smileuro.com/36"
+  },
+  {
+    "path": "45",
+    "slug": "erectile-dysfunction",
+    "title": "발기부전",
+    "category": "남성 진료",
+    "url": "https://smileuro.com/45"
+  },
+  {
+    "path": "47",
+    "slug": "male-infertility",
+    "title": "남성불임",
+    "category": "남성 진료",
+    "url": "https://smileuro.com/47"
+  },
+  {
+    "path": "49",
+    "slug": "ejaculation",
+    "title": "조루·지루",
+    "category": "남성 진료",
+    "url": "https://smileuro.com/49"
+  },
+  {
+    "path": "63",
+    "slug": "cystitis",
+    "title": "급성 방광염",
+    "category": "여성 진료",
+    "url": "https://smileuro.com/63"
+  },
+  {
+    "path": "62",
+    "slug": "incontinence",
+    "title": "요실금",
+    "category": "여성 진료",
+    "url": "https://smileuro.com/62"
+  },
+  {
+    "path": "88",
+    "slug": "sling-surgery",
+    "title": "요실금 중부요도 슬링수술",
+    "category": "여성 진료",
+    "url": "https://smileuro.com/88"
+  },
+  {
+    "path": "64",
+    "slug": "hematuria",
+    "title": "혈뇨",
+    "category": "여성 진료",
+    "url": "https://smileuro.com/64"
+  },
+  {
+    "path": "65",
+    "slug": "pelvic-pain",
+    "title": "골반통",
+    "category": "여성 진료",
+    "url": "https://smileuro.com/65"
+  },
+  {
+    "path": "55",
+    "slug": "wedding-checkup",
+    "title": "웨딩검진",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/55"
+  },
+  {
+    "path": "50",
+    "slug": "urology-checkup",
+    "title": "비뇨기질환검진",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/50"
+  },
+  {
+    "path": "52",
+    "slug": "cancer-screening",
+    "title": "비뇨기암검진",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/52"
+  },
+  {
+    "path": "54",
+    "slug": "andropause",
+    "title": "남성갱년기검진",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/54"
+  },
+  {
+    "path": "56",
+    "slug": "hpv-vaccine",
+    "title": "HPV예방접종",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/56"
+  },
+  {
+    "path": "66",
+    "slug": "urethritis",
+    "title": "요도염",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/66"
+  },
+  {
+    "path": "67",
+    "slug": "herpes",
+    "title": "헤르페스",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/67"
+  },
+  {
+    "path": "68",
+    "slug": "genital-warts",
+    "title": "곤지름",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/68"
+  },
+  {
+    "path": "69",
+    "slug": "hiv",
+    "title": "에이즈",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/69"
+  },
+  {
+    "path": "70",
+    "slug": "syphilis",
+    "title": "매독",
+    "category": "성병·검진",
+    "url": "https://smileuro.com/70"
+  },
+  {
+    "path": "91",
+    "slug": "information",
+    "title": "유익한 정보",
+    "category": "병원 소식",
+    "url": "https://smileuro.com/91"
+  }
+]

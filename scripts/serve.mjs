@@ -11,7 +11,7 @@ http.createServer(async (req,res) => {
     const pathname = decodeURIComponent(new URL(req.url, `http://127.0.0.1:${port}`).pathname);
     const file = resolve(root, `.${pathname === '/' ? '/index.html' : pathname}`);
     const relative = file.slice(root.length + 1);
-    if (!file.startsWith(root + sep) || !(relative === 'index.html' || relative.startsWith('assets' + sep))) {
+    if (!file.startsWith(root + sep) || !(['index.html', 'rezum.html', 'subpages.html', 'imweb-rezum.html'].includes(relative) || /^subpages[\\/][a-z0-9-]+\.html$/.test(relative) || relative.startsWith('assets' + sep))) {
       res.writeHead(404); return res.end('Not found');
     }
     const body = await readFile(file);

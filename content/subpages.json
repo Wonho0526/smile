@@ -1,0 +1,2767 @@
+[
+  {
+    "slug": "clinic-about",
+    "kicker": "SMILE, WITH YOU",
+    "lead": "편안하게 이야기하고, 건강한 일상으로 돌아갈 수 있도록 함께합니다.",
+    "introTitle": "당신의 이야기에 귀 기울이는 진료",
+    "intro": [
+      "스마일비뇨의학과는 부산 서면에 위치한 비뇨의학과입니다. 환자 한 분 한 분의 고민을 듣고, 신뢰와 정직을 바탕으로 개인의 상태에 맞는 진료를 지향합니다.",
+      "비뇨기 증상은 누구에게나 생길 수 있지만 쉽게 털어놓기 어려울 수 있습니다. 부담 없이 상담하고 필요한 검사와 치료를 이해할 수 있도록 차근차근 설명하겠습니다."
+    ],
+    "sections": [
+      {
+        "id": "promise",
+        "label": "진료 철학",
+        "title": "환자분들께 드리는 약속",
+        "type": "cards",
+        "items": [
+          {
+            "title": "편안하게 나누는 상담",
+            "text": "말하기 어려운 증상까지 편안하게 이야기할 수 있는 진료 분위기를 만들겠습니다."
+          },
+          {
+            "title": "개인에게 맞는 진료",
+            "text": "증상과 건강 상태를 함께 살펴 필요한 진료 방향을 세우겠습니다."
+          },
+          {
+            "title": "일상을 향한 동행",
+            "text": "치료에 대한 걱정을 함께 나누며 건강한 생활로 돌아가는 과정을 돕겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "label": "진료 공간",
+        "title": "머무는 동안에도 편안하게",
+        "intro": "차분한 대기 공간에서 진료를 준비하실 수 있습니다.",
+        "type": "gallery",
+        "items": [
+          {
+            "title": "대기 공간",
+            "text": ""
+          },
+          {
+            "title": "병원 내부",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/about",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/0c7fbd4b8dd57.jpg"
+    ],
+    "sourceNotes": []
+  },
+  {
+    "slug": "doctor",
+    "kicker": "MEET YOUR DOCTOR",
+    "lead": "전립선 질환과 요로결석, 일상의 비뇨기 고민을 세심하게 살피겠습니다.",
+    "introTitle": "우중원 대표원장",
+    "intro": [
+      "안녕하세요. 스마일비뇨의학과 대표원장 우중원입니다. 환자의 건강을 먼저 생각하며, 믿고 상담할 수 있는 진료를 위해 노력하겠습니다.",
+      "임상 경험을 바탕으로 전립선 질환, 요로결석, 방광염과 성매개감염 등 다양한 비뇨기 문제를 진료합니다. 개개인의 상태를 충분히 살피고 필요한 치료를 함께 결정하겠습니다."
+    ],
+    "sections": [
+      {
+        "id": "career",
+        "label": "주요 경력",
+        "title": "진료와 경험",
+        "type": "list",
+        "items": [
+          {
+            "title": "스마일비뇨의학과 대표원장",
+            "text": ""
+          },
+          {
+            "title": "창원 마산 선비뇨기과 원장",
+            "text": ""
+          },
+          {
+            "title": "창원지방검찰청 자문의",
+            "text": ""
+          },
+          {
+            "title": "대한의사협회 중앙이사",
+            "text": ""
+          },
+          {
+            "title": "고신대학교 의과대학 외래 교수",
+            "text": ""
+          },
+          {
+            "title": "부산대학교 의과대학 외래 교수",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "societies",
+        "label": "학회 활동",
+        "title": "학술 활동",
+        "type": "cards",
+        "items": [
+          {
+            "title": "전립선·남성 건강",
+            "text": "대한비뇨의학회 · 대한전립선학회 · 대한남성과학회 정회원"
+          },
+          {
+            "title": "배뇨·감염 질환",
+            "text": "대한배뇨장애요실금학회 · 대한요로생식기감염학회 정회원"
+          },
+          {
+            "title": "검사·수술·노인 진료",
+            "text": "대한비뇨내시경로봇학회 · 대한비뇨초음파학회 · 대한노인비뇨의학회 정회원"
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "label": "진료 원칙",
+        "title": "충분한 설명, 함께하는 결정",
+        "type": "list",
+        "items": [
+          {
+            "title": "편안한 상담",
+            "text": "개인적인 고민을 안심하고 나눌 수 있도록 환자의 입장에서 듣겠습니다."
+          },
+          {
+            "title": "정확하고 투명한 진료",
+            "text": "불필요한 과잉 진료를 지양하고 검사 결과와 치료 방향을 알기 쉽게 설명하겠습니다."
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/72",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/15a3ddc00303a.jpg"
+    ],
+    "sourceNotes": []
+  },
+  {
+    "slug": "equipment",
+    "kicker": "OUR EQUIPMENT",
+    "lead": "진단부터 치료까지, 스마일비뇨의학과의 진료 장비를 소개합니다.",
+    "introTitle": "진료를 뒷받침하는 장비",
+    "intro": [
+      "비뇨기 질환의 검사와 치료를 위해 다양한 장비를 갖추고 있습니다. 진료 시 증상과 검사 목적에 따라 필요한 장비를 사용합니다."
+    ],
+    "sections": [
+      {
+        "id": "treatment",
+        "label": "치료 장비",
+        "title": "치료를 위한 장비",
+        "type": "gallery",
+        "items": [
+          {
+            "title": "체외충격파쇄석기",
+            "text": ""
+          },
+          {
+            "title": "리줌",
+            "text": ""
+          },
+          {
+            "title": "케어웨이브",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "영상·검사 장비",
+        "title": "상태를 살피는 검사 장비",
+        "type": "gallery",
+        "items": [
+          {
+            "title": "초음파 진단기",
+            "text": ""
+          },
+          {
+            "title": "방광경시스템",
+            "text": ""
+          },
+          {
+            "title": "엑스레이",
+            "text": ""
+          },
+          {
+            "title": "내시경 장비",
+            "text": ""
+          },
+          {
+            "title": "정자검사현미경",
+            "text": ""
+          },
+          {
+            "title": "소변 분석기",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "voiding",
+        "label": "배뇨 검사 장비",
+        "title": "배뇨 기능을 확인하는 장비",
+        "type": "gallery",
+        "items": [
+          {
+            "title": "블래더 스캐너",
+            "text": ""
+          },
+          {
+            "title": "요속 검사기",
+            "text": ""
+          },
+          {
+            "title": "요역동학검사장비",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/73",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250120/eb4e621735b81.jpg"
+    ],
+    "sourceNotes": []
+  },
+  {
+    "slug": "visit",
+    "kicker": "VISIT SMILE",
+    "lead": "스마일비뇨의학과의 위치와 진료시간을 안내합니다.",
+    "introTitle": "부산 서면, 스마일비뇨의학과",
+    "intro": [
+      "부산광역시 부산진구 가야대로 765, 3층 (부전동)에 위치해 있습니다.",
+      "진료 관련 문의는 051-808-2220으로 연락해 주세요."
+    ],
+    "sections": [
+      {
+        "id": "location",
+        "label": "오시는 길",
+        "title": "오시는 길",
+        "type": "map",
+        "items": [
+          {
+            "title": "주소",
+            "text": "부산광역시 부산진구 가야대로 765, 3층 (부전동)"
+          },
+          {
+            "title": "상담 및 문의",
+            "text": "051-808-2220"
+          }
+        ]
+      },
+      {
+        "id": "hours",
+        "label": "진료시간",
+        "title": "진료시간 안내",
+        "type": "table",
+        "columns": [
+          "구분",
+          "시간"
+        ],
+        "rows": [
+          [
+            "월요일–금요일",
+            "09:30–18:00"
+          ],
+          [
+            "점심시간",
+            "12:30–13:30"
+          ],
+          [
+            "토요일",
+            "09:30–12:30"
+          ]
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/74",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250120/71eed401ddf3a.jpg"
+    ],
+    "sourceNotes": []
+  },
+  {
+    "slug": "information",
+    "kicker": "HEALTH JOURNAL",
+    "lead": "증상과 검사, 치료에 관한 비뇨의학 건강 정보를 전합니다.",
+    "introTitle": "일상에서 궁금했던 비뇨기 건강",
+    "intro": [
+      "전립선 건강과 요로결석에 대한 궁금증을 스마일비뇨의학과의 건강 정보에서 살펴보세요."
+    ],
+    "sections": [
+      {
+        "id": "articles",
+        "label": "건강 정보",
+        "title": "유익한 정보",
+        "type": "articles",
+        "items": [
+          {
+            "title": "전립선비대증이 심해지면 전립선암으로 변할까?",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173924285&t=board"
+          },
+          {
+            "title": "정말 맥주를 마시면 요로결석이 빠질까?",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173623520&t=board"
+          },
+          {
+            "title": "요로결석 치료법, 체외충격파 쇄석술의 원리와 특징",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173413849&t=board"
+          },
+          {
+            "title": "요로결석은 왜 24시간 언제든 아플 수 있을까?",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173258347&t=board"
+          },
+          {
+            "title": "위치에 따른 요로결석의 종류",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173072559&t=board"
+          },
+          {
+            "title": "전립선염과 방광염의 차이점은?",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172880747&t=board"
+          },
+          {
+            "title": "밤마다 화장실에 간다면? 야간뇨와 전립선비대증의 관계",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172705874&t=board"
+          },
+          {
+            "title": "전립선염의 원인",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172566756&t=board"
+          },
+          {
+            "title": "전립선 비대증 예방법",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172457571&t=board"
+          },
+          {
+            "title": "여름철 전립선 관리방법",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172290438&t=board"
+          },
+          {
+            "title": "전립선암 증상 알아보기",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172140327&t=board"
+          },
+          {
+            "title": "전립선 비대증 검사 종류",
+            "href": "https://smileuro.com/91/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172034902&t=board"
+          },
+          {
+            "title": "전립선비대증에 도움이 되는 운동",
+            "href": "https://smileuro.com/91/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=171901952&t=board"
+          },
+          {
+            "title": "전립선비대증 시술, 리줌과 유로리프트 차이",
+            "href": "https://smileuro.com/91/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=171723721&t=board"
+          },
+          {
+            "title": "전립선비대증에 좋은 음식",
+            "href": "https://smileuro.com/91/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=171645147&t=board"
+          },
+          {
+            "title": "전립선비대증 신개념 리줌(Rezum) 시술의 모든것",
+            "href": "https://smileuro.com/91/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=171533087&t=board"
+          },
+          {
+            "title": "전립선 비대증의 증상",
+            "href": "https://smileuro.com/91/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=171396848&t=board"
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/91",
+    "sourceImages": [],
+    "sourceNotes": [
+      "게시판의 공개 글 17개 제목과 원문 링크를 옮김. 개별 게시글 상세 본문은 원본 홈페이지에서 제공."
+    ]
+  },
+  {
+    "slug": "rezum",
+    "kicker": "REZUM THERAPY",
+    "lead": "수증기의 열에너지로 비대해진 전립선 조직을 줄여 소변이 지나갈 공간을 확보합니다.",
+    "introTitle": "열에너지로 줄이는 전립선 조직",
+    "intro": [
+      "리줌은 전립선비대증으로 생긴 배뇨 불편을 개선하는 최소 침습 시술입니다. 요도로 접근해 필요한 부위에 수증기를 전달하며, 치료한 조직이 점차 줄어드는 과정을 이용합니다."
+    ],
+    "sections": [
+      {
+        "id": "process",
+        "label": "시술 과정",
+        "title": "수증기를 전달하는 세 단계",
+        "type": "steps",
+        "items": [
+          {
+            "title": "내시경으로 접근",
+            "text": "요도 안으로 내시경을 넣고 비대해진 전립선의 치료 부위를 살핍니다."
+          },
+          {
+            "title": "조직에 수증기 전달",
+            "text": "내시경에 연결된 특수 바늘로 조직 내부에 수증기를 주입합니다."
+          },
+          {
+            "title": "조직 축소와 경과 확인",
+            "text": "시술 이후 조직이 줄면서 소변길의 압박이 완화되는지 확인합니다. 변화가 나타나는 속도는 개인마다 다릅니다."
+          }
+        ]
+      },
+      {
+        "id": "candidates",
+        "label": "상담 대상",
+        "title": "약물·마취 부담을 함께 고려합니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "약물치료가 부담될 때",
+            "text": "장기 복용이나 약물 부작용이 부담되어 다른 방법을 찾는 경우 상담할 수 있습니다."
+          },
+          {
+            "title": "기능 보존을 고려할 때",
+            "text": "배뇨 증상 개선과 함께 성기능에 미칠 영향을 중요하게 생각한다면 치료 선택지를 비교합니다."
+          },
+          {
+            "title": "마취 선택이 필요할 때",
+            "text": "전신·척추마취가 부담되는 경우 국소마취 가능 여부와 전신 상태를 함께 평가합니다."
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "label": "특징",
+        "title": "시술 전 확인할 사항",
+        "type": "list",
+        "items": [
+          {
+            "title": "전립선 상태",
+            "text": "크기와 구조를 확인하여 수증기 치료가 적합한지 판단합니다."
+          },
+          {
+            "title": "치료 일정",
+            "text": "비교적 짧게 진행되는 시술이지만 검사·마취·회복을 포함한 일정은 별도로 안내받습니다."
+          },
+          {
+            "title": "회복과 기능",
+            "text": "주변 기능의 보존을 고려하며 기대 효과와 가능한 불편을 시술 전에 확인합니다."
+          }
+        ]
+      }
+    ],
+    "note": "치료 대상과 회복 과정은 검사 결과에 따라 달라집니다.",
+    "source": "https://smileuro.com/1447080511",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250319/9a9315f7202f8.jpg",
+      "https://cdn.imweb.me/thumbnail/20250326/f84db40d29ac4.jpg"
+    ],
+    "sourceNotes": [
+      "원문 HTML 본문과 방법·대상·장점 이미지 전체를 읽음.",
+      "원문의 일률적 연령·크기 기준과 무손상·안전 보장 표현은 생략. 시술시간·회복기간을 보장하지 않음."
+    ]
+  },
+  {
+    "slug": "urolift",
+    "kicker": "UROLIFT",
+    "lead": "비대해진 전립선 조직을 결찰해 요도에 가해지는 압박을 줄이는 치료입니다.",
+    "introTitle": "조직을 고정해 소변길을 넓힙니다",
+    "intro": [
+      "유로리프트는 전립선 조직을 고정 장치로 당겨 소변이 흐를 공간을 만드는 전립선결찰술입니다. 배뇨 상태와 기존 치료 경험, 기능 보존에 대한 선호를 함께 살펴 선택합니다."
+    ],
+    "sections": [
+      {
+        "id": "process",
+        "label": "시술 과정",
+        "title": "좁아진 요도에 공간을 만드는 과정",
+        "type": "steps",
+        "items": [
+          {
+            "title": "기구를 치료 부위로 이동",
+            "text": "요도를 통해 장치를 넣어 비대해진 전립선 부위까지 접근합니다."
+          },
+          {
+            "title": "전립선 조직 결찰",
+            "text": "소변길을 누르는 조직을 장치로 잡고 안쪽에서 바깥 방향으로 묶어 고정합니다."
+          },
+          {
+            "title": "좌우 공간 확보",
+            "text": "양쪽 조직을 고정한 뒤 요도 안에 확보된 공간을 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "candidates",
+        "label": "상담 대상",
+        "title": "치료 부담과 생활 불편을 살핍니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "약물 복용이 불편한 경우",
+            "text": "전립선 약을 지속해서 복용하는 데 어려움이 있다면 시술 가능성을 상담합니다."
+          },
+          {
+            "title": "수술 부담을 줄이고 싶은 경우",
+            "text": "조직을 제거하는 수술이나 회복 과정이 부담되는 경우 비교할 수 있는 방법입니다."
+          },
+          {
+            "title": "기능과 일상 회복을 고려하는 경우",
+            "text": "배뇨 불편이 생활에 영향을 주고 성기능 보존을 중요하게 생각한다면 적합성을 평가합니다."
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "label": "특징",
+        "title": "유로리프트의 주요 고려점",
+        "type": "list",
+        "items": [
+          {
+            "title": "조직 고정 방식",
+            "text": "전립선을 절제하지 않고 장치로 고정하는 것이 핵심입니다."
+          },
+          {
+            "title": "마취와 귀가 계획",
+            "text": "국소마취로 시행할 수 있으며, 마취 방법과 귀가 시점은 환자 상태에 맞춰 정합니다."
+          },
+          {
+            "title": "기대 효과와 제한",
+            "text": "성기능에 대한 영향, 고정 장치의 특성, 회복 중 불편을 함께 설명받고 치료를 결정합니다."
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/58",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/fb61953f1e670.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/be35c565f65be.jpg"
+    ],
+    "sourceNotes": [
+      "공개 /58의 시술 원리·방법·대상·장점 이미지 전체를 읽음.",
+      "/1126899501은 로그인으로 이동하여 접근하지 않음. 원문의 무손상·도뇨관 불필요 등 일률적 단정은 생략."
+    ]
+  },
+  {
+    "slug": "bph",
+    "kicker": "BENIGN PROSTATIC HYPERPLASIA",
+    "lead": "전립선이 커지며 생기는 배뇨 불편은 증상과 검사 결과를 함께 살펴 치료합니다.",
+    "introTitle": "소변길을 압박하는 전립선의 변화",
+    "intro": [
+      "전립선비대증은 전립선이 커지면서 요도 주변에 압박이 생기는 상태입니다. 중년 이후 흔해지며, 나이·남성호르몬·가족력·생활습관 등이 관련됩니다. 크기와 증상을 함께 살핍니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "배뇨의 시작부터 마무리까지",
+        "type": "cards",
+        "items": [
+          {
+            "title": "약해지고 끊기는 소변줄기",
+            "text": "소변이 나오기까지 기다리거나 줄기가 가늘어지고 중간에 끊길 수 있습니다."
+          },
+          {
+            "title": "자주 마렵고 남은 듯한 느낌",
+            "text": "빈뇨·야간뇨·급박뇨 또는 소변을 본 뒤에도 개운하지 않은 잔뇨감이 나타납니다."
+          },
+          {
+            "title": "배출이 어려워지는 변화",
+            "text": "소변이 새거나 아예 나오지 않는 요폐, 혈뇨가 있는지도 진료 때 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "불편의 정도와 전립선 상태를 확인",
+        "type": "list",
+        "items": [
+          {
+            "title": "문진과 증상 점수",
+            "text": "병력·복용약을 확인하고 IPSS 설문으로 증상을 기록합니다."
+          },
+          {
+            "title": "배뇨 기능 평가",
+            "text": "소변검사와 요속·잔뇨량 측정으로 감염 가능성 및 배출 상태를 살핍니다."
+          },
+          {
+            "title": "전립선 평가",
+            "text": "직장수지검사, PSA 혈액검사, 경직장 초음파 등을 필요에 따라 활용합니다."
+          }
+        ]
+      },
+      {
+        "id": "medication",
+        "label": "약물",
+        "title": "증상에 맞춰 다른 작용을 선택",
+        "type": "table",
+        "items": [],
+        "columns": [
+          "약물 종류",
+          "치료에서 살피는 점"
+        ],
+        "rows": [
+          [
+            "알파차단제",
+            "요도 주변 압력을 낮춰 배출을 돕습니다."
+          ],
+          [
+            "피나스테리드·두타스테리드 계열",
+            "전립선 크기의 감소를 목표로 경과를 봅니다."
+          ],
+          [
+            "항무스카린제",
+            "동반된 과민성 방광 증상을 고려합니다."
+          ]
+        ]
+      },
+      {
+        "id": "options",
+        "label": "치료 선택",
+        "title": "관찰부터 시술까지",
+        "type": "cards",
+        "items": [
+          {
+            "title": "경과 관찰",
+            "text": "불편이 가벼우면 생활습관을 조정하며 증상 변화를 정기적으로 확인합니다."
+          },
+          {
+            "title": "리줌·유로리프트",
+            "text": "수증기로 조직을 줄이거나 조직을 결찰하는 방식입니다. 약물 반응과 전립선 구조를 고려해 선택합니다."
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/411205175",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/eef4325a86dee.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/4bbc4c6cc1cdc.jpg"
+    ],
+    "sourceNotes": [
+      "HTML 본문 및 두 장의 원인·증상·진단·치료 이미지를 읽음.",
+      "소변검사 항목에 섞인 TP/STS 혈액검사 설명과 리줌 항목의 대기요법 복사 문구는 재사용하지 않음.",
+      "PSA 단독으로 암을 확진한다는 인상을 피하고 약물명·치료 목적 중심으로 정리."
+    ]
+  },
+  {
+    "slug": "turis",
+    "kicker": "PLASMA TURIS",
+    "lead": "플라즈마 전극으로 비대해진 전립선 조직을 제거하며 지혈을 함께 진행합니다.",
+    "introTitle": "조직 제거와 지혈을 함께",
+    "intro": [
+      "플라즈마 투리스는 전립선비대증을 치료하는 내시경 수술입니다. 단추 형태의 전극에서 발생하는 플라즈마로 소변길을 압박하는 조직을 제거합니다. 주변 조직을 살피며 필요한 치료 범위를 정합니다."
+    ],
+    "sections": [
+      {
+        "id": "process",
+        "label": "수술 과정",
+        "title": "요도를 통해 진행하는 치료",
+        "type": "steps",
+        "items": [
+          {
+            "title": "장비 삽입",
+            "text": "요도를 따라 플라즈마 장비를 넣고 치료할 전립선 부위에 접근합니다."
+          },
+          {
+            "title": "조직 제거",
+            "text": "전극을 작동시켜 비대 조직을 제거하면서 출혈 부위의 지혈을 진행합니다."
+          },
+          {
+            "title": "치료 범위 조정",
+            "text": "장비의 방향을 바꾸어 필요한 부위를 치료하고 소변이 지나갈 공간을 확보합니다."
+          }
+        ]
+      },
+      {
+        "id": "candidates",
+        "label": "상담 대상",
+        "title": "기존 치료 이후의 증상도 살핍니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "약물로 호전이 부족할 때",
+            "text": "전립선비대증으로 배뇨가 어렵고 약물치료만으로 불편이 충분히 줄지 않는 경우 평가합니다."
+          },
+          {
+            "title": "이전 시술 후 문제가 남을 때",
+            "text": "TURP 이후 효과가 부족하거나 합병증이 있었다면 치료 이력과 현재 상태를 확인합니다."
+          },
+          {
+            "title": "결찰술만으로 해결하기 어려울 때",
+            "text": "유로리프트 등 다른 방법의 적합성을 검토하고 조직 제거가 필요한지 판단합니다."
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "label": "특징",
+        "title": "전극의 작용과 수술 계획",
+        "type": "list",
+        "items": [
+          {
+            "title": "주변 조직을 고려한 치료",
+            "text": "플라즈마를 이용해 목표 조직을 다루며 주변 조직과 배뇨 기능의 보존을 고려합니다."
+          },
+          {
+            "title": "출혈 관리",
+            "text": "조직 제거와 지혈이 함께 이뤄지는 점이 특징이며, 출혈 가능성도 수술 전에 설명받습니다."
+          },
+          {
+            "title": "전립선 크기와 회복",
+            "text": "큰 전립선에서도 적용 여부를 검토합니다. 치료 범위와 회복 계획은 검사에 맞춰 결정합니다."
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/84",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/e9e091c5f129c.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/2e55e4b329273.jpg"
+    ],
+    "sourceNotes": [
+      "수술 정의·과정·대상·장점 이미지 전체를 읽음.",
+      "70도 이하, 신경 손상 거의 없음, 빠른 회복 보장 등의 단정은 생략. 큰 전립선의 적용은 개별 평가로 표현."
+    ]
+  },
+  {
+    "slug": "prostatitis",
+    "kicker": "PROSTATITIS",
+    "lead": "전립선 주변의 통증과 배뇨 불편은 감염 여부와 증상의 경과를 구분해 살핍니다.",
+    "introTitle": "급성과 만성, 원인에 따라 다른 접근",
+    "intro": [
+      "전립선염은 배뇨 불편과 골반 통증, 전신 증상을 유발할 수 있습니다. 세균 감염, 골반 근육 긴장 등 원인을 구분합니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "경과에 따라 달라지는 불편",
+        "type": "cards",
+        "items": [
+          {
+            "title": "급성 세균성",
+            "text": "발열·오한과 함께 배뇨통, 갑작스러운 배뇨 곤란이 나타날 수 있습니다."
+          },
+          {
+            "title": "만성 세균성",
+            "text": "반복되는 요로감염, 빈뇨·야간뇨, 허리나 치골 주변의 지속적인 통증을 살핍니다."
+          },
+          {
+            "title": "만성 비세균성",
+            "text": "골반·고환 주변의 불편과 사정 전후 통증 등이 이어질 수 있습니다. 증상 없이 염증 소견만 발견되기도 합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "원인과 배뇨 상태를 함께 확인",
+        "type": "list",
+        "items": [
+          {
+            "title": "병력과 소변검사",
+            "text": "시작 시점과 통증 위치를 묻고, 필요에 따라 분할 소변검사로 감염 단서를 찾습니다."
+          },
+          {
+            "title": "원인균·염증 평가",
+            "text": "전립선액·정액 검사와 Multi-PCR 등은 임상 상태에 맞춰 선택합니다."
+          },
+          {
+            "title": "구조와 기능 평가",
+            "text": "초음파로 전립선을 살피고 요속·잔뇨량 검사로 배출 상태를 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "증상과 검사에 맞춘 치료 구성",
+        "type": "cards",
+        "items": [
+          {
+            "title": "약물치료",
+            "text": "감염 여부에 따라 항생제를 고려하고 소염제·알파차단제 등으로 통증과 배뇨 불편을 조절합니다."
+          },
+          {
+            "title": "전립선내 주사요법",
+            "text": "약물 반응이 부족한 경우 필요성을 검토하는 방식으로, 시술에 따른 감염 위험도 함께 평가합니다."
+          },
+          {
+            "title": "자기장 치료",
+            "text": "골반 근육의 이완과 통증 조절을 목표로 하는 보조 치료입니다. 다른 치료와의 병행 여부를 상담합니다."
+          }
+        ]
+      }
+    ],
+    "note": "복용 계획을 지키고 술·카페인 등 자극 요인을 살핍니다.",
+    "source": "https://smileuro.com/370216099",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/5e5e9ec1c0257.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/1aaa85b680f04.jpg"
+    ],
+    "sourceNotes": [
+      "두 장의 원인·증상·진단·치료 이미지 전체를 읽음.",
+      "주사요법·자기장 치료는 원문의 소개 범위로 한정하며 표준치료 또는 효과를 보장하지 않음.",
+      "항생제의 일률적 사용, 고정 치료기간, 90% 이상 완전호전 표현은 생략."
+    ]
+  },
+  {
+    "slug": "prostate-cancer",
+    "kicker": "PROSTATE CANCER",
+    "lead": "초기 증상이 뚜렷하지 않을 수 있어 검사와 위험 요인을 함께 평가합니다.",
+    "introTitle": "진단과 진행 범위를 나누어 확인",
+    "intro": [
+      "전립선암은 전립선에서 생기는 악성 종양입니다. 진행 속도는 다양하며 나이·가족력 등 위험 요인을 살펴 검사를 논의합니다. 증상만으로 암 여부를 판단하지 않습니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "배뇨 변화와 지속되는 통증",
+        "type": "cards",
+        "items": [
+          {
+            "title": "소변을 볼 때의 변화",
+            "text": "빈뇨·야간뇨·잔뇨감이나 갑작스러운 배뇨 곤란이 나타날 수 있습니다."
+          },
+          {
+            "title": "혈뇨·혈정액",
+            "text": "소변이나 정액에 피가 보이면 다른 원인도 함께 확인합니다."
+          },
+          {
+            "title": "진행된 경우의 증상",
+            "text": "뼈 통증, 다리 부종, 신경 증상 등은 진행 범위 평가에서 살피는 소견입니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "의심 소견부터 확진·병기 평가까지",
+        "type": "steps",
+        "items": [
+          {
+            "title": "전립선 상태 확인",
+            "text": "직장수지검사, PSA 혈액검사, 초음파 등으로 이상 가능성을 평가합니다."
+          },
+          {
+            "title": "조직검사",
+            "text": "암이 의심되면 전립선 조직을 채취해 병리 결과로 확인합니다."
+          },
+          {
+            "title": "진행 범위 확인",
+            "text": "필요한 경우 CT·MRI, 골스캔, PET/CT 등을 통해 주변 침범이나 전이 여부를 살핍니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "암의 특성에 맞춰 선택하는 방법",
+        "type": "table",
+        "items": [],
+        "columns": [
+          "치료",
+          "목적과 고려점"
+        ],
+        "rows": [
+          [
+            "근치적 전립선적출술",
+            "전립선을 제거하는 수술입니다. 배뇨·성기능에 대한 영향도 고려합니다."
+          ],
+          [
+            "방사선치료",
+            "방사선으로 암세포를 치료하며 주변 장기의 반응을 확인합니다."
+          ],
+          [
+            "호르몬요법",
+            "남성호르몬의 작용을 억제해 암의 진행을 조절합니다."
+          ],
+          [
+            "항암화학요법",
+            "암의 진행 상태와 앞선 치료 반응에 따라 약물치료를 선택합니다."
+          ],
+          [
+            "적극적 관찰",
+            "적합한 경우 정기검사로 변화를 살피며 치료 시작 시점을 결정합니다."
+          ]
+        ]
+      }
+    ],
+    "note": "병기·건강 상태·기능 보존을 고려해 치료를 결정합니다.",
+    "source": "https://smileuro.com/733161439",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/c556888594c9e.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/457cb450c0088.jpg"
+    ],
+    "sourceNotes": [
+      "원인·증상·진단·치료 이미지 전체를 읽음.",
+      "원문 치료의 다섯 갈래를 보존하되 고정 치료기간·치료 우열·확실한 완치 표현은 생략. 해당 검사의 병원 내 보유·시행 여부를 추정하지 않음."
+    ]
+  },
+  {
+    "slug": "stone-center",
+    "kicker": "24-HOUR STONE CENTER",
+    "lead": "갑작스러운 결석 통증을 평가하고 필요한 검사와 치료를 연결합니다.",
+    "introTitle": "야간에도 이어지는 요로결석 진료",
+    "intro": [
+      "요로결석의 통증은 진료시간 밖에서도 갑자기 발생할 수 있습니다. 스마일비뇨의학과는 24시간 요로결석센터를 운영하며 야간·공휴일에도 연락을 통해 응급진료와 처치를 안내합니다."
+    ],
+    "sections": [
+      {
+        "id": "access",
+        "label": "진료 안내",
+        "title": "갑작스러운 통증에 대응하는 흐름",
+        "type": "steps",
+        "items": [
+          {
+            "title": "연락과 증상 확인",
+            "text": "통증이 생긴 시간과 부위, 현재 불편을 알려 진료 안내를 받습니다. 정규 진료시간 외에도 연락할 수 있습니다."
+          },
+          {
+            "title": "당일 상태 평가",
+            "text": "예약 없이 방문한 경우에도 당일 검사·진료를 안내합니다. 필요한 검사는 상태에 따라 정합니다."
+          },
+          {
+            "title": "검사에서 처치로 연결",
+            "text": "통증의 원인이 결석인지 확인한 뒤 응급처치와 결석 치료의 필요성을 판단합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사 장비",
+        "title": "결석과 요로 상태를 살피는 검사",
+        "type": "cards",
+        "items": [
+          {
+            "title": "디지털 엑스레이",
+            "text": "결석의 존재와 위치를 확인하는 데 활용하는 영상검사입니다."
+          },
+          {
+            "title": "초음파",
+            "text": "신장과 방광을 관찰하며 요로의 상태를 함께 살핍니다."
+          },
+          {
+            "title": "검사 결과에 따른 판단",
+            "text": "결석의 위치와 치료 난이도를 고려해 적절한 처치 방법을 검토합니다."
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "label": "치료 체계",
+        "title": "전문의 진료를 바탕으로 치료 선택",
+        "type": "list",
+        "items": [
+          {
+            "title": "비뇨의학과 전문의",
+            "text": "우중원 원장의 임상 경험을 바탕으로 요로결석과 관련 비뇨기 증상을 진료합니다."
+          },
+          {
+            "title": "체외충격파쇄석술",
+            "text": "필요한 경우 당일 시행할 수 있는 치료로 안내합니다. 실제 시행 여부는 검사와 환자 상태에 따라 정합니다."
+          },
+          {
+            "title": "난도가 높은 결석",
+            "text": "요관·신장 결석의 상태에 따라 내시경이나 복강경 수술 등 다른 방법도 검토합니다."
+          }
+        ]
+      }
+    ],
+    "note": "진료시간 외 방문은 먼저 연락해 안내를 받으세요.",
+    "source": "https://smileuro.com/Vision",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/6623b7cdb4179.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/01267f29349aa.jpg"
+    ],
+    "sourceNotes": [
+      "원문 HTML 본문과 두 장의 센터 안내 이미지를 읽음.",
+      "원문의 10분 이내 처치 보장과 응급실 비교 문구는 생략. 24시간·당일 진료는 원문 서비스 안내에 근거."
+    ]
+  },
+  {
+    "slug": "eswl",
+    "kicker": "EXTRACORPOREAL SHOCK WAVE LITHOTRIPSY",
+    "lead": "몸 밖에서 전달하는 충격파로 결석을 잘게 나누어 소변으로 배출되도록 돕습니다.",
+    "introTitle": "영상으로 위치를 확인하는 결석 치료",
+    "intro": [
+      "체외충격파쇄석술은 피부를 절개하지 않고 결석을 분쇄하는 방법입니다. 엑스레이나 초음파로 결석을 찾은 뒤 충격파를 집중시킵니다. 치료 후 작은 조각이 배출되는 과정도 확인합니다."
+    ],
+    "sections": [
+      {
+        "id": "process",
+        "label": "시술 과정",
+        "title": "확인·분쇄·배출의 세 단계",
+        "type": "steps",
+        "items": [
+          {
+            "title": "위치와 크기 확인",
+            "text": "영상검사로 치료할 결석의 위치와 크기를 파악하고 충격파를 전달할 지점을 정합니다."
+          },
+          {
+            "title": "충격파 집중",
+            "text": "체외에서 발생시킨 에너지를 결석 부위에 전달하여 작은 조각으로 나눕니다."
+          },
+          {
+            "title": "배출 과정 확인",
+            "text": "분쇄된 조각이 소변과 함께 빠져나가도록 하며 이후 상태를 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "candidates",
+        "label": "적합성",
+        "title": "크기만큼 위치와 배출 경로도 중요",
+        "type": "cards",
+        "items": [
+          {
+            "title": "결석 크기·위치",
+            "text": "비교적 작은 신장·상부 요관의 결석에서 적용 가능성을 검토하며 영상으로 크기와 위치를 확인합니다."
+          },
+          {
+            "title": "요로와 신장 상태",
+            "text": "소변이 지나갈 길의 막힘이나 신장 기능 저하가 있는지 평가합니다."
+          },
+          {
+            "title": "자연 배출 가능성",
+            "text": "분쇄 이후 조각이 배출될 수 있는지, 다른 수술이 더 적절한지를 함께 판단합니다."
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "label": "특징",
+        "title": "시술의 부담과 치료 계획을 함께",
+        "type": "list",
+        "items": [
+          {
+            "title": "피부 절개 없는 접근",
+            "text": "몸 밖에서 에너지를 전달하므로 절개 수술과 다른 방식으로 치료합니다."
+          },
+          {
+            "title": "일상 복귀 계획",
+            "text": "외래 치료를 고려할 수 있으며, 치료 후 활동과 귀가 일정은 상태에 맞춰 안내받습니다."
+          },
+          {
+            "title": "추가 치료 검토",
+            "text": "필요할 때 재시술을 검토할 수 있습니다. 적용되는 보험과 비용은 진료 시 확인합니다."
+          }
+        ]
+      }
+    ],
+    "source": "https://smileuro.com/Technology",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/48ce11cd9d45b.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/49fbc8a1fddaa.jpg"
+    ],
+    "sourceNotes": [
+      "시술 정의·과정·대상·장점 이미지 전체를 읽음.",
+      "원문의 90% 성공률, 무손상·부작용 거의 없음, 마취·입원 불필요의 일률적 단정은 생략. 2cm 기준은 절대 적응증으로 제시하지 않음."
+    ]
+  },
+  {
+    "slug": "urinary-stones",
+    "kicker": "URINARY STONES",
+    "lead": "소변 성분이 결정으로 뭉치면 신장부터 요도까지 결석이 생길 수 있습니다.",
+    "introTitle": "결정이 자라며 생기는 요로의 돌",
+    "intro": [
+      "요로는 신장·요관·방광·요도로 이어집니다. 소변 성분이 농축되거나 잘 녹지 않으면 결정이 자라 결석이 됩니다. 위치에 따라 증상도 달라집니다."
+    ],
+    "sections": [
+      {
+        "id": "causes",
+        "label": "원인",
+        "title": "결석이 자라기 쉬운 조건",
+        "type": "cards",
+        "items": [
+          {
+            "title": "수분 부족",
+            "text": "땀을 많이 흘리거나 탈수로 소변이 농축되면 결정이 생기기 쉬워집니다."
+          },
+          {
+            "title": "소변 성분의 변화",
+            "text": "산도와 구연산 등 결정 형성을 억제하는 성분의 변화가 관련됩니다."
+          },
+          {
+            "title": "생활습관·유전",
+            "text": "짠 식사와 가족력 등도 살핍니다."
+          }
+        ]
+      },
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "통증 위치와 소변의 변화를 확인",
+        "type": "list",
+        "items": [
+          {
+            "title": "옆구리에서 퍼지는 통증",
+            "text": "통증이 간헐적으로 심해지고, 위치에 따라 아랫배나 사타구니로 퍼질 수 있습니다."
+          },
+          {
+            "title": "함께 나타나는 불편",
+            "text": "메스꺼움·구토, 혈뇨, 탁한 소변, 자주 마려운 느낌을 동반할 수 있습니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "결석과 신장 상태를 함께 평가",
+        "type": "steps",
+        "items": [
+          {
+            "title": "문진과 진찰",
+            "text": "통증의 위치·강도와 혈뇨 여부를 확인합니다."
+          },
+          {
+            "title": "소변·혈액검사",
+            "text": "혈뇨와 감염 단서, 신장 기능과 염증 수치를 살핍니다."
+          },
+          {
+            "title": "영상검사",
+            "text": "초음파 등으로 결석의 위치·크기와 요로 상태를 평가합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "배출 가능성에 따라 달라지는 선택",
+        "type": "cards",
+        "items": [
+          {
+            "title": "경과 관찰",
+            "text": "작고 자연 배출이 가능한 결석은 상태를 확인하며 관찰합니다."
+          },
+          {
+            "title": "체외충격파쇄석술",
+            "text": "충격파로 결석을 분쇄해 배출을 돕고 필요한 경우 반복 치료를 검토합니다."
+          },
+          {
+            "title": "수술적 치료",
+            "text": "크거나 쇄석술로 해결되지 않으면 요관경하 배석술(URS), 경피적 신쇄석술(PCNL) 등을 고려합니다."
+          }
+        ]
+      }
+    ],
+    "note": "증상이 악화되면 의료진과 상의하고, 치료 후에도 안내된 경과 관찰을 이어갑니다.",
+    "source": "https://smileuro.com/83",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/f90212a8b14aa.jpg",
+      "https://cdn.imweb.me/thumbnail/20250320/1b4e55780b05a.jpg"
+    ],
+    "sourceNotes": [
+      "원인·위치별 증상·검사·치료 이미지 전체를 읽음.",
+      "재발률·성공률 수치, 일률적 2L 수분 권고·입원기간·완전 제거 보장은 생략. 원문의 절박뇨 설명 혼동은 재사용하지 않음."
+    ]
+  },
+  {
+    "slug": "male-surgery",
+    "kicker": "MEN'S SURGERY",
+    "lead": "크기와 모양, 기능에 대한 고민을 구분하고 상태에 맞는 수술 방법을 상담합니다.",
+    "introTitle": "목적에 따라 달라지는 남성수술",
+    "intro": [
+      "남성수술은 음경·귀두의 형태 개선을 위한 시술과 발기 기능을 돕는 보형물 수술로 나뉩니다. 원하는 변화와 현재 상태를 함께 확인한 뒤 재료와 방법을 결정합니다."
+    ],
+    "sections": [
+      {
+        "id": "enlargement",
+        "label": "음경확대",
+        "title": "음경확대 방법",
+        "type": "cards",
+        "items": [
+          {
+            "title": "대체진피",
+            "text": "진피 재료를 피부 아래에 이식하거나 분말 형태로 주입하는 방법입니다. 조직 상태와 필요한 둘레 변화를 고려합니다."
+          },
+          {
+            "title": "필러 주입",
+            "text": "음경 조직에 필러를 주입해 볼륨을 보완합니다. 사용 재료와 유지 기간, 추가 시술 가능성을 상담합니다."
+          },
+          {
+            "title": "실리콘 보형물",
+            "text": "보형물을 삽입하는 방법으로 크기와 형태를 선택합니다. 삽입 위치와 교체·제거 가능성도 함께 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "glans",
+        "label": "귀두확대",
+        "title": "귀두 형태와 민감도 상담",
+        "type": "list",
+        "items": [
+          {
+            "title": "주입 재료 선택",
+            "text": "히알루론산 필러, 대체진피 분말 또는 두 재료를 함께 사용하는 방법을 안내합니다."
+          },
+          {
+            "title": "개인별 목표 확인",
+            "text": "귀두의 부피와 외형, 민감도에 대한 고민을 살피고 시술 범위를 정합니다. 사정 문제는 별도 원인 평가가 필요합니다."
+          }
+        ]
+      },
+      {
+        "id": "implant",
+        "label": "보형물",
+        "title": "발기부전 보형물 수술",
+        "type": "cards",
+        "items": [
+          {
+            "title": "굴곡형",
+            "text": "굽히거나 펼 수 있는 보형물을 삽입해 성생활을 돕는 방법입니다."
+          },
+          {
+            "title": "팽창형",
+            "text": "펌프를 조작해 팽창과 이완을 조절합니다. 약물 등 기존 치료 반응과 조작 편의성을 고려해 선택합니다."
+          }
+        ]
+      }
+    ],
+    "note": "재료와 수술 방법별 기대 효과, 감염·통증 등의 위험을 충분히 설명받은 뒤 결정합니다.",
+    "sourceNotes": [
+      "원본의 FDA 승인·안전성·지속기간 보장 및 귀두확대 조루효과 단정을 삭제함."
+    ],
+    "source": "https://smileuro.com/37",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/793ba36a1928c.jpg"
+    ]
+  },
+  {
+    "slug": "vasectomy",
+    "kicker": "VASECTOMY",
+    "lead": "향후 자녀 계획을 충분히 고려한 뒤 선택하는 영구 피임 수술입니다.",
+    "introTitle": "정자의 이동 통로를 차단하는 방법",
+    "intro": [
+      "정관수술은 정자가 이동하는 관을 끊고 막아 정액에 정자가 섞이지 않도록 하는 수술입니다. 무도정관수술은 음낭 피부에 작은 구멍을 내어 정관에 접근합니다."
+    ],
+    "sections": [
+      {
+        "id": "consider",
+        "label": "수술 상담",
+        "title": "먼저 확인할 가족계획",
+        "type": "cards",
+        "items": [
+          {
+            "title": "추가 자녀 계획",
+            "text": "앞으로 자녀를 가질 계획이 없는지 충분히 생각한 뒤 상담합니다. 영구적인 피임을 목적으로 결정하는 수술입니다."
+          },
+          {
+            "title": "방법과 회복 이해",
+            "text": "국소마취와 작은 피부 접근을 이용하는 방식입니다. 수술 범위와 회복 과정, 활동 재개 시점을 안내받습니다."
+          }
+        ]
+      },
+      {
+        "id": "procedure",
+        "label": "수술 과정",
+        "title": "무도정관수술의 진행",
+        "type": "steps",
+        "items": [
+          {
+            "title": "정관 위치 확인",
+            "text": "진찰을 통해 양측 정관의 위치와 수술 부위를 확인합니다."
+          },
+          {
+            "title": "정관 분리와 차단",
+            "text": "작은 피부 구멍으로 기구를 넣어 정관을 꺼낸 뒤 일부를 절제하고 절단면을 막습니다."
+          },
+          {
+            "title": "수술 부위 마무리",
+            "text": "정관을 제자리에 놓고 출혈 여부와 피부 상태를 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "aftercare",
+        "label": "수술 후 확인",
+        "title": "피임 효과는 검사로 확인합니다",
+        "type": "list",
+        "items": [
+          {
+            "title": "다른 피임 방법 유지",
+            "text": "수술 직후부터 피임이 완성되는 것은 아닙니다. 의료진이 정액검사 결과로 확인할 때까지 다른 피임 방법을 유지합니다."
+          },
+          {
+            "title": "회복 상태 확인",
+            "text": "통증이나 붓기 등 수술 부위의 변화를 살피고 안내받은 일정에 따라 진료받습니다. 회복 속도는 개인마다 다릅니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "정액검사 확인 전 피임 유지 문구는 NHS 자료로 보완함: https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/choosing-to-have-a-vasectomy",
+      "원본의 즉시 운동 가능·통증 거의 없음·성기능 영향 없음 등 절대적 표현을 제외함."
+    ],
+    "source": "https://smileuro.com/35",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/06fbb65255a62.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/7b34059219576.jpg"
+    ]
+  },
+  {
+    "slug": "circumcision",
+    "kicker": "CIRCUMCISION",
+    "lead": "포피로 인한 반복적인 염증과 불편을 살피고 수술 필요성을 판단합니다.",
+    "introTitle": "포피의 상태에서 시작하는 상담",
+    "intro": [
+      "포경수술은 귀두를 덮는 포피의 일부를 제거해 귀두가 드러나도록 하는 수술입니다. 포피가 젖혀지는 정도, 염증의 반복 여부, 위생 관리의 어려움을 확인해 결정합니다."
+    ],
+    "sections": [
+      {
+        "id": "indications",
+        "label": "상담 대상",
+        "title": "이런 불편이 있다면 확인하세요",
+        "type": "cards",
+        "items": [
+          {
+            "title": "포피가 잘 젖혀지지 않을 때",
+            "text": "입구가 좁거나 당길 때 통증이 생기는지 살핍니다. 단순한 모양보다 실제 증상과 포피 상태가 중요합니다."
+          },
+          {
+            "title": "귀두포피염이 반복될 때",
+            "text": "귀두와 포피 사이의 염증, 분비물, 냄새 등이 자주 나타나는 경우 원인과 관리 방법을 확인합니다."
+          },
+          {
+            "title": "위생 관리가 어려울 때",
+            "text": "포피 때문에 세척이 어렵거나 불편이 지속되면 수술을 포함한 해결 방법을 상담합니다."
+          }
+        ]
+      },
+      {
+        "id": "procedure",
+        "label": "수술 과정",
+        "title": "상태에 맞춰 범위를 정합니다",
+        "type": "steps",
+        "items": [
+          {
+            "title": "진찰과 디자인",
+            "text": "귀두와 포피 상태를 확인하고 제거할 피부 범위를 계획합니다."
+          },
+          {
+            "title": "포피 제거",
+            "text": "계획한 범위에 맞춰 피부를 제거합니다."
+          },
+          {
+            "title": "봉합과 마무리",
+            "text": "절개 부위를 봉합하고 상처 관리와 회복 일정을 안내합니다."
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "label": "진료 포인트",
+        "title": "불편의 원인을 먼저 구분합니다",
+        "type": "list",
+        "items": [
+          {
+            "title": "염증과 구지",
+            "text": "반복되는 염증과 쌓인 분비물로 인한 문제를 평가합니다. 모든 포피 상태가 수술로 이어지는 것은 아닙니다."
+          },
+          {
+            "title": "감돈포경",
+            "text": "뒤로 젖힌 포피가 돌아오지 않고 통증이나 붓기가 생기는 경우에는 진료가 필요합니다."
+          }
+        ]
+      }
+    ],
+    "note": "수술 필요성과 회복 기간은 연령, 포피 상태, 동반 질환에 따라 달라집니다.",
+    "sourceNotes": [
+      "원본의 HIV·자궁경부암 예방효과 단정 및 일률적 수술 권장 표현을 제외함."
+    ],
+    "source": "https://smileuro.com/36",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/8c872efc3e09a.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/0fdf311b9797e.jpg"
+    ]
+  },
+  {
+    "slug": "erectile-dysfunction",
+    "kicker": "ERECTILE DYSFUNCTION",
+    "lead": "발기의 강직도와 유지 시간뿐 아니라 전반적인 건강 상태를 함께 살핍니다.",
+    "introTitle": "반복되는 발기 문제의 원인 찾기",
+    "intro": [
+      "발기부전은 성관계에 필요한 발기가 충분히 이루어지지 않거나 유지되지 않는 상태입니다. 혈관·신경·호르몬 문제와 심리적 요인이 함께 작용할 수 있어 원인별 평가가 필요합니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상과 원인",
+        "title": "어떤 변화가 있었나요?",
+        "type": "cards",
+        "items": [
+          {
+            "title": "강직도와 유지 시간",
+            "text": "충분히 단단해지지 않거나 발기 후 빠르게 풀리는지 확인합니다. 아침 발기의 변화도 상담에 도움이 됩니다."
+          },
+          {
+            "title": "신체 건강",
+            "text": "당뇨, 고혈압, 혈관 질환, 신경 손상과 호르몬 변화가 관련될 수 있습니다. 복용 중인 약물도 확인합니다."
+          },
+          {
+            "title": "심리와 생활 요인",
+            "text": "스트레스, 불안, 우울감과 함께 흡연·음주·비만 등 생활습관을 살펴봅니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "증상에 맞춰 선택하는 검사",
+        "type": "steps",
+        "items": [
+          {
+            "title": "문진과 설문",
+            "text": "증상의 시작 시점과 성 건강, 병력 및 전반적인 건강 상태를 확인합니다."
+          },
+          {
+            "title": "혈액검사",
+            "text": "필요한 경우 남성호르몬 등 혈액 수치를 확인해 내분비 원인을 평가합니다."
+          },
+          {
+            "title": "음경 도플러 초음파",
+            "text": "혈류 상태를 관찰해 혈관성 원인을 살피는 검사로, 필요에 따라 시행합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "원인과 치료 반응에 따른 선택",
+        "type": "list",
+        "items": [
+          {
+            "title": "약물과 주사 치료",
+            "text": "건강 상태와 복용 약을 확인한 뒤 경구약 또는 발기 유도 주사를 고려합니다."
+          },
+          {
+            "title": "호르몬·수술 상담",
+            "text": "호르몬 결핍이 확인되면 적합성을 평가합니다. 다른 치료 반응이 충분하지 않은 경우 보형물 수술을 상담할 수 있습니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원본의 약제별 용법·회복기간·영구적 기능 보장 문구를 제외함."
+    ],
+    "source": "https://smileuro.com/45",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/bfcde8c14bd66.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/0ff8628b325a8.jpg"
+    ]
+  },
+  {
+    "slug": "male-infertility",
+    "kicker": "MALE FERTILITY",
+    "lead": "임신이 늦어지는 이유를 정자 상태와 생식 건강에서 함께 살펴봅니다.",
+    "introTitle": "남성 요인도 함께 확인하는 난임 진료",
+    "intro": [
+      "피임 없이 규칙적으로 관계를 해도 임신이 이루어지지 않는다면 남성 요인을 함께 평가합니다. 정자 생산과 이동 과정, 호르몬 상태, 병력과 생활습관을 살피는 것이 시작입니다."
+    ],
+    "sections": [
+      {
+        "id": "causes",
+        "label": "원인",
+        "title": "정자 상태에 영향을 주는 요인",
+        "type": "cards",
+        "items": [
+          {
+            "title": "정자와 정계정맥류",
+            "text": "정자의 수·운동성·형태 이상이나 정계정맥류 등이 관련될 수 있습니다."
+          },
+          {
+            "title": "호르몬·구조적 원인",
+            "text": "호르몬 이상, 선천적 문제, 정자 이동 통로의 이상을 확인합니다."
+          },
+          {
+            "title": "병력과 생활 환경",
+            "text": "고환·부고환 등의 감염, 수술력, 약물과 방사선 노출을 살핍니다. 흡연과 과음 등도 함께 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "tests",
+        "label": "검사",
+        "title": "기본 평가에서 필요한 검사까지",
+        "type": "steps",
+        "items": [
+          {
+            "title": "문진과 신체 진찰",
+            "text": "성장 과정, 질환과 수술 이력, 성생활을 확인하고 고환 크기와 음낭 상태를 진찰합니다."
+          },
+          {
+            "title": "정액검사",
+            "text": "정자의 수, 농도, 운동성과 형태를 분석해 생식 건강을 평가합니다."
+          },
+          {
+            "title": "초음파 및 추가 평가",
+            "text": "고환 구조와 정계정맥류 여부를 살피고 검사 결과에 따라 호르몬 등 추가 평가를 계획합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료 방향",
+        "title": "원인을 확인한 뒤 세우는 계획",
+        "type": "list",
+        "items": [
+          {
+            "title": "관찰과 원인별 치료",
+            "text": "정액검사와 부부의 임신 계획을 바탕으로 경과 관찰 또는 원인에 맞는 치료를 결정합니다."
+          },
+          {
+            "title": "정관 복원 상담",
+            "text": "정관수술 이후 임신을 원한다면 복원 가능성을 평가합니다. 수술 후 정자 확인과 임신 가능성은 개인마다 다릅니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원본의 테스토스테론 주사로 정자 생산을 증가시킨다는 문구는 제외함. AUA/ASRM 2024는 현재·미래 생식능을 원하는 남성에게 외인성 테스토스테론을 처방하지 않도록 권고: https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/Male%20Infertility%20Unabridged%20Final.pdf",
+      "임신 성공률 및 원인 비율 수치를 제외함."
+    ],
+    "source": "https://smileuro.com/47",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/80d85df553fba.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/51322fd6f1de0.jpg"
+    ]
+  },
+  {
+    "slug": "ejaculation",
+    "kicker": "EJACULATION DISORDERS",
+    "lead": "사정이 너무 빠르거나 오래 걸리는 고민을 원인에 맞춰 살펴봅니다.",
+    "introTitle": "시간만으로 판단하지 않는 사정 문제",
+    "intro": [
+      "조루는 원하기 전에 사정이 이루어지고 조절이 어려운 상태입니다. 지루는 자극과 흥분이 있어도 사정이 지연되거나 잘 이루어지지 않는 상태로, 불편의 양상과 발생 상황을 함께 확인합니다."
+    ],
+    "sections": [
+      {
+        "id": "differences",
+        "label": "증상 구분",
+        "title": "조루와 지루의 차이",
+        "type": "cards",
+        "items": [
+          {
+            "title": "조루",
+            "text": "사정 시점을 조절하기 어렵고 빠른 사정 때문에 만족도가 낮아지거나 긴장과 스트레스를 경험할 수 있습니다."
+          },
+          {
+            "title": "지루",
+            "text": "사정까지 지나치게 오래 걸리거나 사정하지 못할 수 있습니다. 피로와 불편, 관계에서의 어려움이 동반되기도 합니다."
+          }
+        ]
+      },
+      {
+        "id": "assessment",
+        "label": "원인과 검사",
+        "title": "상황과 몸의 변화를 함께 확인",
+        "type": "steps",
+        "items": [
+          {
+            "title": "병력 청취",
+            "text": "증상이 시작된 시기, 성생활의 패턴, 스트레스, 동반 질환과 복용 중인 약물을 살핍니다."
+          },
+          {
+            "title": "감각과 신경 평가",
+            "text": "필요한 경우 음경·귀두의 민감도를 확인합니다. 감각 과민이나 신경 문제 가능성을 평가합니다."
+          },
+          {
+            "title": "소변·혈액검사",
+            "text": "증상에 따라 호르몬 상태, 염증이나 대사 질환 관련 검사를 선택합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "원인에 따라 달라지는 접근",
+        "type": "list",
+        "items": [
+          {
+            "title": "조루 치료 상담",
+            "text": "사정 조절을 돕는 약물이나 국소 치료를 고려할 수 있습니다. 민감도와 심리적 요인을 구분해 접근합니다."
+          },
+          {
+            "title": "지루 치료 상담",
+            "text": "약물 영향, 호르몬 또는 신경계 문제를 평가해 원인을 관리합니다. 구조적인 문제가 의심되면 추가 평가를 진행합니다."
+          }
+        ]
+      }
+    ],
+    "note": "치료 방법은 증상의 원인과 정도, 동반 질환을 확인한 뒤 결정합니다.",
+    "sourceNotes": [
+      "원본의 조루 수술에 따른 정자 생산 증가 주장, 지루에 대한 일괄적 수술 권장, 치료기간 및 효과 보장을 제외함."
+    ],
+    "source": "https://smileuro.com/49",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/0f9f4c0906bfc.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/0a22bd99ae0f0.jpg"
+    ]
+  },
+  {
+    "slug": "cystitis",
+    "kicker": "ACUTE CYSTITIS",
+    "lead": "잦은 소변과 배뇨 통증이 시작됐다면 방광의 염증 여부를 확인하세요.",
+    "introTitle": "방광 점막에 생기는 급성 염증",
+    "intro": [
+      "급성 방광염은 주로 세균 감염으로 발생하며 여성에게 흔합니다. 요도를 통해 들어온 세균이 방광에 염증을 일으키므로 증상과 소변검사를 바탕으로 치료 방향을 정합니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "주요 증상",
+        "title": "배뇨 과정에서 느끼는 변화",
+        "type": "cards",
+        "items": [
+          {
+            "title": "배뇨통과 빈뇨",
+            "text": "소변을 볼 때 따갑거나 화끈거리고, 양은 적은데 자주 화장실을 찾을 수 있습니다."
+          },
+          {
+            "title": "잔뇨감과 하복부 통증",
+            "text": "소변을 본 뒤에도 남아 있는 느낌이나 아랫배의 압박감이 나타날 수 있습니다."
+          },
+          {
+            "title": "소변 색 변화",
+            "text": "염증으로 소변에 피가 섞이는 경우도 있어 원인을 확인해야 합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "감염과 배뇨 상태를 살피는 검사",
+        "type": "steps",
+        "items": [
+          {
+            "title": "소변검사와 배양검사",
+            "text": "염증과 세균 감염 여부를 확인하고, 필요한 경우 원인균과 항생제 감수성을 살핍니다."
+          },
+          {
+            "title": "초음파와 잔뇨 확인",
+            "text": "증상이 반복되거나 다른 원인이 의심되면 방광 내부 상태와 배뇨 후 남은 소변을 확인합니다."
+          },
+          {
+            "title": "배뇨 기록",
+            "text": "소변 횟수와 양, 불편한 증상을 기록해 지속되는 배뇨 문제를 평가할 수 있습니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료와 경과",
+        "title": "감염 치료와 지속 증상 확인",
+        "type": "list",
+        "items": [
+          {
+            "title": "원인에 맞는 약물",
+            "text": "감염 상태와 검사 결과에 따라 항생제 치료를 계획합니다. 약제와 기간은 진료 후 결정합니다."
+          },
+          {
+            "title": "재발·지속 증상 평가",
+            "text": "치료 후에도 빈뇨나 잔뇨감이 남으면 동반 배뇨장애 등 다른 원인을 살핍니다. 열이나 옆구리 통증이 동반되면 진료가 필요합니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "방광훈련을 급성 세균 감염의 대체 치료처럼 제시하지 않음. 원본의 고정 약물명·기간 및 완치 보장을 제외함."
+    ],
+    "source": "https://smileuro.com/63",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/0db796cc21522.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/9e83ca0697e7c.jpg"
+    ]
+  },
+  {
+    "slug": "incontinence",
+    "kicker": "URINARY INCONTINENCE",
+    "lead": "소변이 새는 상황을 구분하면 자신에게 맞는 치료 방향을 찾을 수 있습니다.",
+    "introTitle": "참는 노력만으로 해결하기 어려운 증상",
+    "intro": [
+      "요실금은 의지와 관계없이 소변이 새는 상태입니다. 방광의 과민성이나 골반 근육의 약화, 신경 문제 등이 관련될 수 있으며 임신·출산과 나이, 폐경에 따른 변화도 함께 살핍니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "언제 소변이 새는지 확인합니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "복압성 증상",
+            "text": "기침, 재채기, 웃음이나 무거운 물건을 들 때처럼 배에 힘이 들어가는 상황에서 소변이 샐 수 있습니다."
+          },
+          {
+            "title": "급박한 배뇨 욕구",
+            "text": "갑자기 소변이 마렵고 화장실에 도착하기 전에 새는지 확인합니다."
+          },
+          {
+            "title": "함께 나타나는 불편",
+            "text": "빈뇨, 잔뇨감, 밤중 배뇨가 동반되는지 살핍니다. 생활에 미치는 영향도 치료 결정에 중요합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "유형과 배뇨 기능을 함께 평가",
+        "type": "steps",
+        "items": [
+          {
+            "title": "문진과 신체 진찰",
+            "text": "소변이 새는 상황과 빈도, 지속 기간을 확인하고 골반 근육 및 방광·요도 상태를 살핍니다."
+          },
+          {
+            "title": "요속검사",
+            "text": "소변의 흐름과 배출 속도를 기록해 배뇨 기능을 평가합니다."
+          },
+          {
+            "title": "필요한 추가 검사",
+            "text": "다른 이상이 의심되면 방광내시경 등 필요한 검사를 선택합니다. 모든 검사를 일률적으로 시행하지는 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "요실금 유형에 맞춘 치료",
+        "type": "list",
+        "items": [
+          {
+            "title": "방광 증상 조절",
+            "text": "방광의 과도한 수축과 관련된 증상에는 상태에 맞는 약물 치료를 고려합니다."
+          },
+          {
+            "title": "수술 상담",
+            "text": "요도를 지지하는 기능이 약해진 복압성 요실금은 평가 후 중부요도 슬링수술 등을 상담할 수 있습니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원본의 약물 치료와 수술 치료를 요실금 유형별로 구분함. 고정 약제명·복용기간·수술시간·성공률 보장을 제외함."
+    ],
+    "source": "https://smileuro.com/62",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/f8369451c7761.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/b3b1538c8ed21.jpg"
+    ]
+  },
+  {
+    "slug": "sling-surgery",
+    "kicker": "MIDURETHRAL SLING",
+    "lead": "복압성 요실금의 원인을 평가하고 중부요도를 지지하는 수술을 상담합니다.",
+    "introTitle": "기침이나 운동 중 새는 소변",
+    "intro": [
+      "복압성 요실금은 배의 압력이 높아질 때 소변이 새는 증상입니다. 중부요도 슬링수술은 질벽을 통해 요도 아래에 테이프를 넣어 지지하는 방법으로, 증상과 검사 결과에 따라 적합성을 판단합니다."
+    ],
+    "sections": [
+      {
+        "id": "assessment",
+        "label": "수술 전 평가",
+        "title": "요실금의 종류부터 확인합니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "병력과 소변검사",
+            "text": "출산·수술력, 복용 약과 폐경 여부를 살피고 감염 등 일시적인 원인을 확인합니다."
+          },
+          {
+            "title": "신체·스트레스 검사",
+            "text": "골반 장기와 근육 상태를 진찰하고 기침이나 힘주기 상황에서 소변이 새는지 관찰합니다."
+          },
+          {
+            "title": "패드·요역동학 검사",
+            "text": "누출량과 방광·요도 기능을 평가해 복압성인지, 절박성 증상이 함께 있는지 구분합니다."
+          }
+        ]
+      },
+      {
+        "id": "methods",
+        "label": "수술 방법",
+        "title": "테이프가 지나가는 경로의 차이",
+        "type": "cards",
+        "items": [
+          {
+            "title": "TOT 수술",
+            "text": "테이프를 골반의 폐쇄공 방향으로 통과시켜 중부요도 아래를 지지하는 방법입니다."
+          },
+          {
+            "title": "TVT 수술",
+            "text": "치골 뒤쪽 경로로 테이프를 위치시켜 힘을 줄 때 요도가 지지되도록 하는 방법입니다."
+          }
+        ]
+      },
+      {
+        "id": "planning",
+        "label": "치료 계획",
+        "title": "개인 상태에 맞춘 수술 결정",
+        "type": "list",
+        "items": [
+          {
+            "title": "필요한 추가 검사",
+            "text": "요도 움직임 평가, 초음파, 방광경검사 등은 다른 이상이 의심되는 경우 선택적으로 검토합니다."
+          },
+          {
+            "title": "수술 범위와 위험 설명",
+            "text": "골반 구조와 이전 수술력, 요실금 유형을 함께 고려합니다. 테이프 삽입 방법과 회복 과정, 발생 가능한 문제를 설명받고 결정합니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원본의 TOT 부작용 우월성 단정 및 모든 환자에게 일률적 검사·수술 시행으로 해석될 표현을 완화함."
+    ],
+    "source": "https://smileuro.com/88",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250326/abcca2cfab3da.jpg"
+    ]
+  },
+  {
+    "slug": "hematuria",
+    "kicker": "HEMATURIA",
+    "lead": "눈에 보이는 소변 색 변화부터 검사에서 발견된 혈뇨까지 원인을 확인합니다.",
+    "introTitle": "소변에 피가 섞이는 이유를 찾습니다",
+    "intro": [
+      "혈뇨는 소변에 혈액이 섞여 나오는 상태로, 육안으로 보이는 경우와 현미경 검사에서만 확인되는 경우가 있습니다. 방광염, 신장 질환, 결석 등 원인이 다양해 출혈 위치와 동반 증상을 함께 살핍니다."
+    ],
+    "sections": [
+      {
+        "id": "causes",
+        "label": "원인과 증상",
+        "title": "혈뇨와 함께 확인할 변화",
+        "type": "cards",
+        "items": [
+          {
+            "title": "소변 색과 통증",
+            "text": "붉거나 갈색으로 변한 소변, 배뇨통, 잦은 소변과 잔뇨감이 나타날 수 있습니다."
+          },
+          {
+            "title": "신장·요로 질환",
+            "text": "감염, 신장 질환과 요로결석 등이 관련될 수 있습니다. 외상이나 주변 장기의 문제도 살핍니다."
+          },
+          {
+            "title": "증상이 없는 혈뇨",
+            "text": "다른 불편 없이 검사에서 발견되기도 합니다. 출혈성 질환이나 복용 중인 항응고제도 진료 시 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "tests",
+        "label": "검사",
+        "title": "출혈 원인을 찾는 단계",
+        "type": "steps",
+        "items": [
+          {
+            "title": "소변검사",
+            "text": "적혈구와 단백질, 세균 등 소변 속 이상 소견을 확인합니다."
+          },
+          {
+            "title": "영상검사",
+            "text": "초음파나 엑스레이 등으로 신장과 방광의 구조, 결석 가능성을 살핍니다."
+          },
+          {
+            "title": "방광내시경",
+            "text": "필요한 경우 방광과 요도 내부를 직접 관찰해 출혈 부위나 병변을 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "혈뇨의 원인에 맞춰 치료합니다",
+        "type": "list",
+        "items": [
+          {
+            "title": "감염·염증이 원인인 경우",
+            "text": "검사 결과에 맞는 약물 치료를 계획하고 증상 변화를 확인합니다."
+          },
+          {
+            "title": "결석 등 구조적 원인",
+            "text": "결석의 위치와 크기, 동반 질환에 맞는 치료를 상담합니다. 혈뇨 자체보다 출혈을 일으킨 질환의 관리가 중요합니다."
+          }
+        ]
+      }
+    ],
+    "note": "통증이 없거나 소변 색이 다시 정상으로 보여도 혈뇨 원인을 확인하는 것이 필요합니다.",
+    "sourceNotes": [
+      "원본의 알로푸리놀을 일반 결석 용해제로 제시한 표현, 일률적 치료기간 및 약제 예시를 제외함."
+    ],
+    "source": "https://smileuro.com/64",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/7b39a6dfcc760.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/fca0b6c4c62c6.jpg"
+    ]
+  },
+  {
+    "slug": "pelvic-pain",
+    "kicker": "PELVIC PAIN",
+    "lead": "통증의 위치와 주기, 배뇨 증상을 함께 살펴 골반통의 원인을 찾습니다.",
+    "introTitle": "여러 원인이 겹칠 수 있는 골반의 통증",
+    "intro": [
+      "골반통은 갑자기 나타나거나 월경 주기에 따라 반복되기도 하고 오랜 기간 지속되기도 합니다. 골반 안의 장기뿐 아니라 근육과 신경 등이 관련될 수 있어 통증 양상에 맞춘 평가가 필요합니다."
+    ],
+    "sections": [
+      {
+        "id": "causes",
+        "label": "증상과 원인",
+        "title": "언제, 어디가 아픈지 살펴봅니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "통증의 양상",
+            "text": "골반과 아랫배, 허리·엉덩이의 통증이 활동이나 자세 변화, 월경과 연관되는지 확인합니다."
+          },
+          {
+            "title": "동반 증상",
+            "text": "배뇨통과 잔뇨감, 소화기 불편, 성관계 시 통증이 함께 나타나는지 살핍니다."
+          },
+          {
+            "title": "가능한 원인",
+            "text": "방광염 같은 비뇨기 질환, 부인과 질환, 골반 근육의 긴장이나 손상 등을 구분합니다. 스트레스가 통증을 악화시키는지도 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "통증의 범위를 좁히는 평가",
+        "type": "steps",
+        "items": [
+          {
+            "title": "진찰과 병력 확인",
+            "text": "통증이 시작된 시점과 지속 시간, 월경·배뇨·배변과의 관계를 확인합니다."
+          },
+          {
+            "title": "소변·혈액검사",
+            "text": "감염이나 염증 등 관련 소견을 살핍니다."
+          },
+          {
+            "title": "영상검사",
+            "text": "의심되는 원인에 따라 골반 초음파나 엑스레이 등으로 장기와 주변 구조를 평가합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료",
+        "title": "원인과 불편에 맞춘 조절",
+        "type": "list",
+        "items": [
+          {
+            "title": "약물 치료",
+            "text": "통증과 염증을 조절하는 약물을 상태에 맞춰 검토합니다. 원인에 따라 치료 계획은 달라집니다."
+          },
+          {
+            "title": "체외충격파 치료 상담",
+            "text": "골반통의 원인과 검사 결과에 따라 적용 여부를 상담합니다. 치료 방법과 횟수는 개인 상태에 맞춰 결정합니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원본의 체외충격파 조직 재생·혈류 개선 및 통증 개선 보장을 삭제함. 전 환자에게 부인과 검사나 고정기간 약물치료를 제공한다고 단정하지 않음."
+    ],
+    "source": "https://smileuro.com/65",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250321/6f134022b9bf0.jpg",
+      "https://cdn.imweb.me/thumbnail/20250321/9997eb70e93d7.jpg"
+    ]
+  },
+  {
+    "slug": "wedding-checkup",
+    "kicker": "WEDDING CHECKUP",
+    "lead": "함께 시작하는 일상을 위해, 결혼과 임신을 준비하며 건강을 살펴봅니다.",
+    "introTitle": "두 사람의 미래를 위한 건강 점검",
+    "intro": [
+      "웨딩검진은 결혼을 앞둔 커플이 현재 건강 상태와 감염 여부, 생식 건강을 확인하는 과정입니다. 성병이나 불임에 대한 걱정뿐 아니라 만성질환과 성기능 고민도 함께 상담할 수 있습니다."
+    ],
+    "sections": [
+      {
+        "id": "target",
+        "label": "검진 대상",
+        "title": "이런 계획과 고민이 있다면",
+        "type": "cards",
+        "items": [
+          {
+            "title": "결혼·출산 준비",
+            "text": "결혼을 앞두었거나 임신 계획을 세우고 있는 예비부부"
+          },
+          {
+            "title": "감염·가족력 확인",
+            "text": "전염성 질환 노출이 걱정되거나 가족력과 만성질환을 점검하려는 분"
+          },
+          {
+            "title": "성기능·생식 건강",
+            "text": "발기, 사정, 음경 만곡이나 임신 가능성에 관해 상담이 필요한 분"
+          }
+        ]
+      },
+      {
+        "id": "tests",
+        "label": "검사 항목",
+        "title": "필요에 따라 선택하는 검사",
+        "type": "cards",
+        "items": [
+          {
+            "title": "소변 검사",
+            "text": "소변 검체로 요로의 염증과 감염을 살피고, 필요하면 배양검사와 성매개감염 검사를 진행합니다."
+          },
+          {
+            "title": "혈액 검사",
+            "text": "건강 상태에 따라 호르몬, 감염 지표, 전립선 관련 수치 등을 확인합니다."
+          },
+          {
+            "title": "초음파 검사",
+            "text": "전립선·음낭·신장 등 관련 장기의 구조와 이상 소견을 살펴봅니다."
+          },
+          {
+            "title": "정액 검사",
+            "text": "정액량과 정자의 수·형태·운동성을 분석해 남성의 생식 건강을 평가합니다."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "label": "검진 흐름",
+        "title": "개인의 계획에 맞춘 검진",
+        "type": "steps",
+        "items": [
+          {
+            "title": "건강 고민 공유",
+            "text": "결혼·임신 계획과 과거 질환, 현재 불편한 증상을 상담합니다."
+          },
+          {
+            "title": "검사 구성",
+            "text": "상담 내용에 맞춰 소변·혈액·영상·정액 검사 중 필요한 항목을 정합니다."
+          },
+          {
+            "title": "결과 확인",
+            "text": "결과를 종합해 추가 검사나 치료, 이후 건강관리 방향을 안내받습니다."
+          }
+        ]
+      }
+    ],
+    "note": "검사 항목은 성별, 증상, 병력과 진료 판단에 따라 달라집니다.",
+    "sourceNotes": [
+      "원본의 대상 및 소변·혈액·초음파·정액 검사 구성을 재작성."
+    ],
+    "source": "https://smileuro.com/55",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/77743ac8ac4ce.jpg"
+    ]
+  },
+  {
+    "slug": "urology-checkup",
+    "kicker": "UROLOGY CHECKUP",
+    "lead": "배뇨의 변화부터 신장·방광·전립선 건강까지 필요한 검사를 연결합니다.",
+    "introTitle": "불편함의 원인을 살피는 비뇨기 검진",
+    "intro": [
+      "비뇨기질환 검진은 신장, 방광, 전립선 등 비뇨기관의 상태를 확인하는 검사입니다. 반복되는 감염이나 배뇨장애를 살피고, 성기능과 생식 건강의 고민도 함께 평가합니다."
+    ],
+    "sections": [
+      {
+        "id": "target",
+        "label": "검진 대상",
+        "title": "검진을 고려하는 상황",
+        "type": "cards",
+        "items": [
+          {
+            "title": "배뇨 증상",
+            "text": "소변 줄기나 횟수가 달라지고 잔뇨감 등 불편함이 이어지는 경우"
+          },
+          {
+            "title": "반복되는 감염",
+            "text": "요로감염이 자주 발생하거나 관련 질환의 가족력이 있는 경우"
+          },
+          {
+            "title": "남성 건강 변화",
+            "text": "중년 이후 전립선 건강을 점검하거나 성기능·불임에 대한 평가가 필요한 경우"
+          }
+        ]
+      },
+      {
+        "id": "men",
+        "label": "남성 검사",
+        "title": "남성을 위한 주요 검사",
+        "type": "list",
+        "items": [
+          {
+            "title": "전립선 평가",
+            "text": "IPSS 증상 설문, 직장수지검사, 전립선 초음파와 PSA 혈액검사를 증상에 맞춰 검토합니다."
+          },
+          {
+            "title": "배뇨 기능·요로 관찰",
+            "text": "요속과 잔뇨량을 측정하고, 필요에 따라 방광 초음파·방광내시경·엑스레이로 상태를 살핍니다."
+          },
+          {
+            "title": "성기능·생식 건강",
+            "text": "발기·사정에 대한 상담과 정액검사를 통해 관련 문제를 평가합니다."
+          },
+          {
+            "title": "전반적인 건강",
+            "text": "종합혈액검사로 동반된 건강 문제를 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "women",
+        "label": "여성 검사",
+        "title": "여성을 위한 주요 검사",
+        "type": "list",
+        "items": [
+          {
+            "title": "감염 확인",
+            "text": "소변검사와 균배양검사로 염증과 원인균을 살펴봅니다."
+          },
+          {
+            "title": "배뇨 기능 확인",
+            "text": "요속과 잔뇨량을 평가해 소변 배출 상태를 확인합니다."
+          },
+          {
+            "title": "방광·신장 관찰",
+            "text": "초음파를 기본으로, 필요한 경우 방광내시경이나 엑스레이 검사를 검토합니다."
+          },
+          {
+            "title": "동반 질환 점검",
+            "text": "종합혈액검사를 통해 전반적인 건강 상태를 함께 살핍니다."
+          }
+        ]
+      }
+    ],
+    "note": "모든 검사를 일괄 시행하는 것은 아니며, 필요한 범위는 진료 후 결정합니다.",
+    "sourceNotes": [
+      "원본의 남성 10개·여성 6개 검사 항목을 기능별로 묶어 재작성."
+    ],
+    "source": "https://smileuro.com/50",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/c97f3e5ff3112.jpg"
+    ]
+  },
+  {
+    "slug": "cancer-screening",
+    "kicker": "UROLOGIC CANCER SCREENING",
+    "lead": "증상과 위험요인을 살펴 비뇨기암 검사의 필요성을 판단합니다.",
+    "introTitle": "조기 발견을 위한 단계별 확인",
+    "intro": [
+      "비뇨기암 검진은 신장·방광·전립선 등 비뇨기계에 발생할 수 있는 종양을 살피는 과정입니다. 연령, 병력과 검사 소견을 바탕으로 필요한 검사를 선택합니다."
+    ],
+    "sections": [
+      {
+        "id": "consult",
+        "label": "검진 상담",
+        "title": "검진 전에 함께 살피는 정보",
+        "type": "cards",
+        "items": [
+          {
+            "title": "연령과 건강 변화",
+            "text": "중년 이후의 건강 상태와 비뇨기 증상을 확인합니다."
+          },
+          {
+            "title": "생활습관·복용 약",
+            "text": "흡연·음주와 장기간 복용 중인 약 등 관련 정보를 공유합니다."
+          },
+          {
+            "title": "과거 병력",
+            "text": "투석 이력이나 다른 부위의 암 병력처럼 진료에 필요한 내용을 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "initial",
+        "label": "기본 평가",
+        "title": "전립선 상태를 확인하는 검사",
+        "type": "cards",
+        "items": [
+          {
+            "title": "직장수지검사",
+            "text": "촉진으로 전립선의 크기, 표면과 결절 유무를 살핍니다."
+          },
+          {
+            "title": "전립선 초음파",
+            "text": "전립선의 크기와 내부 상태를 영상으로 확인합니다."
+          },
+          {
+            "title": "PSA 혈액검사",
+            "text": "전립선특이항원 수치를 측정합니다. 수치 변화는 염증 등과도 관련될 수 있어 다른 소견과 함께 해석합니다."
+          }
+        ]
+      },
+      {
+        "id": "further",
+        "label": "추가 검사",
+        "title": "이상 소견에 따른 정밀 평가",
+        "type": "steps",
+        "items": [
+          {
+            "title": "조직검사 검토",
+            "text": "암이 의심되면 전립선 조직을 채취해 암세포 유무를 확인하는 검사를 고려합니다."
+          },
+          {
+            "title": "영상검사 검토",
+            "text": "필요한 경우 CT나 MRI 등으로 병변의 위치와 범위, 전이 여부를 평가합니다."
+          },
+          {
+            "title": "결과에 따른 계획",
+            "text": "검사 결과를 종합해 추적 관찰이나 추가 진료 방향을 결정합니다."
+          }
+        ]
+      }
+    ],
+    "note": "PSA나 초음파 검사만으로 암을 확진하지 않습니다. 검사 범위는 개인별로 정합니다.",
+    "sourceNotes": [
+      "원본은 비뇨기암 제목 아래 전립선 중심 검사 설명을 제공하므로 이를 명시. 커피·육류 섭취만으로 암검진을 권하는 표현은 제외. CT·MRI의 원내 보유나 시행을 단정하지 않음."
+    ],
+    "source": "https://smileuro.com/52",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/44dfb3210591e.jpg"
+    ]
+  },
+  {
+    "slug": "andropause",
+    "kicker": "MEN’S HEALTH CHECKUP",
+    "lead": "몸과 마음의 변화를 호르몬과 전반적인 건강 상태를 함께 살펴 이해합니다.",
+    "introTitle": "중년 이후의 변화를 위한 점검",
+    "intro": [
+      "남성갱년기 검진은 나이가 들며 나타나는 호르몬 변화와 신체·정서적 불편함을 평가합니다. 성기능, 수면, 체력과 기분의 변화가 이어질 때 문진과 검사를 통해 관리 방향을 찾습니다."
+    ],
+    "sections": [
+      {
+        "id": "changes",
+        "label": "주요 변화",
+        "title": "함께 살펴볼 증상",
+        "type": "cards",
+        "items": [
+          {
+            "title": "성기능과 활력",
+            "text": "성기능 저하, 피로와 근력 감소가 느껴지는 경우"
+          },
+          {
+            "title": "수면과 정서",
+            "text": "잠이 불편하거나 기분과 집중력·기억력의 변화가 생긴 경우"
+          },
+          {
+            "title": "신체 변화",
+            "text": "체중과 근육량이 달라지거나 만성질환을 함께 관리해야 하는 경우"
+          }
+        ]
+      },
+      {
+        "id": "core",
+        "label": "핵심 검사",
+        "title": "증상과 수치를 함께 확인",
+        "type": "steps",
+        "items": [
+          {
+            "title": "문진·설문",
+            "text": "ADAM 등 설문과 상담으로 신체·정서 증상을 구체적으로 기록합니다."
+          },
+          {
+            "title": "남성호르몬 검사",
+            "text": "혈액검사로 테스토스테론 수치를 확인하고 증상과 함께 평가합니다."
+          },
+          {
+            "title": "종합혈액검사",
+            "text": "혈당, 콜레스테롤, 간 수치 등으로 동반된 건강 문제를 살펴봅니다."
+          }
+        ]
+      },
+      {
+        "id": "overall",
+        "label": "종합 평가",
+        "title": "필요에 따라 더 살피는 건강",
+        "type": "list",
+        "items": [
+          {
+            "title": "소변과 염증 지표",
+            "text": "소변의 백혈구·단백·당 등을 확인하고, 진료에 따라 염증 관련 혈액 지표를 검토합니다."
+          },
+          {
+            "title": "기초 신체 상태",
+            "text": "혈압과 체성분을 측정해 체지방·근육량의 변화 및 생활습관을 평가합니다."
+          },
+          {
+            "title": "전립선 건강",
+            "text": "증상과 위험요인에 따라 직장수지검사, 전립선 초음파와 PSA 검사를 고려합니다."
+          }
+        ]
+      }
+    ],
+    "note": "비슷한 증상이 다른 원인으로도 나타날 수 있어 설문이나 호르몬 수치 하나만으로 판단하지 않습니다.",
+    "sourceNotes": [
+      "원본 7개 검사 영역 중 면역력 검사는 염증 관련 지표 평가로 완화. 성장호르몬 부족을 보편적 원인으로 단정하는 설명은 제외."
+    ],
+    "source": "https://smileuro.com/54",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/22f4b76c020be.jpg"
+    ]
+  },
+  {
+    "slug": "hpv-vaccine",
+    "kicker": "HPV VACCINATION",
+    "lead": "HPV 감염으로 생길 수 있는 질환을 예방하기 위한 접종을 상담합니다.",
+    "introTitle": "감염 이전에 준비하는 예방",
+    "intro": [
+      "인유두종바이러스(HPV)는 생식기 사마귀와 일부 암에 관련된 바이러스입니다. 예방접종은 백신에 포함된 유형의 새로운 감염을 줄이는 방법이며, 연령과 접종 이력에 따라 계획을 정합니다."
+    ],
+    "sections": [
+      {
+        "id": "target",
+        "label": "접종 상담",
+        "title": "누구에게 필요한지 확인합니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "청소년",
+            "text": "성 접촉으로 바이러스에 노출되기 전 접종을 계획할 수 있습니다."
+          },
+          {
+            "title": "미접종 성인",
+            "text": "과거 접종 여부와 연령, 새로운 감염 가능성을 확인해 접종의 필요성을 상담합니다."
+          }
+        ]
+      },
+      {
+        "id": "types",
+        "label": "백신 종류",
+        "title": "예방하는 유형의 차이",
+        "type": "cards",
+        "items": [
+          {
+            "title": "2가 백신",
+            "text": "HPV 16·18형을 대상으로 하는 백신입니다."
+          },
+          {
+            "title": "4가 백신",
+            "text": "16·18형에 생식기 사마귀와 관련된 6·11형을 더해 예방합니다."
+          },
+          {
+            "title": "9가 백신",
+            "text": "4가 백신의 유형에 추가적인 고위험 유형을 포함합니다."
+          }
+        ]
+      },
+      {
+        "id": "schedule",
+        "label": "접종 계획",
+        "title": "이력 확인부터 일정 관리까지",
+        "type": "steps",
+        "items": [
+          {
+            "title": "기존 접종 확인",
+            "text": "이전에 맞은 백신의 종류와 횟수, 접종 시기를 확인합니다."
+          },
+          {
+            "title": "횟수·간격 결정",
+            "text": "처음 접종하는 연령과 건강 상태에 따라 필요한 횟수와 간격을 안내받습니다."
+          },
+          {
+            "title": "예방 범위 이해",
+            "text": "백신별로 예방할 수 있는 유형이 다르므로 상담 후 접종 계획을 세웁니다."
+          }
+        ]
+      }
+    ],
+    "note": "HPV 백신은 이미 생긴 감염이나 병변을 치료하는 약이 아닙니다.",
+    "sourceNotes": [
+      "원본의 대상·2가/4가/9가·접종일정·예방효과 구성을 사용. 실제 보유 백신·국내 지원대상은 원문만으로 확정하지 않음. 예방과 치료의 구분은 CDC https://www.cdc.gov/hpv/hcp/vaccination-considerations/index.html 로 확인."
+    ],
+    "source": "https://smileuro.com/56",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/c51471dc1a79a.jpg"
+    ]
+  },
+  {
+    "slug": "urethritis",
+    "kicker": "URETHRITIS",
+    "lead": "소변을 볼 때의 통증과 분비물, 원인에 맞는 검사로 살펴봅니다.",
+    "introTitle": "요도의 염증, 원인부터 구분합니다",
+    "intro": [
+      "요도염은 요도에 염증이 생긴 상태로, 임균성·비임균성 감염과 자극에 의한 비감염성 원인으로 나누어 살펴봅니다. 클라미디아 등 다양한 병원체가 관련되며, 증상이 뚜렷하지 않은 감염도 있습니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "이런 변화가 나타날 수 있습니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "배뇨 통증·자극감",
+            "text": "소변을 볼 때 따갑거나 요도 입구가 붉고 가려울 수 있습니다."
+          },
+          {
+            "title": "분비물·배뇨 변화",
+            "text": "투명하거나 노란 분비물, 빈뇨와 잔뇨감이 나타날 수 있습니다."
+          },
+          {
+            "title": "주변 불편함",
+            "text": "하복부나 골반의 통증이 동반될 수 있어 증상과 부위를 함께 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "감염 여부와 원인균을 확인",
+        "type": "steps",
+        "items": [
+          {
+            "title": "소변 검사",
+            "text": "현미경 검사로 염증 소견을 살피고 배양검사로 세균을 확인합니다."
+          },
+          {
+            "title": "PCR 검사",
+            "text": "소변이나 분비물 검체에서 의심되는 병원체의 유전자를 분석합니다."
+          },
+          {
+            "title": "추가 평가",
+            "text": "전신 증상이나 다른 감염이 의심될 때 필요한 혈액검사 등을 검토합니다."
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "label": "치료·관리",
+        "title": "원인과 검사 결과에 맞춘 치료",
+        "type": "list",
+        "items": [
+          {
+            "title": "약물·주사 치료",
+            "text": "확인된 원인균과 상태에 맞춰 항생제의 종류와 투여 방법을 결정합니다."
+          },
+          {
+            "title": "재감염 예방",
+            "text": "성매개감염이면 파트너의 검사·치료 필요성도 상담하고, 치료가 끝날 때까지 성관계를 피하도록 안내받습니다."
+          },
+          {
+            "title": "경과 확인",
+            "text": "처방약을 임의로 중단하지 않으며 증상이 남거나 발열·음낭 통증이 생기면 다시 진료받습니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원문 두 이미지의 원인·남녀 증상·소변/PCR·경구/주사치료 구성 반영. 구체적인 약물명·용량·기간과 치료효과 보장 표현은 제외."
+    ],
+    "source": "https://smileuro.com/66",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/2d16ce54c6931.jpg",
+      "https://cdn.imweb.me/thumbnail/20250324/cc60eb334cb16.jpg"
+    ]
+  },
+  {
+    "slug": "herpes",
+    "kicker": "GENITAL HERPES",
+    "lead": "물집과 통증을 살피고, 재발까지 고려해 관리 방향을 정합니다.",
+    "introTitle": "증상이 가라앉은 뒤의 관리도 함께",
+    "intro": [
+      "헤르페스는 단순포진바이러스(HSV) 감염으로 생기며 입술이나 성기 주변에 물집이 나타날 수 있습니다. HSV-1과 HSV-2 모두 성기 감염을 일으킬 수 있고, 눈에 띄는 증상이 없더라도 전파가 가능합니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "물집과 함께 살펴볼 신호",
+        "type": "cards",
+        "items": [
+          {
+            "title": "피부 변화",
+            "text": "작은 물집이 모여 생기거나 터진 자리에 궤양이 남을 수 있습니다."
+          },
+          {
+            "title": "통증·가려움",
+            "text": "성기 주변이 따갑고 가렵거나 소변을 볼 때 통증을 느낄 수 있습니다."
+          },
+          {
+            "title": "전신 증상",
+            "text": "첫 증상이 나타날 때 발열, 두통과 몸살 같은 불편함이 동반되기도 합니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "병변과 상황에 맞는 검사",
+        "type": "steps",
+        "items": [
+          {
+            "title": "병변 확인",
+            "text": "물집과 궤양의 위치, 발생 시기와 재발 여부를 진찰합니다."
+          },
+          {
+            "title": "검체 검사",
+            "text": "병변을 면봉으로 채취해 PCR 등으로 바이러스 감염을 확인합니다."
+          },
+          {
+            "title": "혈액검사 검토",
+            "text": "병변이 없거나 추가 확인이 필요한 상황에서는 항체검사의 필요성과 한계를 상담합니다."
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "label": "치료·재발 관리",
+        "title": "증상 완화와 재발 조절",
+        "type": "list",
+        "items": [
+          {
+            "title": "항바이러스 치료",
+            "text": "바이러스 증식을 억제하는 약으로 증상과 발현 기간을 줄이는 치료를 합니다."
+          },
+          {
+            "title": "반복되는 증상",
+            "text": "재발 빈도와 불편함에 따라 지속적인 억제치료가 필요한지 상담합니다."
+          },
+          {
+            "title": "생활 속 관리",
+            "text": "병변이 있을 때 접촉을 피하고, 피로와 스트레스 관리 및 임신 여부를 의료진과 상의합니다."
+          }
+        ]
+      }
+    ],
+    "note": "증상이 사라져도 바이러스가 잠복할 수 있어 이후의 관리 계획을 함께 세웁니다.",
+    "sourceNotes": [
+      "원본의 HSV-1/2·물집·병변검사·항바이러스 치료를 재작성. 원본에 가다실을 HSV 치료·예방에 연결하는 오류가 있어 백신 섹션은 제외. 항바이러스 치료 및 병변/항체검사는 CDC https://www.cdc.gov/herpes/about/index.html 로 확인."
+    ],
+    "source": "https://smileuro.com/67",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/d206b1760d794.jpg",
+      "https://cdn.imweb.me/thumbnail/20250324/f89d1c41d5fdb.jpg"
+    ]
+  },
+  {
+    "slug": "genital-warts",
+    "kicker": "GENITAL WARTS",
+    "lead": "성기와 항문 주변의 작은 병변, 형태와 범위를 확인해 치료합니다.",
+    "introTitle": "HPV에 의한 생식기 사마귀",
+    "intro": [
+      "곤지름은 인유두종바이러스(HPV) 감염과 관련된 사마귀 형태의 병변입니다. 주로 성 접촉으로 전파되며, 성기나 항문 주변에 생긴 변화가 곤지름인지 진찰로 확인하는 것이 치료의 출발점입니다."
+    ],
+    "sections": [
+      {
+        "id": "symptoms",
+        "label": "증상",
+        "title": "병변의 크기와 모양을 살핍니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "작은 돌기",
+            "text": "처음에는 작은 사마귀처럼 보이다가 크기나 개수가 늘어날 수 있습니다."
+          },
+          {
+            "title": "표면과 색 변화",
+            "text": "분홍색이나 흰색의 병변이 매끈하거나 울퉁불퉁한 형태로 나타납니다."
+          },
+          {
+            "title": "출혈·무증상",
+            "text": "자극하면 출혈이 생길 수 있으며 통증이나 가려움이 없어도 병변이 존재할 수 있습니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "진단",
+        "title": "겉으로 보이는 범위부터 확인",
+        "type": "steps",
+        "items": [
+          {
+            "title": "육안 진찰",
+            "text": "위치와 크기, 색상 및 형태를 관찰합니다."
+          },
+          {
+            "title": "추가 조직 평가",
+            "text": "모양이 비전형적이거나 다른 질환이 의심되면 조직검사를 고려합니다."
+          },
+          {
+            "title": "내부 병변 확인",
+            "text": "요도 안쪽 병변이 의심되는 상황에서는 내시경 검사의 필요성을 판단합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료 방법",
+        "title": "병변 상태에 맞춰 선택합니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "바르는 약",
+            "text": "처방된 국소 약물을 사용하며 반응과 피부 자극을 관찰합니다."
+          },
+          {
+            "title": "전기소작",
+            "text": "전기 에너지로 병변을 제거하는 방법으로 범위와 위치를 고려해 시행합니다."
+          },
+          {
+            "title": "CO₂ 레이저",
+            "text": "레이저로 병변 조직을 제거하며, 치료 후 상처의 회복 상태를 확인합니다."
+          }
+        ]
+      }
+    ],
+    "note": "치료 방식과 횟수는 병변에 따라 달라지며, 제거 이후에도 재발 여부를 살펴야 합니다.",
+    "sourceNotes": [
+      "원본의 사마귀 형태·육안/조직/요도내시경·약물/전기소작/CO2 레이저 구성 반영. HPV 6·11형과 자궁경부암을 직접 연결한 오류, 수건 공용에 대한 전파 단정, 단회 완전제거·낮은 재발률 보장은 제외."
+    ],
+    "source": "https://smileuro.com/68",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250324/14285233b8e07.jpg",
+      "https://cdn.imweb.me/thumbnail/20250324/708dfdfbbc408.jpg"
+    ]
+  },
+  {
+    "slug": "hiv",
+    "kicker": "HIV & AIDS",
+    "lead": "노출 상황과 검사 시기를 확인하고, 결과에 맞는 진료를 연결합니다.",
+    "introTitle": "HIV 감염과 에이즈를 이해합니다",
+    "intro": [
+      "HIV는 면역세포에 영향을 주는 바이러스이며, 에이즈는 면역 기능이 크게 저하된 진행 상태를 뜻합니다. 감염 초기의 몸살 같은 증상이나 긴 무증상 기간만으로 감염 여부를 판단할 수 없어 검사가 중요합니다."
+    ],
+    "sections": [
+      {
+        "id": "transmission",
+        "label": "감염 경로",
+        "title": "전파되는 상황을 구분합니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "성적 접촉",
+            "text": "감염과 관련된 혈액·정액·질 분비물 등에 노출될 때 전파될 수 있습니다."
+          },
+          {
+            "title": "혈액과 수직감염",
+            "text": "오염된 주사기 공유나 임신·출산·수유 과정에서 전파 가능성이 있습니다."
+          },
+          {
+            "title": "일상적인 접촉",
+            "text": "악수와 포옹, 공기나 음식의 공유로 HIV가 전파되지는 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "testing",
+        "label": "검사",
+        "title": "노출 시기에 맞춰 확인",
+        "type": "steps",
+        "items": [
+          {
+            "title": "항원·항체검사",
+            "text": "혈액으로 HIV 항원과 항체를 함께 확인하는 검사를 검토합니다."
+          },
+          {
+            "title": "상황에 따른 추가 검사",
+            "text": "초기 감염이 의심되는 경우 유전자검사 등 추가 검사의 필요성을 판단합니다."
+          },
+          {
+            "title": "결과 해석·재검",
+            "text": "너무 이른 검사는 감염을 놓칠 수 있어 검사 종류와 노출 시점에 따라 재검 일정을 상담합니다."
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "label": "치료·관리",
+        "title": "확인 후에는 지속적인 관리",
+        "type": "list",
+        "items": [
+          {
+            "title": "전문 진료 연결",
+            "text": "감염이 확인되면 전문 의료기관에서 평가와 치료 계획을 세웁니다."
+          },
+          {
+            "title": "항레트로바이러스 치료",
+            "text": "바이러스 증식을 억제하고 면역 기능을 지키는 약물치료를 지속합니다."
+          },
+          {
+            "title": "정기적인 확인",
+            "text": "바이러스 수치와 면역 상태를 추적하며, 처방약을 임의로 중단하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원본의 감염경로·무증상·4세대 항원항체/유전자 검사·전문기관 진료·약물관리를 재작성. 검사별 고정 확진 가능 날짜와 모든 치료 중 감염력을 단정하는 표현은 제외. HIV와 AIDS를 구분."
+    ],
+    "source": "https://smileuro.com/69",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20250320/bb7d93c685df3.jpg"
+    ]
+  },
+  {
+    "slug": "syphilis",
+    "kicker": "SYPHILIS",
+    "lead": "사라진 피부 증상도 지나치지 않고, 검사로 감염 상태를 확인합니다.",
+    "introTitle": "단계에 따라 달라지는 매독",
+    "intro": [
+      "매독은 트레포네마 팔리둠이라는 세균에 의한 감염입니다. 감염된 병변과의 직접적인 접촉으로 전파될 수 있으며, 임신 중에는 태아에게 영향을 줄 수 있습니다. 피부 증상이 없어져도 감염이 남아 있을 수 있습니다."
+    ],
+    "sections": [
+      {
+        "id": "stages",
+        "label": "증상과 단계",
+        "title": "증상이 달라져도 확인이 필요합니다",
+        "type": "cards",
+        "items": [
+          {
+            "title": "초기 궤양",
+            "text": "성기나 항문, 입 주변 등에 통증이 적은 궤양이 나타날 수 있습니다."
+          },
+          {
+            "title": "전신 발진",
+            "text": "손바닥·발바닥을 포함한 발진과 피로, 발열, 점막 변화가 동반되기도 합니다."
+          },
+          {
+            "title": "잠복·진행 상태",
+            "text": "눈에 보이는 증상이 없는 시기를 거칠 수 있으며 치료하지 않으면 여러 장기에 영향을 줄 수 있습니다."
+          }
+        ]
+      },
+      {
+        "id": "diagnosis",
+        "label": "검사",
+        "title": "혈액검사와 진찰을 함께",
+        "type": "steps",
+        "items": [
+          {
+            "title": "병력·병변 확인",
+            "text": "현재의 피부 변화뿐 아니라 이전 증상과 치료 이력을 확인합니다."
+          },
+          {
+            "title": "혈청검사",
+            "text": "RPR·VDRL과 TPHA 등 서로 다른 항체검사를 조합해 감염 여부를 평가합니다."
+          },
+          {
+            "title": "추가 검사 검토",
+            "text": "병변이나 신경계 관련 증상 등 진찰 소견에 따라 필요한 검사를 정합니다."
+          }
+        ]
+      },
+      {
+        "id": "treatment",
+        "label": "치료·추적",
+        "title": "단계와 상태에 맞춘 치료",
+        "type": "list",
+        "items": [
+          {
+            "title": "항생제 치료",
+            "text": "페니실린을 중심으로 치료하며 감염 단계에 따라 투여 방법과 기간을 결정합니다."
+          },
+          {
+            "title": "알레르기·임신 확인",
+            "text": "약물 알레르기나 임신 여부를 의료진에게 알려 적절한 치료를 선택합니다."
+          },
+          {
+            "title": "치료 후 혈액검사",
+            "text": "증상의 변화와 검사 수치를 추적해 치료 반응과 재감염 가능성을 살핍니다."
+          }
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "원본의 단계별 증상·혈청검사·페니실린 주사·추적검사 구성을 재작성. 원본 약물치료 칸에 HIV 약제와 평생 복용 설명이 혼입되어 해당 부분 전체 제외. 표준 진단으로 소변 항원/항체검사를 소개한 부분 제외. 치료 내용은 CDC https://www.cdc.gov/std/treatment-guidelines/syphilis.htm 로 확인. 신경매독이 3기에만 발생한다는 오해를 줄이도록 특정 시기를 단정하지 않음."
+    ],
+    "source": "https://smileuro.com/70",
+    "sourceImages": [
+      "https://cdn.imweb.me/thumbnail/20251206/927105bd4bfb8.jpg",
+      "https://cdn.imweb.me/thumbnail/20251206/b10aaf20ed6df.jpg"
+    ]
+  }
+]

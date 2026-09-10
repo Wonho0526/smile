@@ -1,0 +1,1556 @@
+<style>
+  #smile-rezum-widget {
+    --sr-font: 'DM Sans', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    --sr-teal: #008d8b;
+    --sr-deep: #154e4d;
+    --sr-ink: #263a39;
+    --sr-muted: #77817e;
+    --sr-line: #dce3df;
+    --sr-mint: #d6eeea;
+    --sr-gutter: clamp(24px, 6.2vw, 120px);
+    --sr-ease: cubic-bezier(.22, 1, .36, 1);
+    position: relative;
+    isolation: isolate;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #fff;
+    color: var(--sr-ink);
+    font: 400 16px/1.8 var(--sr-font);
+    text-align: left;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    -webkit-text-size-adjust: 100%
+  }
+
+  #smile-rezum-widget,
+  #smile-rezum-widget *,
+  #smile-rezum-widget *::before,
+  #smile-rezum-widget *::after {
+    box-sizing: border-box
+  }
+
+  #smile-rezum-widget * {
+    margin: 0;
+    padding: 0
+  }
+
+  #smile-rezum-widget a {
+    color: inherit;
+    text-decoration: none
+  }
+
+  #smile-rezum-widget button,
+  #smile-rezum-widget input {
+    font: inherit;
+    color: inherit
+  }
+
+  #smile-rezum-widget button {
+    appearance: none;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: inherit;
+    cursor: pointer
+  }
+
+  #smile-rezum-widget img,
+  #smile-rezum-widget svg {
+    display: block;
+    max-width: 100%
+  }
+
+  #smile-rezum-widget h1,
+  #smile-rezum-widget h2,
+  #smile-rezum-widget h3,
+  #smile-rezum-widget h4,
+  #smile-rezum-widget p,
+  #smile-rezum-widget ul,
+  #smile-rezum-widget ol,
+  #smile-rezum-widget dl,
+  #smile-rezum-widget dd,
+  #smile-rezum-widget dt,
+  #smile-rezum-widget figure,
+  #smile-rezum-widget address {
+    font-family: inherit;
+    color: inherit;
+    line-height: inherit;
+    font-weight: inherit
+  }
+
+  #smile-rezum-widget em,
+  #smile-rezum-widget i,
+  #smile-rezum-widget address {
+    font-style: normal
+  }
+
+  #smile-rezum-widget a,
+  #smile-rezum-widget button {
+    -webkit-tap-highlight-color: transparent
+  }
+
+  #smile-rezum-widget a:focus-visible,
+  #smile-rezum-widget button:focus-visible {
+    outline: 2px solid var(--sr-teal);
+    outline-offset: 5px
+  }
+
+  #smile-rezum-widget [hidden] {
+    display: none !important
+  }
+
+  #smile-rezum-widget ::selection {
+    background: var(--sr-mint);
+    color: var(--sr-deep)
+  }
+
+  #smile-rezum-widget .sr-kicker {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .15em;
+    color: var(--sr-teal)
+  }
+
+  #smile-rezum-widget .sr-container {
+    width: 100%;
+    max-width: 1520px;
+    padding-inline: var(--sr-gutter);
+    margin-inline: auto
+  }
+
+  #smile-rezum-widget .sr-section {
+    padding-block: 130px
+  }
+
+  #smile-rezum-widget .sr-title {
+    font-size: clamp(30px, 3.2vw, 49px);
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: -.045em
+  }
+
+  #smile-rezum-widget .sr-title em {
+    color: var(--sr-teal);
+    font-weight: 500
+  }
+
+  #smile-rezum-widget .sr-copy {
+    font-size: 16px;
+    line-height: 2;
+    color: var(--sr-muted)
+  }
+
+  #smile-rezum-widget .sr-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 42px;
+    padding: 13px 25px;
+    min-height: 52px;
+    border: 1px solid #9cb9b3;
+    border-radius: 40px;
+    font-size: 14px;
+    transition: background .3s, color .3s, border-color .3s
+  }
+
+  #smile-rezum-widget .sr-pill svg {
+    width: 24px;
+    height: 24px;
+    transition: transform .3s
+  }
+
+  #smile-rezum-widget .sr-pill:hover {
+    background: var(--sr-teal);
+    border-color: var(--sr-teal);
+    color: #fff
+  }
+
+  #smile-rezum-widget .sr-pill:hover svg {
+    transform: translateX(4px)
+  }
+
+  #smile-rezum-widget .sr-hero {
+    position: relative;
+    background: var(--sr-deep);
+    color: #fff;
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden
+  }
+
+  #smile-rezum-widget .sr-hero-inner {
+    display: grid;
+    grid-template-columns: 1.06fr 1fr;
+    align-items: center;
+    gap: 8%;
+    padding-block: 70px 76px;
+    min-height: 560px
+  }
+
+  #smile-rezum-widget .sr-breadcrumb {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #c4dad5
+  }
+
+  #smile-rezum-widget .sr-breadcrumb i {
+    color: #80ada4
+  }
+
+  #smile-rezum-widget .sr-hero .sr-kicker {
+    color: #a5cfc5;
+    letter-spacing: .14em;
+    margin-bottom: 20px
+  }
+
+  #smile-rezum-widget .sr-hero h1 {
+    font-size: clamp(40px, 4.4vw, 70px);
+    line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: -.06em
+  }
+
+  #smile-rezum-widget .sr-hero h1 em {
+    color: #c8e5db;
+    font-weight: 500
+  }
+
+  #smile-rezum-widget .sr-hero-name {
+    font-size: 20px;
+    margin-top: 28px;
+    letter-spacing: -.02em
+  }
+
+  #smile-rezum-widget .sr-hero-copy {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #cbdfd8;
+    margin-top: 12px;
+    max-width: 410px
+  }
+
+  #smile-rezum-widget .sr-hero-media {
+    position: relative;
+    aspect-ratio: 1.12;
+    border-radius: 160px 24px 24px 24px;
+    overflow: hidden
+  }
+
+  #smile-rezum-widget .sr-hero-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.2s var(--sr-ease)
+  }
+
+  #smile-rezum-widget .sr-hero-media:hover img {
+    transform: scale(1.035)
+  }
+
+  #smile-rezum-widget .sr-hero-media span {
+    position: absolute;
+    left: 30px;
+    bottom: 27px;
+    font-size: 12px;
+    letter-spacing: .13em;
+    color: #254f47
+  }
+
+  #smile-rezum-widget .sr-section-nav {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: rgba(255, 255, 255, .97);
+    border-bottom: 1px solid var(--sr-line);
+    backdrop-filter: blur(14px)
+  }
+
+  #smile-rezum-widget .sr-section-nav-inner {
+    max-width: 1080px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 24px
+  }
+
+  #smile-rezum-widget .sr-section-nav a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-height: 74px;
+    padding: 16px 12px;
+    color: #8a9691;
+    font-size: 14px;
+    transition: color .3s
+  }
+
+  #smile-rezum-widget .sr-section-nav a span {
+    font-size: 12px;
+    letter-spacing: .04em
+  }
+
+  #smile-rezum-widget .sr-section-nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background: var(--sr-teal);
+    transform: scaleX(0);
+    transition: transform .4s var(--sr-ease)
+  }
+
+  #smile-rezum-widget .sr-section-nav a:hover,
+  #smile-rezum-widget .sr-section-nav a[aria-current=location] {
+    color: var(--sr-teal)
+  }
+
+  #smile-rezum-widget .sr-section-nav a[aria-current=location]::after {
+    transform: scaleX(1)
+  }
+
+  #smile-rezum-widget .sr-intro-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 55px
+  }
+
+  #smile-rezum-widget .sr-intro-heading .sr-kicker {
+    margin-bottom: 20px
+  }
+
+  #smile-rezum-widget .sr-section-index {
+    font-size: 12px;
+    letter-spacing: .12em;
+    color: #94a29b;
+    white-space: nowrap;
+    padding-bottom: 8px
+  }
+
+  #smile-rezum-widget .sr-intro-grid {
+    display: grid;
+    grid-template-columns: 1.12fr 1fr;
+    gap: 8%;
+    align-items: center
+  }
+
+  #smile-rezum-widget .sr-intro-image {
+    position: relative;
+    aspect-ratio: 1.37;
+    overflow: hidden;
+    border-radius: 24px;
+    background: #bbd3c8
+  }
+
+  #smile-rezum-widget .sr-intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.1s var(--sr-ease)
+  }
+
+  #smile-rezum-widget .sr-intro-image:hover img {
+    transform: scale(1.04)
+  }
+
+  #smile-rezum-widget .sr-intro-image figcaption {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    padding: 7px 14px;
+    border-radius: 24px;
+    background: #ffffffe6;
+    font-size: 12px;
+    letter-spacing: .1em;
+    color: var(--sr-deep)
+  }
+
+  #smile-rezum-widget .sr-intro-text h3 {
+    font-size: clamp(23px, 2.1vw, 31px);
+    line-height: 1.6;
+    letter-spacing: -.04em;
+    font-weight: 400;
+    margin-bottom: 24px
+  }
+
+  #smile-rezum-widget .sr-intro-text h3 em {
+    color: var(--sr-teal)
+  }
+
+  #smile-rezum-widget .sr-intro-text p+p {
+    margin-top: 17px
+  }
+
+  #smile-rezum-widget .sr-intro-text .sr-pill {
+    margin-top: 32px
+  }
+
+  #smile-rezum-widget .sr-principle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 70px;
+    padding-top: 32px;
+    border-top: 1px solid var(--sr-line)
+  }
+
+  #smile-rezum-widget .sr-principle p {
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: -.02em
+  }
+
+  #smile-rezum-widget .sr-principle p span {
+    color: var(--sr-teal)
+  }
+
+  #smile-rezum-widget .sr-source {
+    font-size: 12px;
+    color: #7c8e85;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    white-space: nowrap
+  }
+
+  #smile-rezum-widget .sr-method {
+    background: #edf5f0
+  }
+
+  #smile-rezum-widget .sr-section-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 45px;
+    margin-bottom: 55px
+  }
+
+  #smile-rezum-widget .sr-section-heading .sr-kicker {
+    margin-bottom: 22px
+  }
+
+  #smile-rezum-widget .sr-section-heading>.sr-copy {
+    max-width: 310px;
+    padding-bottom: 5px
+  }
+
+  #smile-rezum-widget .sr-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 26px;
+    list-style: none;
+    position: relative
+  }
+
+  #smile-rezum-widget .sr-step {
+    position: relative;
+    padding: 13px 13px 32px;
+    background: #fff;
+    border: 1px solid #deebe2;
+    border-radius: 24px;
+    transition: transform .5s var(--sr-ease), box-shadow .5s
+  }
+
+  #smile-rezum-widget .sr-step:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 35px #295c4510
+  }
+
+  #smile-rezum-widget .sr-step-image {
+    aspect-ratio: 1.33;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden
+  }
+
+  #smile-rezum-widget .sr-step-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .6s
+  }
+
+  #smile-rezum-widget .sr-step:hover .sr-step-image img {
+    transform: scale(1.045)
+  }
+
+  #smile-rezum-widget .sr-step-number {
+    position: absolute;
+    left: 17px;
+    top: 17px;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--sr-teal);
+    font-size: 13px
+  }
+
+  #smile-rezum-widget .sr-step-text {
+    padding: 26px 16px 0
+  }
+
+  #smile-rezum-widget .sr-step-text .sr-kicker {
+    font-size: 12px;
+    letter-spacing: .1em
+  }
+
+  #smile-rezum-widget .sr-step h3 {
+    font-size: 23px;
+    line-height: 1.55;
+    letter-spacing: -.035em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 13px
+  }
+
+  #smile-rezum-widget .sr-step p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: var(--sr-muted)
+  }
+
+  #smile-rezum-widget .sr-step-arrow {
+    position: absolute;
+    z-index: 2;
+    right: -30px;
+    top: calc((100% - 180px)/2);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #edf5f0;
+    color: var(--sr-teal);
+    border: 1px solid #d4e4db
+  }
+
+  #smile-rezum-widget .sr-step-arrow svg {
+    width: 22px;
+    height: 22px
+  }
+
+  #smile-rezum-widget .sr-method-note {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px
+  }
+
+  #smile-rezum-widget .sr-method-note p {
+    font-size: 13px;
+    color: #7c8e85
+  }
+
+  #smile-rezum-widget .sr-target {
+    text-align: center
+  }
+
+  #smile-rezum-widget .sr-target .sr-kicker {
+    margin-bottom: 22px
+  }
+
+  #smile-rezum-widget .sr-target .sr-title {
+    margin-bottom: 22px
+  }
+
+  #smile-rezum-widget .sr-target-list {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 34px;
+    max-width: 870px;
+    margin: 65px auto 0;
+    list-style: none
+  }
+
+  #smile-rezum-widget .sr-target-item {
+    grid-column: span 2;
+    position: relative;
+    aspect-ratio: 1;
+    border: 1px solid #bcded2;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 18px;
+    background: #fff;
+    transition: background .4s, transform .4s, border-color .4s
+  }
+
+  #smile-rezum-widget .sr-target-item:nth-child(4) {
+    grid-column: 2/span 2
+  }
+
+  #smile-rezum-widget .sr-target-item:nth-child(5) {
+    grid-column: 4/span 2
+  }
+
+  #smile-rezum-widget .sr-target-item:hover {
+    transform: translateY(-6px);
+    background: #f1f8f4;
+    border-color: #5bad97
+  }
+
+  #smile-rezum-widget .sr-target-check {
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    transform: translateX(-50%);
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #7ebeb0;
+    color: #fff;
+    font-size: 15px;
+    border: 4px solid #fff;
+    box-sizing: content-box
+  }
+
+  #smile-rezum-widget .sr-target-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 16px;
+    color: #5ba68f
+  }
+
+  #smile-rezum-widget .sr-target-item h3 {
+    font-size: 16px;
+    line-height: 1.65;
+    font-weight: 500;
+    letter-spacing: -.03em
+  }
+
+  #smile-rezum-widget .sr-target-item p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #8ba198;
+    margin-top: 9px;
+    letter-spacing: .07em
+  }
+
+  #smile-rezum-widget .sr-target-note {
+    margin-top: 42px;
+    font-size: 13px;
+    color: #839088
+  }
+
+  #smile-rezum-widget .sr-benefits {
+    background: #194f4b;
+    color: #fff
+  }
+
+  #smile-rezum-widget .sr-benefit-layout {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 9%;
+    align-items: start
+  }
+
+  #smile-rezum-widget .sr-benefit-heading {
+    position: sticky;
+    top: calc(112px)
+  }
+
+  #smile-rezum-widget .sr-benefit-heading .sr-kicker {
+    color: #9bc6b9;
+    margin-bottom: 24px
+  }
+
+  #smile-rezum-widget .sr-benefit-heading .sr-title em {
+    color: #b8dfd0
+  }
+
+  #smile-rezum-widget .sr-benefit-heading .sr-copy {
+    color: #bed4cb;
+    margin-top: 26px;
+    max-width: 330px
+  }
+
+  #smile-rezum-widget .sr-benefit-heading .sr-pill {
+    border-color: #86b4a2;
+    color: #d9eee4;
+    margin-top: 38px
+  }
+
+  #smile-rezum-widget .sr-benefit-word {
+    font-size: clamp(48px, 6.2vw, 95px);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -.055em;
+    color: #82ac9d4d;
+    margin-top: 75px
+  }
+
+  #smile-rezum-widget .sr-benefit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    list-style: none
+  }
+
+  #smile-rezum-widget .sr-benefit-item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+    background: #f5f8f3;
+    color: var(--sr-ink);
+    border-radius: 18px;
+    padding: 28px 32px;
+    transition: transform .4s, background .4s
+  }
+
+  #smile-rezum-widget .sr-benefit-item:hover {
+    background: #fff;
+    transform: translateX(-5px)
+  }
+
+  #smile-rezum-widget .sr-benefit-item>span {
+    font-size: 14px;
+    color: var(--sr-teal);
+    line-height: 1.9;
+    padding-top: 3px
+  }
+
+  #smile-rezum-widget .sr-benefit-item h3 {
+    font-size: 21px;
+    line-height: 1.6;
+    font-weight: 500;
+    letter-spacing: -.035em;
+    margin-bottom: 9px
+  }
+
+  #smile-rezum-widget .sr-benefit-item p {
+    font-size: 15px;
+    line-height: 1.85;
+    color: #748278
+  }
+
+  #smile-rezum-widget .sr-care-note {
+    padding-top: 32px;
+    margin-top: 38px;
+    border-top: 1px solid #ffffff26;
+    color: #b8cdc2;
+    font-size: 13px;
+    line-height: 1.9
+  }
+
+  #smile-rezum-widget .sr-care-note strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #e3efe8;
+    margin-bottom: 8px
+  }
+
+  #smile-rezum-widget .sr-care-note .sr-source {
+    display: inline-block;
+    margin-top: 14px;
+    color: #b8cdc2
+  }
+
+  #smile-rezum-widget.sr-motion-ready [data-sr-reveal] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity .8s var(--sr-ease), transform .9s var(--sr-ease);
+    transition-delay: var(--sr-delay, 0ms)
+  }
+
+  #smile-rezum-widget.sr-motion-ready [data-sr-reveal].sr-in-view {
+    opacity: 1;
+    transform: none
+  }
+
+  @media(min-width:1600px) {
+    #smile-rezum-widget .sr-container {
+      padding-inline: 80px
+    }
+  }
+
+  @media(max-width:1200px) {
+    #smile-rezum-widget .sr-section {
+      padding-block: 105px
+    }
+
+    #smile-rezum-widget .sr-intro-grid {
+      gap: 6%
+    }
+
+    #smile-rezum-widget .sr-hero-inner {
+      gap: 6%
+    }
+
+    #smile-rezum-widget .sr-step-text {
+      padding-inline: 10px
+    }
+
+    #smile-rezum-widget .sr-step h3 {
+      font-size: 21px
+    }
+
+    #smile-rezum-widget .sr-benefit-item {
+      padding: 26px
+    }
+
+    #smile-rezum-widget .sr-benefit-layout {
+      gap: 7%
+    }
+
+    #smile-rezum-widget .sr-container {
+      --sr-gutter: 44px
+    }
+  }
+
+  @media(max-width:960px) {
+    #smile-rezum-widget .sr-hero-inner {
+      min-height: 510px
+    }
+
+    #smile-rezum-widget .sr-hero h1 {
+      font-size: 43px
+    }
+
+    #smile-rezum-widget .sr-hero-name {
+      font-size: 18px
+    }
+
+    #smile-rezum-widget .sr-hero-media {
+      border-top-left-radius: 110px;
+      aspect-ratio: .9
+    }
+
+    #smile-rezum-widget .sr-hero-copy {
+      font-size: 14px
+    }
+
+    #smile-rezum-widget .sr-intro-grid {
+      gap: 36px
+    }
+
+    #smile-rezum-widget .sr-intro-image {
+      aspect-ratio: 1.1
+    }
+
+    #smile-rezum-widget .sr-intro-text h3 {
+      font-size: 25px
+    }
+
+    #smile-rezum-widget .sr-intro-text .sr-copy {
+      font-size: 15px
+    }
+
+    #smile-rezum-widget .sr-steps {
+      gap: 16px
+    }
+
+    #smile-rezum-widget .sr-step {
+      padding: 10px 10px 25px;
+      border-radius: 20px
+    }
+
+    #smile-rezum-widget .sr-step-text {
+      padding-inline: 7px
+    }
+
+    #smile-rezum-widget .sr-step h3 {
+      font-size: 19px
+    }
+
+    #smile-rezum-widget .sr-step p {
+      font-size: 14px
+    }
+
+    #smile-rezum-widget .sr-step-arrow {
+      right: -25px
+    }
+
+    #smile-rezum-widget .sr-benefit-layout {
+      grid-template-columns: 1fr;
+      gap: 45px
+    }
+
+    #smile-rezum-widget .sr-benefit-heading {
+      position: static
+    }
+
+    #smile-rezum-widget .sr-benefit-heading .sr-copy {
+      max-width: none
+    }
+
+    #smile-rezum-widget .sr-benefit-word {
+      display: none
+    }
+
+    #smile-rezum-widget .sr-benefit-heading .sr-pill {
+      margin-top: 25px
+    }
+
+    #smile-rezum-widget .sr-target-list {
+      max-width: 760px;
+      gap: 30px
+    }
+
+    #smile-rezum-widget .sr-target-item {
+      padding: 28px 14px
+    }
+
+    #smile-rezum-widget .sr-target-item h3 {
+      font-size: 15px
+    }
+  }
+
+  @media(max-width:700px) {
+    #smile-rezum-widget .sr-hero-inner {
+      grid-template-columns: 1fr;
+      gap: 38px;
+      padding-top: 30px;
+      padding-bottom: 42px
+    }
+
+    #smile-rezum-widget .sr-breadcrumb {
+      margin-bottom: 32px
+    }
+
+    #smile-rezum-widget .sr-hero h1 {
+      font-size: clamp(40px, 8vw, 58px)
+    }
+
+    #smile-rezum-widget .sr-hero-copy {
+      max-width: none;
+      font-size: 15px
+    }
+
+    #smile-rezum-widget .sr-hero-media {
+      aspect-ratio: 1.6;
+      width: 85%;
+      margin-left: auto;
+      border-radius: 110px 18px 18px 18px
+    }
+
+    #smile-rezum-widget .sr-hero-media span {
+      font-size: 11px;
+      left: 23px;
+      bottom: 21px
+    }
+
+    #smile-rezum-widget .sr-section-nav-inner {
+      padding: 0 12px
+    }
+
+    #smile-rezum-widget .sr-section-nav a {
+      gap: 7px;
+      min-height: 64px;
+      padding: 16px 6px;
+      font-size: 13px
+    }
+
+    #smile-rezum-widget .sr-section-nav a span {
+      font-size: 11px
+    }
+
+    #smile-rezum-widget .sr-section-nav a::after {
+      left: 8%;
+      width: 84%
+    }
+
+    #smile-rezum-widget .sr-section {
+      padding-block: 80px
+    }
+
+    #smile-rezum-widget .sr-container {
+      --sr-gutter: 26px
+    }
+
+    #smile-rezum-widget .sr-title {
+      font-size: 32px
+    }
+
+    #smile-rezum-widget .sr-intro-heading {
+      margin-bottom: 33px
+    }
+
+    #smile-rezum-widget .sr-section-index {
+      display: none
+    }
+
+    #smile-rezum-widget .sr-intro-grid {
+      grid-template-columns: 1fr;
+      gap: 34px
+    }
+
+    #smile-rezum-widget .sr-intro-image {
+      aspect-ratio: 1.4;
+      border-radius: 20px
+    }
+
+    #smile-rezum-widget .sr-intro-text h3 {
+      font-size: 26px
+    }
+
+    #smile-rezum-widget .sr-intro-text .sr-copy {
+      font-size: 16px
+    }
+
+    #smile-rezum-widget .sr-principle {
+      margin-top: 40px;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 14px;
+      padding-top: 25px
+    }
+
+    #smile-rezum-widget .sr-principle p {
+      font-size: 16px
+    }
+
+    #smile-rezum-widget .sr-section-heading {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 22px;
+      margin-bottom: 34px
+    }
+
+    #smile-rezum-widget .sr-section-heading>.sr-copy {
+      max-width: none
+    }
+
+    #smile-rezum-widget .sr-section-heading .sr-kicker {
+      margin-bottom: 20px
+    }
+
+    #smile-rezum-widget .sr-steps {
+      grid-template-columns: 1fr;
+      gap: 26px;
+      max-width: 470px;
+      margin-inline: auto
+    }
+
+    #smile-rezum-widget .sr-step {
+      padding: 13px 13px 30px;
+      border-radius: 22px
+    }
+
+    #smile-rezum-widget .sr-step-image {
+      aspect-ratio: 1.65
+    }
+
+    #smile-rezum-widget .sr-step-text {
+      padding: 24px 14px 0
+    }
+
+    #smile-rezum-widget .sr-step h3 {
+      font-size: 24px
+    }
+
+    #smile-rezum-widget .sr-step p {
+      font-size: 16px
+    }
+
+    #smile-rezum-widget .sr-step-arrow {
+      right: auto;
+      left: calc(50% - 17px);
+      top: auto;
+      bottom: -30px;
+      transform: rotate(90deg)
+    }
+
+    #smile-rezum-widget .sr-method-note {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 13px
+    }
+
+    #smile-rezum-widget .sr-target-list {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 32px 20px;
+      max-width: 520px;
+      margin-top: 48px
+    }
+
+    #smile-rezum-widget .sr-target-item:nth-child(4) {
+      grid-column: span 2
+    }
+
+    #smile-rezum-widget .sr-target-item:nth-child(5) {
+      grid-column: 2/span 2
+    }
+
+    #smile-rezum-widget .sr-target-icon {
+      width: 38px;
+      height: 38px;
+      margin-bottom: 12px
+    }
+
+    #smile-rezum-widget .sr-target-item p {
+      font-size: 11px
+    }
+
+    #smile-rezum-widget .sr-benefit-item {
+      padding: 24px;
+      gap: 13px;
+      grid-template-columns: 30px 1fr
+    }
+
+    #smile-rezum-widget .sr-benefit-item h3 {
+      font-size: 20px
+    }
+
+    #smile-rezum-widget .sr-benefit-item p {
+      font-size: 15px
+    }
+
+    #smile-rezum-widget .sr-benefit-list {
+      gap: 15px
+    }
+  }
+
+  @media(max-width:480px) {
+    #smile-rezum-widget .sr-hero .sr-kicker {
+      font-size: 11px
+    }
+
+    #smile-rezum-widget .sr-hero h1 {
+      font-size: 42px
+    }
+
+    #smile-rezum-widget .sr-hero-name {
+      font-size: 19px
+    }
+
+    #smile-rezum-widget .sr-hero-media {
+      width: 92%;
+      aspect-ratio: 1.5;
+      border-top-left-radius: 95px
+    }
+
+    #smile-rezum-widget .sr-section-nav a span {
+      display: none
+    }
+
+    #smile-rezum-widget .sr-section-nav a {
+      font-size: 13px;
+      min-height: 58px
+    }
+
+    #smile-rezum-widget .sr-section {
+      padding-block: 72px
+    }
+
+    #smile-rezum-widget .sr-title {
+      font-size: 29px
+    }
+
+    #smile-rezum-widget .sr-target-item {
+      padding: 16px 8px;
+      min-height: 0
+    }
+
+    #smile-rezum-widget .sr-target-item h3 {
+      font-size: 14px;
+      line-height: 1.6
+    }
+
+    #smile-rezum-widget .sr-target-icon {
+      width: 34px;
+      height: 34px;
+      margin-bottom: 9px
+    }
+
+    #smile-rezum-widget .sr-target-item p {
+      font-size: 10px;
+      margin-top: 7px;
+      letter-spacing: .04em
+    }
+
+    #smile-rezum-widget .sr-target-list {
+      gap: 28px 16px
+    }
+
+    #smile-rezum-widget .sr-target-check {
+      width: 22px;
+      height: 22px;
+      top: -11px;
+      font-size: 13px
+    }
+
+    #smile-rezum-widget .sr-copy {
+      font-size: 15px
+    }
+
+    #smile-rezum-widget .sr-benefit-item {
+      padding: 23px 18px;
+      gap: 9px;
+      grid-template-columns: 26px 1fr
+    }
+
+    #smile-rezum-widget .sr-benefit-item h3 {
+      font-size: 19px
+    }
+
+    #smile-rezum-widget .sr-benefit-item p {
+      font-size: 14px
+    }
+  }
+
+  @media(max-width:360px) {
+    #smile-rezum-widget .sr-container {
+      --sr-gutter: 20px
+    }
+
+    #smile-rezum-widget .sr-hero h1 {
+      font-size: 37px
+    }
+
+    #smile-rezum-widget .sr-target-item {
+      min-height: 0
+    }
+
+    #smile-rezum-widget .sr-target-list {
+      gap: 28px 12px
+    }
+
+    #smile-rezum-widget .sr-target-item h3 {
+      font-size: 13px
+    }
+
+    #smile-rezum-widget .sr-target-item p {
+      display: none
+    }
+  }
+
+  @media(prefers-reduced-motion:reduce) {
+
+    #smile-rezum-widget *,
+    #smile-rezum-widget *::before,
+    #smile-rezum-widget *::after {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important
+    }
+
+    #smile-rezum-widget.sr-motion-ready [data-sr-reveal] {
+      opacity: 1;
+      transform: none
+    }
+
+    #smile-rezum-widget .sr-step:hover,
+    #smile-rezum-widget .sr-target-item:hover,
+    #smile-rezum-widget .sr-benefit-item:hover,
+    #smile-rezum-widget .sr-hero-media:hover img,
+    #smile-rezum-widget .sr-intro-image:hover img,
+    #smile-rezum-widget .sr-step:hover .sr-step-image img {
+      transform: none
+    }
+  }
+
+  #smile-rezum-widget [data-sr-section] {
+    scroll-margin-top: calc(var(--sr-nav-height, 74px) + 20px)
+  }
+
+  @media(prefers-reduced-motion:no-preference) {
+    #smile-rezum-widget.sr-motion-ready .sr-step.sr-in-view:hover {
+      transform: translateY(-8px)
+    }
+
+    #smile-rezum-widget.sr-motion-ready .sr-target-item.sr-in-view:hover {
+      transform: translateY(-6px)
+    }
+
+    #smile-rezum-widget.sr-motion-ready .sr-benefit-item.sr-in-view:hover {
+      transform: translateX(-5px)
+    }
+  }
+</style>
+<div id="smile-rezum-widget" lang="ko">
+  <div class="sr-content">
+    <section class="sr-hero" aria-labelledby="sr-page-title">
+      <div class="sr-container sr-hero-inner">
+        <div class="sr-hero-text" data-sr-reveal>
+          <nav class="sr-breadcrumb" aria-label="현재 위치"><a href="/" data-sr-home>HOME</a><i
+              aria-hidden="true">/</i><span>전립선 클리닉</span><i aria-hidden="true">/</i><span aria-current="page">리줌</span>
+          </nav>
+          <span class="sr-kicker">REZŪM WATER VAPOR THERAPY</span>
+          <h1 id="sr-page-title">수증기기화술<br>리줌(Rezūm)</h1>
+          <p class="sr-hero-copy">전립선비대증 환자에게 적용되는 최소 침습적 치료법으로<br>고온 수증기를 이용하여 비대해진 전립선 조직을 제거합니다.<br>비교적 짧은 시술 시간으로
+            안전하게 진행됩니다.</p>
+        </div>
+        <div class="sr-hero-media" data-sr-reveal style="--sr-delay:120ms"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjEwMDAiIHZpZXdCb3g9IjAgMCAxMjAwIDEwMDAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiM3ZmFlYTQiLz48L3N2Zz4="
+            alt="리줌 장비 사진 자리" width="1200" height="1000"><span aria-hidden="true">SMILE / UROLOGY CLINIC</span></div>
+      </div>
+    </section>
+    <nav class="sr-section-nav" aria-label="페이지 내 섹션 이동">
+      <div class="sr-section-nav-inner"><a href="#sr-intro" data-sr-section-link
+          aria-current="location"><span>01</span>리줌 소개</a><a href="#sr-method" data-sr-section-link><span>02</span>시술
+          과정</a><a href="#sr-target" data-sr-section-link><span>03</span>상담 대상</a><a href="#sr-benefits"
+          data-sr-section-link><span>04</span>치료 특징</a></div>
+    </nav>
+    <section class="sr-intro sr-section" id="sr-intro" aria-labelledby="sr-intro-title" data-sr-section>
+      <div class="sr-container">
+        <div class="sr-intro-heading" data-sr-reveal>
+          <div><span class="sr-kicker">A GENTLE APPROACH TO CHANGE</span>
+            <h2 class="sr-title" id="sr-intro-title">전립선 치료의 새로운 선택,<br><em>리줌을 소개합니다.</em></h2>
+          </div><span class="sr-section-index">01 — ABOUT REZŪM</span>
+        </div>
+        <div class="sr-intro-grid">
+          <figure class="sr-intro-image" data-sr-reveal><img
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjkwMCIgdmlld0JveD0iMCAwIDEyMDAgOTAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+"
+              alt="전립선과 리줌 치료 원리 이미지 자리" width="1200" height="900" loading="lazy">
+            <figcaption>REZŪM / WATER VAPOR</figcaption>
+          </figure>
+          <div class="sr-intro-text" data-sr-reveal style="--sr-delay:100ms">
+            <h3>수증기의 열에너지를 이용한<br><em>최소침습 전립선 치료</em></h3>
+            <p class="sr-copy">리줌은 수증기에 담긴 열에너지를 이용해 전립선비대증으로 인한 배뇨 증상의 개선을 돕는 치료입니다.</p>
+            <p class="sr-copy">치료가 필요한 조직에 에너지를 전달하고, 이후 조직이 점차 흡수되면서 전립선의 크기가 줄어들도록 돕습니다.</p>
+          </div>
+        </div>
+        <div class="sr-principle" data-sr-reveal>
+          <p>충분히 이해하고, 함께 결정하는 치료.<br><span>스마일은 당신의 편안한 일상을 생각합니다.</span></p>
+        </div>
+      </div>
+    </section>
+    <section class="sr-method sr-section" id="sr-method" aria-labelledby="sr-method-title" data-sr-section>
+      <div class="sr-container">
+        <div class="sr-section-heading" data-sr-reveal>
+          <div><span class="sr-kicker">HOW REZŪM WORKS</span>
+            <h2 class="sr-title" id="sr-method-title">치료의 흐름을<br><em>한눈에 살펴보세요.</em></h2>
+          </div>
+        </div>
+        <ol class="sr-steps">
+          <li class="sr-step" data-sr-reveal style="--sr-delay:0ms">
+            <div class="sr-step-image"><img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjkwMCIgdmlld0JveD0iMCAwIDEyMDAgOTAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYjNkMWM4Ii8+PC9zdmc+"
+                alt="1단계 수증기 전달 이미지 자리" width="1200" height="900" loading="lazy"><span class="sr-step-number">01</span>
+            </div>
+            <div class="sr-step-text"><span class="sr-kicker">WATER VAPOR</span>
+              <h3>내시경 삽입</h3>
+              <p>요도관을 통해 비대해진 전립선 조직에 내시경을 삽입</p>
+            </div><span class="sr-step-arrow" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M10 24h28M27 13l11 11-11 11" />
+              </svg></span>
+          </li>
+          <li class="sr-step" data-sr-reveal style="--sr-delay:100ms">
+            <div class="sr-step-image"><img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjkwMCIgdmlld0JveD0iMCAwIDEyMDAgOTAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjOWZiZmI1Ii8+PC9zdmc+"
+                alt="2단계 열에너지의 작용 이미지 자리" width="1200" height="900" loading="lazy"><span
+                class="sr-step-number">02</span></div>
+            <div class="sr-step-text"><span class="sr-kicker">THERMAL ENERGY</span>
+              <h3>수증기 방출</h3>
+              <p>내시경의 특수한 바늘이 전립선 조직 내 수증기 방출</p>
+            </div><span class="sr-step-arrow" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M10 24h28M27 13l11 11-11 11" />
+              </svg></span>
+          </li>
+          <li class="sr-step" data-sr-reveal style="--sr-delay:200ms">
+            <div class="sr-step-image"><img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjkwMCIgdmlld0JveD0iMCAwIDEyMDAgOTAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYzhkZGQzIi8+PC9zdmc+"
+                alt="3단계 조직 흡수와 경과 확인 이미지 자리" width="1200" height="900" loading="lazy"><span
+                class="sr-step-number">03</span></div>
+            <div class="sr-step-text"><span class="sr-kicker">GRADUAL CHANGE</span>
+              <h3>회복 기간</h3>
+              <p>시술 이후 (약1개월) 전립선 조직이 축소되며 확장된 요도관 확보</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="sr-target sr-section" id="sr-target" aria-labelledby="sr-target-title" data-sr-section>
+      <div class="sr-container">
+        <div data-sr-reveal><span class="sr-kicker">IS REZŪM RIGHT FOR YOU?</span>
+          <h2 class="sr-title" id="sr-target-title">이런 고민이 있다면,<br><em>상담을 시작해 보세요.</em></h2>
+          <p class="sr-copy">증상과 생활 방식, 치료에 대한 생각까지.<br>한 사람의 이야기를 충분히 듣겠습니다.</p>
+        </div>
+        <ul class="sr-target-list">
+          <li class="sr-target-item" data-sr-reveal style="--sr-delay:0ms"><span class="sr-target-check"
+              aria-hidden="true">✓</span><span class="sr-target-icon"><svg viewBox="0 0 48 48" fill="none"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M24 5C20 13 10 22 10 30a14 14 0 0 0 28 0C38 22 28 13 24 5Z" />
+                <path d="M17 30a7 7 0 0 0 7 7" />
+              </svg></span>
+            <h3>배뇨 증상으로<br>일상이 불편한 분</h3>
+            <p aria-hidden="true">DAILY COMFORT</p>
+          </li>
+          <li class="sr-target-item" data-sr-reveal style="--sr-delay:80ms"><span class="sr-target-check"
+              aria-hidden="true">✓</span><span class="sr-target-icon"><svg viewBox="0 0 48 48" fill="none"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M14 34a10 10 0 0 1 0-14L25 9a10 10 0 0 1 14 14L28 34a10 10 0 0 1-14 0Z" />
+                <path d="m20 14 14 14M14 26l4-4" />
+              </svg></span>
+            <h3>약물 치료의 효과나<br>부작용이 고민인 분</h3>
+            <p aria-hidden="true">TREATMENT OPTIONS</p>
+          </li>
+          <li class="sr-target-item" data-sr-reveal style="--sr-delay:160ms"><span class="sr-target-check"
+              aria-hidden="true">✓</span><span class="sr-target-icon"><svg viewBox="0 0 48 48" fill="none"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M8 9h32v25H22l-10 8v-8H8Z" />
+                <path d="M16 18h16M16 25h10" />
+              </svg></span>
+            <h3>비수술적 치료를<br>원하는 분</h3>
+            <p aria-hidden="true">PERSONALIZED CARE</p>
+          </li>
+          <li class="sr-target-item" data-sr-reveal style="--sr-delay:0ms"><span class="sr-target-check"
+              aria-hidden="true">✓</span><span class="sr-target-icon"><svg viewBox="0 0 48 48" fill="none"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M24 40 8 24C-3 12 13 1 24 13 35 1 51 12 40 24Z" />
+                <path d="M11 25h8l4-9 5 15 3-6h7" />
+              </svg></span>
+            <h3>성기능 손상 없이<br>치료를 원하는 분</h3>
+            <p aria-hidden="true">QUALITY OF LIFE</p>
+          </li>
+          <li class="sr-target-item" data-sr-reveal style="--sr-delay:80ms"><span class="sr-target-check"
+              aria-hidden="true">✓</span><span class="sr-target-icon"><svg viewBox="0 0 48 48" fill="none"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="m24 5 16 7v12c0 9-9 16-16 20C17 40 8 33 8 24V12Z" />
+                <path d="m17 24 5 5 10-11" />
+              </svg></span>
+            <h3>전신마취 또는 척추마취가<br>어려운 환자</h3>
+            <p aria-hidden="true">THOUGHTFUL CARE</p>
+          </li>
+        </ul>
+        <p class="sr-target-note">위 항목만으로 시술 대상이 정해지지는 않습니다. 치료 적합성은 검사와 전문의 진료 후 결정합니다.</p>
+      </div>
+    </section>
+    <section class="sr-benefits sr-section" id="sr-benefits" aria-labelledby="sr-benefits-title" data-sr-section>
+      <div class="sr-container sr-benefit-layout">
+        <div class="sr-benefit-heading"><span class="sr-kicker">THE CHARACTERISTICS OF REZŪM</span>
+          <h2 class="sr-title" id="sr-benefits-title">리줌 시술 장점<br><em>다섯 가지</em></h2>
+          <p class="sr-copy">리줌 치료의 특징을 알아보고,<br>기대할 수 있는 변화와 고려할 점을<br>의료진과 함께 이야기하세요.</p>
+          <p class="sr-benefit-word" aria-hidden="true">Your comfort.</p>
+        </div>
+        <div>
+          <ol class="sr-benefit-list">
+            <li class="sr-benefit-item" data-sr-reveal><span>01</span>
+              <div>
+                <h3>짧은 시술 시간</h3>
+                <p>리줌 시술은 약 10~20분 내외로 진행되며,<br> 당일 검사 / 당일 시술 / 당일 퇴원이 가능합니다.</p>
+              </div>
+            </li>
+            <li class="sr-benefit-item" data-sr-reveal><span>02</span>
+              <div>
+                <h3>전신 마취 없이 국소 마취로 시술 가능</h3>
+                <p>전신 마취가 어려운 고령 환자나 만성 질환자에게도 안전하게 시행할 수 있습니다.</p>
+              </div>
+            </li>
+            <li class="sr-benefit-item" data-sr-reveal><span>03</span>
+              <div>
+                <h3>성 기능 및 방광 기능 보호</h3>
+                <p>리줌 시술은 전립선 조직을 제거하면서도<br>성 기능과 방광 기능을 보존할 수 있습니다.</p>
+              </div>
+            </li>
+            <li class="sr-benefit-item" data-sr-reveal><span>04</span>
+              <div>
+                <h3>낮은 부작용과 합병증</h3>
+                <p>기존 수술 대비 부작용 발생률이 낮고 회복 기간이 짧아<br>만족도가 높습니다</p>
+              </div>
+            </li>
+            <li class="sr-benefit-item" data-sr-reveal><span>05</span>
+              <div>
+                <h3>크기가 큰 전립선도 치료 가능</h3>
+                <p>전립선 크기가 최대 80g까지 크기와 모양에 관계없이 안전한 치료가 가능합니다.</p>
+              </div>
+            </li>
+          </ol>
+          <div class="sr-care-note"><strong>치료 전 함께 확인해 주세요.</strong>
+            <p>치료 효과와 회복에는 개인차가 있습니다. 시술 후 혈뇨·배뇨통·빈뇨 등이 나타나거나 회복 과정에서 도뇨관이 필요할 수 있습니다. 자신의 상태에 맞는 치료 방법과 주의사항은 의료진과 상담해
+              주세요.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<script>
+  (() => {
+    'use strict';
+    const widget = document.getElementById('smile-rezum-widget');
+    if (!widget || widget.__srInitialized) return;
+    widget.__srInitialized = true;
+    const controller = new AbortController();
+    const disposers = [];
+    const sectionNav = widget.querySelector('.sr-section-nav');
+    const links = [...widget.querySelectorAll('[data-sr-section-link]')];
+    const sections = [...widget.querySelectorAll('[data-sr-section]')];
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let disposed = false, frame = 0;
+    function on(target, type, handler, options = {}) {target.addEventListener(type, handler, {...options, signal: controller.signal});}
+    function cleanup() {
+      if (disposed) return;
+      disposed = true;
+      controller.abort();
+      cancelAnimationFrame(frame);
+      disposers.forEach(dispose => dispose());
+      widget.classList.remove('sr-motion-ready');
+      delete widget.__srInitialized;
+    }
+    function sizeNavigation() {widget.style.setProperty('--sr-nav-height', sectionNav.offsetHeight + 'px');}
+    function scrollToSection(target) {
+      window.scrollTo({top: Math.max(0, window.scrollY + target.getBoundingClientRect().top - sectionNav.offsetHeight - 20), behavior: motion.matches ? 'instant' : 'smooth'});
+      const original = target.getAttribute('tabindex');
+      if (original === null) target.setAttribute('tabindex', '-1');
+      target.focus({preventScroll: true});
+      if (original === null) on(target, 'blur', () => target.removeAttribute('tabindex'), {once: true});
+    }
+    function updatePosition() {
+      frame = 0;
+      if (disposed || !widget.isConnected) return;
+      const limit = sectionNav.offsetHeight + 100;
+      let active = sections[0].id;
+      sections.forEach(section => {if (section.getBoundingClientRect().top <= limit) active = section.id;});
+      links.forEach(link => {if (link.getAttribute('href') === '#' + active) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current');});
+    }
+    function requestUpdate() {if (!frame && !disposed) frame = requestAnimationFrame(updatePosition);}
+    try {
+      on(widget, 'click', event => {
+        const link = event.target.closest('a[href^="#sr-"]');
+        if (!link || !widget.contains(link) || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        const target = widget.querySelector('[id="' + link.getAttribute('href').slice(1) + '"]');
+        if (!target) return;
+        event.preventDefault(); event.stopPropagation(); scrollToSection(target);
+      });
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {entries.forEach(entry => {if (entry.isIntersecting) {entry.target.classList.add('sr-in-view'); observer.unobserve(entry.target);} });}, {threshold: .12});
+        widget.querySelectorAll('[data-sr-reveal]').forEach(element => observer.observe(element));
+        disposers.push(() => observer.disconnect());
+        widget.classList.toggle('sr-motion-ready', !motion.matches);
+      }
+      on(motion, 'change', () => widget.classList.toggle('sr-motion-ready', !motion.matches && 'IntersectionObserver' in window));
+      on(window, 'scroll', requestUpdate, {passive: true});
+      on(window, 'resize', () => {sizeNavigation(); requestUpdate();}, {passive: true});
+      on(window, 'pageshow', requestUpdate);
+      if ('ResizeObserver' in window) {const resize = new ResizeObserver(() => {sizeNavigation(); requestUpdate();}); resize.observe(sectionNav); resize.observe(widget); disposers.push(() => resize.disconnect());}
+      const removal = new MutationObserver(() => {if (!widget.isConnected) cleanup();});
+      removal.observe(document, {childList: true, subtree: true}); disposers.push(() => removal.disconnect());
+      if (document.fonts) document.fonts.ready.then(() => {if (!disposed) {sizeNavigation(); requestUpdate();} });
+      sizeNavigation(); updatePosition();
+    } catch (error) {cleanup(); console.error('Smile treatment page could not initialize.', error);}
+  })();
+</script>

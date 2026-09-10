@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="편안한 진료, 건강한 일상. 스마일비뇨의학과 디자인 시안입니다."><meta name="theme-color" content="#008d8b">
+<title>스마일비뇨의학과 · 당신의 편안한 일상을 위해</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ===== assets/css/style.css ===== */
+:root{--font-sans:'DM Sans','Noto Sans KR',sans-serif;--teal:#008d8b;--teal-dark:#154e4d;--mint:#d6eeea;--ink:#263a39;--gray:#77817e;--line:#dce3df;--paper:#fff;--cream:#f5f6f2;--gutter:clamp(24px,6.2vw,120px);--ease:cubic-bezier(.22,1,.36,1)}
+*,*::before,*::after{box-sizing:border-box}*{margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:110px}body{font-family:var(--font-sans);color:var(--ink);background:var(--paper);font-size:16px;line-height:1.7;word-break:keep-all}a{color:inherit;text-decoration:none}button,input{font:inherit}button{color:inherit;background:none;border:0;cursor:pointer}img,svg{display:block;max-width:100%}a,button{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offset:6px}::selection{background:var(--mint);color:var(--teal-dark)}[hidden]{display:none!important}.skip-link{position:fixed;left:20px;top:-70px;z-index:200;background:white;padding:12px 24px}.skip-link:focus{top:15px}
+.site-header{height:100px;padding:0 3.2vw;display:flex;align-items:center;justify-content:space-between;gap:32px;position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(18px);z-index:50;transition:height .4s,box-shadow .4s}.site-header.is-scrolled{height:80px;box-shadow:0 2px 20px #163c3710}.logo{flex-shrink:0;width:225px}.logo img{width:100%;height:auto}.desktop-nav{display:flex;align-items:center;gap:clamp(18px,2.1vw,40px);font-size:14px;font-weight:500}.desktop-nav a{position:relative;padding:35px 0;white-space:nowrap}.desktop-nav a::after{content:'';position:absolute;bottom:25px;left:0;width:100%;height:2px;background:var(--teal);transform:scaleX(0);transform-origin:left;transition:transform .3s}.desktop-nav a:hover::after{transform:scaleX(1)}.header-actions{display:flex;align-items:center;gap:30px}.header-contact{font-size:13px;white-space:nowrap}.header-contact span{margin-left:14px;color:var(--teal)}.menu-toggle{width:38px;height:44px;position:relative;z-index:2}.menu-toggle span{position:absolute;left:4px;width:29px;height:1.5px;background:var(--ink);transition:transform .4s,top .4s;top:16px}.menu-toggle span+span{top:26px;width:22px}.menu-toggle[aria-expanded=true] span{top:22px;transform:rotate(45deg);width:29px}.menu-toggle[aria-expanded=true] span+span{transform:rotate(-45deg)}.full-menu{position:absolute;top:100%;left:0;right:0;overflow:hidden}.full-menu-inner{background:var(--cream);display:grid;grid-template-columns:1fr 1.4fr;padding:70px var(--gutter);gap:100px;border-top:1px solid var(--line);max-height:var(--menu-max-height,calc(100dvh - 100px));overflow:auto;overscroll-behavior:contain}.menu-intro p{font-size:clamp(30px,3vw,50px);line-height:1.6;margin-top:25px}.full-menu nav{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}.full-menu nav a{font-size:20px;padding:25px 0;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:15px}.full-menu nav a:hover{color:var(--teal)}.full-menu nav span{font-size:12px;color:var(--teal)}.full-menu nav i{font-style:normal;margin-left:auto}.menu-scrim{position:fixed;inset:80px 0 0;background:#102a2955;z-index:40;backdrop-filter:blur(3px)}body.menu-open{overflow:hidden}
+.eyebrow{font-family:var(--font-sans);font-size:12px;font-weight:500;letter-spacing:.17em;line-height:1.5;color:var(--teal)}.hero{position:relative;height:calc(100svh - 100px);min-height:600px;max-height:950px;margin:0;overflow:hidden;border-radius:0;background:#436964;color:white;isolation:isolate}.hero-backdrop{position:absolute;inset:0;z-index:-2;background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+") center/cover;transform:scale(1.04);animation:hero-zoom 8s ease both}.hero-backdrop::after{content:'';position:absolute;inset:0;background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+") center/cover;opacity:0;transition:opacity 1.2s}.hero[data-active-slide='1'] .hero-backdrop::after{opacity:1}.hero[data-active-slide='2'] .hero-backdrop{background-position:70% center}.hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(15,31,29,.7),rgba(15,31,29,.09) 80%)}.hero-slides{height:100%;position:relative}.hero-slide{position:absolute;inset:0;padding:clamp(70px,10vh,130px) var(--gutter);opacity:0;visibility:hidden;transform:translateY(22px);transition:opacity 1s,transform 1.2s var(--ease),visibility 1s}.hero-slide.is-active{opacity:1;visibility:visible;transform:translateY(0)}.hero .eyebrow{color:#d0e6df;font-size:12px;letter-spacing:.2em;margin-bottom:27px}.hero h1,.hero h2{font-size:clamp(42px,4.6vw,80px);font-weight:400;line-height:1.38;letter-spacing:-.055em}.hero em{font-style:normal;font-weight:600}.hero-description{margin-top:28px;font-size:16px;line-height:1.9;color:#ffffffe0;font-weight:300}.hero-link{display:inline-flex;align-items:center;gap:45px;margin-top:36px;font-size:14px;border-bottom:1px solid #ffffff70;padding-bottom:10px}.hero-link span{font-size:20px;transition:transform .3s}.hero-link:hover span{transform:translate(3px,-3px)}.hero-bottom{position:absolute;bottom:45px;left:var(--gutter);right:var(--gutter);display:grid;justify-items:center;align-items:center;gap:12px}.hero-controls{display:flex;align-items:center;justify-content:center;gap:14px;width:max-content;max-width:100%;font-size:13px}.hero-controls button{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;padding:0;font-size:28px;font-weight:400;line-height:1}.hero-controls .hero-pause{font-size:16px;padding-top:4px}.hero-current,.hero-total{flex:0 0 22px;width:22px;text-align:center;line-height:1;font-variant-numeric:tabular-nums}.hero-current{font-weight:600}.hero-total{opacity:.5}.hero-progress{flex-shrink:0;width:120px;height:2px;background:#ffffff4d;overflow:hidden}.hero-progress i{display:block;height:100%;width:33.333%;background:white;transition:width .6s}.scroll-hint{position:absolute;right:0;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:26px;font-size:10px;letter-spacing:.17em}.scroll-hint span{font-size:27px;animation:scroll-nudge 2s infinite}.hero-side-label{position:absolute;right:32px;top:44%;writing-mode:vertical-rl;font-size:10px;letter-spacing:.22em;opacity:.7}
+.section-pad{padding:150px var(--gutter)}.about-heading{display:flex;justify-content:space-between;padding-bottom:70px}.small-index{font-size:11px;letter-spacing:.12em;color:#929b96}.about-content{display:grid;grid-template-columns:1fr 2.1fr;gap:60px;align-items:start}.brand-orbit{width:170px;height:170px;border:1px solid #a3cdc5;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--teal);position:relative;margin-top:10px}.brand-orbit span{font-size:38px;font-weight:500;letter-spacing:-.06em}.brand-orbit i{position:absolute;right:-16px;top:6px;background:white;font-style:normal;font-size:62px;line-height:1;animation:orbit 20s linear infinite}.about h2{font-size:clamp(26px,3vw,48px);font-weight:400;line-height:1.7;letter-spacing:-.045em}.about h2>span{color:var(--teal)}.body-copy{font-size:16px;line-height:2;color:var(--gray);margin-top:35px}.quick-menu{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:30;width:78px;padding:10px 9px;background:white;border:1px solid #e1e8e2;border-right:0;border-radius:16px 0 0 16px;box-shadow:0 5px 25px #12352a08}.quick-menu a,.quick-menu button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-size:10px;padding:12px 0;width:100%;line-height:1.5}.quick-menu>*+*{border-top:1px solid var(--line)}.quick-menu span{font-family:var(--font-sans);font-size:24px;color:var(--teal);line-height:1.3}.quick-menu a:hover,.quick-menu button:hover{color:var(--teal)}.quick-menu .back-top{padding:8px 0 4px;font-size:9px}.quick-menu .back-top span{font-size:20px}.js-ready .reveal{opacity:0;transform:translateY(35px);transition:opacity 1s var(--ease),transform 1.1s var(--ease)}.js-ready .reveal.is-visible{opacity:1;transform:none}
+@keyframes scroll-nudge{0%,100%{transform:translateY(-3px)}50%{transform:translateY(4px)}}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes hero-zoom{from{transform:scale(1.09)}to{transform:scale(1)}}
+@media(min-width:1600px){.hero-slide{padding-top:15vh}}
+@media(max-width:1200px){.desktop-nav{gap:20px;font-size:13px}.logo{width:185px}.header-contact{display:none}.header-actions{gap:0}.quick-menu{width:65px}.hero{min-height:590px}.section-pad{padding-top:110px;padding-bottom:110px}}
+@media(max-width:960px){.desktop-nav{display:none}.site-header{height:82px;padding:0 25px}.hero{height:calc(100svh - 82px)}.hero-slide{padding-left:36px}.hero-bottom{left:36px;right:36px}.scroll-hint{font-size:0;gap:0}.quick-menu{display:none}.hero-side-label{right:20px}.about-content{grid-template-columns:1fr 3fr;gap:35px}.brand-orbit{width:125px;height:125px}.brand-orbit span{font-size:30px}.full-menu-inner{gap:35px;padding:45px 30px}.full-menu nav{gap:0 20px}.full-menu nav a{font-size:16px}}
+@media(max-width:600px){:root{--font-sans:'DM Sans','Noto Sans KR',sans-serif;--gutter:24px}.site-header,.site-header.is-scrolled{height:76px}.logo{width:195px}.hero{min-height:580px;max-height:800px;height:calc(100svh - 76px)}.hero-slide{padding:75px 26px}.hero .eyebrow{font-size:9px;letter-spacing:.13em;margin-bottom:28px}.hero h1,.hero h2{font-size:42px}.hero-description{font-size:14px;margin-top:24px}.hero-link{font-size:13px;margin-top:28px}.hero-bottom{left:23px;right:23px;bottom:27px}.hero-controls{gap:8px}.hero-current,.hero-total{flex-basis:18px;width:18px}.hero-progress{width:64px}.scroll-hint{position:static;transform:none;font-size:0;gap:0}.scroll-hint span{font-size:24px}.hero-side-label{display:none}.section-pad{padding:90px 24px}.about-heading{padding-bottom:38px}.small-index{display:none}.about-content{grid-template-columns:1fr;gap:35px}.brand-orbit{width:82px;height:82px}.brand-orbit span{font-size:23px}.brand-orbit i{font-size:39px;right:-10px;top:-4px}.about h2{font-size:25px;line-height:1.8}.body-copy{font-size:14px;margin-top:24px}.full-menu-inner{grid-template-columns:1fr;padding:30px 26px;gap:22px}.menu-intro p{font-size:24px;margin-top:13px}.full-menu nav{grid-template-columns:1fr}.full-menu nav a{padding:16px 0;font-size:18px}.menu-intro .eyebrow{font-size:10px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.js-ready .reveal{opacity:1;transform:none}}
+/* Editorial sections */
+h2{font-size:clamp(28px,3vw,48px);font-weight:400;line-height:1.55;letter-spacing:-.045em}h2 em{font-weight:500;font-style:normal}.pill-link{display:inline-flex;justify-content:space-between;align-items:center;gap:40px;min-height:52px;padding:12px 25px;border:1px solid #9cb9b3;border-radius:40px;font-size:13px;transition:background .3s,color .3s,border-color .3s;margin-top:36px}.pill-link:hover{background:var(--teal);border-color:var(--teal);color:white}.pill-link span{font-size:21px;transition:transform .3s}.pill-link:hover span{transform:translate(3px,-3px)}.muted{color:var(--gray)}.about{height:150vh;min-height:820px;padding-bottom:80px}.about-content{position:sticky;top:31vh}.about .brand-orbit{transform:translateX(calc((1 - var(--about-progress,1)) * 10vw));opacity:calc(.3 + var(--about-progress,1) * .7)}.about h2{background:linear-gradient(90deg,var(--ink) 50%,#d7ddda 50%);background-size:200% 100%;background-position:calc((1 - var(--about-progress,1)) * 100%) 0;background-clip:text;-webkit-background-clip:text;color:transparent}.about h2>span{color:inherit}.about .body-copy{opacity:calc(.3 + var(--about-progress,1) * .7)}
+.promise{position:relative;display:grid;grid-template-columns:1fr 1.05fr .9fr;gap:60px;align-items:center;padding-top:100px;padding-bottom:150px;isolation:isolate;overflow:hidden}.promise-watermark{position:absolute;left:50%;top:0;transform:translateX(-50%);white-space:nowrap;font:400 clamp(80px,12vw,200px)/1.2 var(--font-sans);color:#edf2ef;z-index:-1;letter-spacing:-.04em}.promise-intro .eyebrow{display:block;margin-bottom:23px}.promise-photo{position:relative;aspect-ratio:.66;border-radius:220px;overflow:hidden}.promise-photo img{width:100%;height:100%;object-fit:cover;object-position:72% center;transition:transform 1s}.promise-photo:hover img{transform:scale(1.04)}.promise-photo>span{position:absolute;bottom:50px;left:0;right:0;text-align:center;color:white;font-size:9px;letter-spacing:.17em}.promise-photo::after{content:'';position:absolute;inset:70% 0 0;background:linear-gradient(transparent,#203d3144)}.promise-copy{font-size:15px;line-height:2.1}.promise-copy p+p{margin-top:23px}.line-marker{display:block;width:35px;height:2px;background:var(--teal);margin-bottom:30px}
+.clinic{position:relative;background:linear-gradient(145deg,#f0f8f5,#e8f3ef);overflow:hidden}.clinic-line{position:absolute;left:40%;top:-20%;width:80%;height:150%;border:1px solid #bfded3;border-radius:50%;transform:rotate(-25deg);pointer-events:none}.clinic-row{position:relative;display:grid;grid-template-columns:.85fr 1.3fr;gap:8%;align-items:center}.clinic-row+.clinic-row{margin-top:130px}.clinic-copy .eyebrow{display:block;margin-bottom:20px}.clinic-copy .body-copy+.body-copy{margin-top:18px}.clinic-copy h2{font-size:clamp(28px,3vw,46px)}.clinic-photo{position:relative;aspect-ratio:1.4;border-radius:22px;overflow:hidden}.clinic-photo img{width:100%;height:100%;object-fit:cover;transition:transform 1.3s var(--ease)}.clinic-photo:hover img{transform:scale(1.05)}.photo-caption{position:absolute;bottom:25px;left:25px;background:#ffffffdd;padding:7px 13px;font-size:9px;letter-spacing:.12em;border-radius:20px}.clinic-row.reverse{grid-template-columns:1.3fr .85fr}.clinic-row.reverse .clinic-copy{grid-column:2;grid-row:1}.clinic-row.reverse .clinic-photo{grid-column:1;grid-row:1}.marquee{overflow:hidden;padding:40px 0;border-bottom:1px solid #e3ebe7;background:#fff}.marquee-track{display:flex;width:max-content;animation:marquee 34s linear infinite}.marquee-track>span{display:flex;align-items:center;white-space:nowrap;font:400 clamp(50px,6.5vw,105px)/1.2 var(--font-sans);color:#a4cdc1}.marquee i{font-style:normal;font-size:.65em;margin:0 45px;color:#5da895}.marquee:hover .marquee-track{animation-play-state:paused}@keyframes marquee{to{transform:translateX(-50%)}}
+.section-heading .eyebrow{display:block;margin-bottom:20px}.center{text-align:center}.section-heading .body-copy{margin-top:22px}.services{padding-left:0;padding-right:0;overflow:hidden}.services .section-heading{padding:0 24px}.service-carousel{width:100%;margin-top:70px;overflow:hidden;padding:32px 0 35px;touch-action:pan-y;cursor:grab}.service-carousel:active{cursor:grabbing}.service-track{display:flex;align-items:center;gap:28px;width:max-content;transition:transform .75s var(--ease);will-change:transform}.service-card{position:relative;flex:0 0 auto;width:clamp(230px,24vw,390px);height:clamp(330px,32vw,490px);overflow:hidden;border-radius:180px 180px 24px 24px;text-align:left;transform:scale(.9);transition:transform .75s var(--ease),border-radius .75s;color:white;isolation:isolate}.service-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:55%;z-index:-2;transition:transform 1s}.service-card:nth-child(2n) img{object-position:75%}.service-card::after{content:'';position:absolute;inset:0;background:linear-gradient(#10292330,#122b28d9);z-index:-1;transition:background .5s}.service-card:not(.is-active)::after{background:#142f2c99}.service-card.is-active{transform:scale(1.035);border-radius:180px 180px 24px 24px}.service-card:hover img{transform:scale(1.08)}.service-number{position:absolute;top:38px;left:0;width:100%;text-align:center;font-size:13px;color:#ffffffe0}.service-content{position:absolute;left:28px;right:28px;bottom:37px;transform:translateY(25px);transition:transform .6s var(--ease)}.service-en{display:block;font-size:9px;letter-spacing:.15em;color:#c3dad2}.service-content strong{display:block;font-size:25px;font-weight:500;margin-top:5px;letter-spacing:-.04em}.service-tags{display:flex;gap:6px;margin-top:18px;opacity:0;transition:opacity .5s}.service-tags span{font-size:10px;border:1px solid #ffffff50;padding:4px 9px;border-radius:20px}.service-card.is-active .service-content{transform:none}.service-card.is-active .service-tags{opacity:1}.carousel-controls{display:flex;align-items:center;justify-content:center;gap:30px;margin-top:25px}.carousel-controls>button{width:40px;height:40px;font-size:22px}.carousel-dots{display:flex;gap:2px}.carousel-dots button{width:28px;height:32px;position:relative}.carousel-dots button::after{content:'';position:absolute;left:11px;top:13px;width:6px;height:6px;background:#d4dcd8;border-radius:50%;transition:background .3s,transform .3s}.carousel-dots button.is-active::after{background:var(--teal);transform:scale(1.3)}
+.values{height:220vh;position:relative}.values-sticky{position:sticky;top:0;height:100vh;min-height:650px;overflow:hidden}.value-panel{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr}.value-photo{overflow:hidden}.value-photo img{height:100%;width:100%;object-fit:cover;object-position:68%}.value-copy{position:relative;display:flex;flex-direction:column;justify-content:center;padding:10% 13%;background:#e7f0ea;overflow:hidden}.value-copy .eyebrow{margin-bottom:40px}.value-copy .eyebrow b{margin-left:26px;letter-spacing:0;font-size:16px}.value-copy h2{font-size:clamp(28px,2.8vw,45px);line-height:1.65}.value-copy p{margin-top:28px;font-size:15px;line-height:2;color:#697c72}.value-word{font:400 clamp(75px,7vw,120px)/1.1 var(--font-sans);color:#a7c5b69c;margin-top:30px;white-space:nowrap}.value-pagination{display:flex;align-items:center;gap:15px;font-size:11px;letter-spacing:.05em;margin-top:40px}.value-pagination i{display:block;height:1px;width:70px;background:#9fb5a7}.value-second{clip-path:inset(calc((1 - var(--value-progress,0)) * 100%) 0 0 0)}.value-second .value-copy{background:#1d514d;color:white}.value-second .eyebrow{color:#a9d0c0}.value-second p{color:#d6e4dd}.value-second .value-word{color:#6c99925c}.vision{min-height:750px;height:110vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(#1f3e34c9,#1f3e34cc),url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+") center/cover fixed;color:white}.vision-inner{padding:90px 25px}.vision .eyebrow{color:#abcabe;margin-bottom:38px;display:block}.vision h2{font-size:clamp(30px,3.8vw,61px);line-height:1.75;font-weight:300}.vision h2 em{font-weight:400}.vision-sign{display:block;margin-top:55px;font:400 32px var(--font-sans);color:#bfd7c9}.vision-word{opacity:.25;transition:opacity .25s}.vision-word.is-lit{opacity:1}
+.space{display:grid;grid-template-columns:1fr 1.2fr;gap:8%;align-items:center}.space-copy>.eyebrow{display:block;margin-bottom:25px}.space h2{font-size:clamp(28px,2.8vw,44px)}.space-description{margin-top:45px;border-left:2px solid var(--teal);padding-left:22px}.space-name{font:400 42px var(--font-sans);color:var(--teal)}.space-description h3{font-size:16px;font-weight:500;margin-top:8px}.space-description .body-copy{font-size:14px;margin-top:15px}.space-controls{display:flex;gap:22px;align-items:center;margin-top:35px;font-size:12px}.space-controls button{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;font-size:21px;transition:background .3s,color .3s}.space-controls button:hover{background:var(--teal);color:white}.space-current{color:var(--teal);margin-left:6px;font-weight:600}.space-line{height:1px;width:90px;background:var(--line)}.space-image{position:relative;aspect-ratio:.95;overflow:hidden;border-radius:24px 150px 24px 24px;background:var(--cream)}.space-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:68% center;opacity:0;transform:scale(1.04);transition:opacity .8s,transform 1.2s}.space-image img.is-active{opacity:1;transform:scale(1)}.space-image-label{position:absolute;left:30px;bottom:30px;color:white;font-size:10px;letter-spacing:.18em;background:#233d3060;padding:8px 12px}.image-note{font-size:11px;color:#939f99;margin-top:24px}
+.news{background:var(--cream)}.news-heading{display:flex;align-items:end;justify-content:space-between;margin-bottom:55px}.news-heading .eyebrow{display:block;margin-bottom:18px}.news-sidenote{font-size:14px;color:var(--gray);padding-bottom:10px}.news-grid{display:grid;grid-template-columns:.95fr 1.35fr;gap:6%}.news-feature{position:relative;border-radius:20px;overflow:hidden;min-height:400px;color:white;background:#23443b}.news-feature img{width:100%;height:100%;object-fit:cover;object-position:70% center;transition:opacity .3s,transform .8s}.news-feature::after{content:'';position:absolute;inset:30% 0 0;background:linear-gradient(transparent,#142d25d9)}.news-feature>div{position:absolute;z-index:2;bottom:30px;left:30px;right:30px}.news-feature .eyebrow{color:#c4e0d5;font-size:10px}.news-feature h3{font-size:22px;line-height:1.6;font-weight:400;margin-top:12px}.news-list button{width:100%;text-align:left;position:relative;padding:22px 45px 25px 0;border-top:1px solid var(--line);transition:padding .3s,color .3s}.news-list button:last-child{border-bottom:1px solid var(--line)}.news-list button:hover,.news-list button:focus-visible{padding-left:12px;color:var(--teal)}.news-meta{display:flex;gap:20px;font-size:11px;letter-spacing:.03em;color:#87918a}.news-meta i{font-style:normal;letter-spacing:0;color:var(--teal)}.news-list strong{display:block;font-size:17px;font-weight:400;margin-top:10px}.news-arrow{position:absolute;right:10px;top:50%;font-size:22px}.news-hover-circle{position:absolute;right:30px;top:30px;width:95px;height:95px;background:var(--teal);border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;z-index:3;font-size:12px;letter-spacing:.06em;opacity:0;transform:scale(.65);transition:opacity .4s,transform .4s}.news-grid:has(.news-list button:hover) .news-hover-circle,.news-grid:has(.news-list button:focus-visible) .news-hover-circle{opacity:1;transform:scale(1)}
+.contact{padding:100px var(--gutter) 80px;background:#174e49;color:#f5fbf7}.contact-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:70px;border-bottom:1px solid #ffffff29}.contact-top .eyebrow{color:#9dc9b6;margin-bottom:20px;display:block}.contact h2{font-size:clamp(34px,3.4vw,55px);line-height:1.5;font-weight:300}.contact-circle{width:145px;height:145px;border:1px solid #ffffff5c;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;text-align:center;font-size:14px;transition:background .4s,color .4s}.contact-circle:hover{background:#d5e9dd;color:var(--teal-dark)}.contact-circle span{font-size:25px}.contact-bottom{display:grid;grid-template-columns:1fr 1fr .7fr;gap:70px;padding-top:55px}.contact h3{font-size:16px;font-weight:500;margin-bottom:20px}.contact h3 small{font-size:10px;font-weight:400;border:1px solid #ffffff4a;padding:2px 7px;border-radius:15px;margin-left:8px;color:#c3d6cb}.contact dl>div{display:flex;gap:35px;font-size:14px;line-height:2.2}.contact dt{min-width:70px;color:#b8d0c2}.contact dd{letter-spacing:.02em}.contact p{font-size:13px;color:#b8d0c2;line-height:2}.contact dl+p{font-size:12px;margin-top:12px;color:#91b6a4}.text-link{display:inline-flex;gap:35px;align-items:center;font-size:13px;border-bottom:1px solid #ffffff45;margin-top:20px;padding-bottom:8px}.text-link span{font-size:22px}.contact-brand>span{font-size:75px;line-height:1.2;letter-spacing:-.08em;font-weight:500;color:#cae3d4}.contact-brand>p{margin-top:20px}.site-footer{padding:45px var(--gutter) 32px}.footer-main,.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:30px}.footer-links{display:flex;gap:28px;font-size:12px}.footer-links button:first-child{font-weight:600}.footer-bottom{margin-top:30px;border-top:1px solid var(--line);padding-top:25px;font-size:10px;color:#8b958e;letter-spacing:.02em}.footer-bottom span{white-space:nowrap}
+@media(min-width:1900px){.section-pad{padding-left:max(var(--gutter),calc((100vw - 1520px)/2));padding-right:max(var(--gutter),calc((100vw - 1520px)/2))}}
+@media(max-width:1200px){.promise{gap:35px}.promise-copy{font-size:13px}.promise-intro h2{font-size:30px}.value-copy{padding:10%}.value-copy p{font-size:14px}.news-grid{gap:40px}.news-feature{min-height:360px}.contact-bottom{gap:40px}}
+@media(max-width:960px){.about{height:auto;min-height:0}.about-content{position:static}.about .brand-orbit{transform:none;opacity:1}.about h2{background:none;color:var(--ink)}.about h2>span{color:var(--teal)}.about .body-copy{opacity:1}.promise{grid-template-columns:1fr 1fr;gap:35px}.promise-photo{grid-row:span 2;grid-column:2}.promise-copy{font-size:14px}.promise-watermark{font-size:90px;top:35px}.clinic-row,.clinic-row.reverse{gap:45px;grid-template-columns:1fr 1fr}.clinic-copy h2{font-size:28px}.clinic-copy .body-copy{font-size:14px}.clinic-photo{aspect-ratio:1}.service-card{width:280px;height:380px}.values{height:auto}.values-sticky{position:static;height:auto;min-height:0}.value-panel{position:static;min-height:580px}.value-second{clip-path:none}.value-copy{padding:60px 35px}.value-copy h2{font-size:26px}.value-copy p{font-size:13px}.value-word{font-size:70px}.vision{min-height:600px;height:auto;background-attachment:scroll}.vision-word{opacity:1}.space{gap:40px}.space-name{font-size:36px}.space-image{border-top-right-radius:90px}.space-line{width:45px}.news-grid{grid-template-columns:1fr 1.2fr;gap:30px}.news-list strong{font-size:15px}.news-feature h3{font-size:19px}.news-sidenote{display:none}.contact-brand{display:none}.contact-bottom{grid-template-columns:1fr 1fr}.footer-main,.footer-bottom{align-items:flex-start}.footer-bottom{flex-direction:column;gap:12px}}
+@media(max-width:600px){h2{font-size:28px}.pill-link{font-size:12px;padding:10px 20px;min-height:48px;margin-top:28px}.promise{padding-top:65px;padding-bottom:85px;grid-template-columns:1fr;gap:35px}.promise-intro{position:relative;z-index:2}.promise-intro h2{font-size:30px}.promise-photo{grid-row:auto;grid-column:auto;width:74%;margin-left:auto;max-height:460px;aspect-ratio:.75}.promise-copy{font-size:14px;padding-right:20px}.promise-copy p{display:inline}.promise-copy p+p{margin-top:0}.promise-copy .muted{display:block;margin-top:20px}.promise-watermark{font-size:75px;top:250px;left:10%;transform:none}.promise-photo>span{bottom:35px;font-size:8px}.clinic-row,.clinic-row.reverse{display:flex;flex-direction:column;align-items:stretch;gap:35px}.clinic-row+.clinic-row{margin-top:80px}.clinic-photo{aspect-ratio:1.25;border-radius:18px}.clinic-copy .body-copy{margin-top:20px}.photo-caption{left:18px;bottom:18px;font-size:8px}.marquee{padding:24px 0}.marquee-track>span{font-size:54px}.marquee i{margin:0 22px}.services{padding-left:0;padding-right:0}.service-carousel{margin-top:35px}.service-card{width:250px;height:360px}.service-track{gap:10px}.service-content{left:23px;right:23px}.service-content strong{font-size:23px}.service-en{font-size:8px}.carousel-controls{margin-top:15px}.value-panel{display:flex;flex-direction:column;min-height:0}.value-first .value-photo{height:330px}.value-second .value-photo{height:330px;order:-1}.value-copy{padding:55px 26px;min-height:450px}.value-copy .eyebrow{margin-bottom:25px}.value-copy h2{font-size:29px}.value-copy p{font-size:14px;margin-top:20px}.value-word{font-size:80px;margin-top:20px}.value-pagination{margin-top:20px}.vision{min-height:590px}.vision h2{font-size:27px;line-height:1.9}.vision .eyebrow{font-size:9px}.vision-sign{font-size:29px;margin-top:35px}.space{grid-template-columns:1fr;gap:40px}.space h2{font-size:29px}.space-description{margin-top:30px}.space-image{aspect-ratio:1.05;grid-row:2;border-top-right-radius:100px}.space-controls{gap:18px}.space-line{width:90px}.news-heading{margin-bottom:32px}.news h2{font-size:28px}.news-grid{grid-template-columns:1fr;gap:30px}.news-feature{height:320px;min-height:0}.news-feature>div{bottom:24px;left:24px;right:24px}.news-feature h3{font-size:20px}.news-list button{padding-top:19px;padding-bottom:21px}.news-list strong{font-size:15px}.news-meta{font-size:10px}.contact{padding:70px 24px 55px}.contact-top{padding-bottom:40px;gap:22px}.contact h2{font-size:29px}.contact-top .eyebrow{font-size:9px}.contact-circle{width:85px;height:85px;flex-shrink:0;font-size:10px;gap:3px}.contact-circle span{font-size:19px}.contact-bottom{grid-template-columns:1fr;gap:35px;padding-top:35px}.contact dl>div{font-size:14px}.contact h3{font-size:15px;margin-bottom:15px}.contact p{font-size:13px}.site-footer{padding:35px 24px}.footer-main{flex-direction:column;gap:25px}.footer-main .logo{width:190px}.footer-links{font-size:11px;gap:22px}.footer-bottom{font-size:9px;line-height:1.8;margin-top:25px}}
+@media(prefers-reduced-motion:reduce){.about{height:auto;min-height:0}.about-content{position:static}.about h2{background:none;color:var(--ink)}.about .brand-orbit{transform:none;opacity:1}.about .body-copy{opacity:1}.vision-word{opacity:1}.values{height:auto}.values-sticky{height:auto;position:static}.value-panel{position:static;min-height:650px}.value-second{clip-path:none}}
+.service-track{position:relative}
+
+/* ===== assets/css/scroll-effects.css ===== */
+/* Reference scroll sequences. Static layouts remain readable without JavaScript. */
+.about {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at 15% 18%, #eff8f2, transparent 42%), radial-gradient(ellipse at 90% 80%, #eaf7f3, transparent 48%), #fff;
+}
+.about-stage { position: relative; min-height: 720px; padding: 100px var(--gutter); }
+.about-heading { padding-bottom: 55px; }
+.about-symbol { width: clamp(220px, 27vw, 430px); }
+.about-symbol-crop { width: 100%; aspect-ratio: 1; overflow: hidden; }
+.about-symbol-crop img { width: auto; height: 100%; max-width: none; }
+.about-text { position: absolute; left: 42%; right: 7%; top: 50%; transform: translateY(-50%); }
+.about h2 { background: none; color: var(--ink); font-size: clamp(24px, 2.6vw, 43px); line-height: 1.7; }
+.about h2 em { color: var(--teal); font-style: normal; }
+.about-paragraph + .about-paragraph { margin-top: 35px; color: var(--gray); font-size: clamp(14px, 1.2vw, 18px); line-height: 2; }
+
+.clinic { isolation: isolate; }
+.clinic-curve { position: absolute; pointer-events: none; overflow: visible; z-index: 1; }
+.clinic-curve-desktop { width: min(78vw, 1100px); height: auto; aspect-ratio: 1; left: 50%; top: 50%; transform: translate(-50%, -50%); opacity: .4; }
+.clinic-curve path { stroke-linecap: round; stroke-linejoin: round; }
+.clinic-row { z-index: auto; }
+.clinic-copy, .clinic-photo { position: relative; z-index: 2; }
+.clinic-curve-mobile { display: none; }
+.clinic-copy .reveal, .clinic-photo.reveal { will-change: opacity, transform; }
+
+.values { height: auto; }
+.values-sticky { position: relative; display: grid; grid-template-columns: 1fr 1fr; height: auto; min-height: 680px; }
+.value-half { position: relative; min-width: 0; }
+.value-base { position: absolute; inset: 0; overflow: hidden; }
+.value-base img { width: 100%; height: 100%; object-fit: cover; object-position: 68% center; }
+.value-overlay { position: relative; height: 100%; }
+.value-copy { height: 100%; min-height: 680px; padding: 80px clamp(35px, 5vw, 100px); background: #f1f5f0; }
+.value-overlay-first .value-copy { background: #2a8c80; color: #fff; }
+.value-overlay-first .eyebrow, .value-overlay-first p { color: #e0f2e9; }
+.value-overlay-first .value-word { color: #acd9c46e; }
+.value-copy h2 { font-size: clamp(26px, 2.7vw, 44px); }
+.value-copy p { position: relative; z-index: 1; }
+.value-copy .value-word { font-size: clamp(65px, 6.8vw, 112px); }
+.value-copy .value-pagination { margin-top: 30px; }
+.value-overlay-second .value-word { color: #a9c9b68c; }
+.value-overlay-second .value-copy::before { content: ''; position: absolute; width: 650px; height: 650px; border: 1px solid #c1dacc; border-radius: 50%; right: -280px; top: -280px; pointer-events: none; }
+
+.vision { display: block; position: relative; height: auto; min-height: 0; background: #21534a; }
+.vision-stage { position: relative; display: grid; place-items: center; min-height: 700px; overflow: hidden; isolation: isolate; }
+.vision-background { position: absolute; inset: 0; z-index: -1; background: linear-gradient(#214d43d9, #1b463bdf), url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+") center/cover; }
+.vision-inner { width: 100%; padding: 70px 24px; }
+.vision-line { display: block; }
+.vision .vision-words { font-size: clamp(28px, 3.8vw, 61px); }
+.vision-char { color: #fff; }
+.vision em .vision-char { color: #c8eee7; }
+.vision .vision-sign { margin-top: 40px; }
+
+@media (min-width: 769px) and (prefers-reduced-motion: no-preference) {
+  .scroll-motion-ready .about { height: 300svh; }
+  .scroll-motion-ready .about-stage { position: sticky; top: 0; height: 100svh; min-height: 0; padding: 0; overflow: hidden; }
+  .scroll-motion-ready .about-heading { position: absolute; top: max(12vh, 90px); left: var(--gutter); right: var(--gutter); padding: 0; }
+  .scroll-motion-ready .about-symbol { position: absolute; left: 50%; top: 50%; width: clamp(260px, 30vw, 500px); transform: translate(calc(-50% - var(--about-shift, 0px)), -50%); opacity: var(--about-symbol-opacity, .16); will-change: transform, opacity; }
+  .scroll-motion-ready .about-text { left: 40%; right: 6%; top: 50%; opacity: var(--about-text-opacity, 0); }
+  .scroll-motion-ready .about-paragraph { opacity: var(--paragraph-opacity, 0); transform: translateY(var(--paragraph-y, 40px)); will-change: opacity, transform; }
+}
+
+@media (min-width: 1025px) and (prefers-reduced-motion: no-preference) {
+  .scroll-motion-ready .values { height: 250svh; }
+  .scroll-motion-ready .values-sticky { position: sticky; top: 0; height: 100svh; min-height: 0; }
+  .scroll-motion-ready .value-overlay { position: absolute; inset: 0; will-change: clip-path; }
+  .scroll-motion-ready .value-overlay-first { clip-path: inset(var(--value-close, 0%) 0 var(--value-close, 0%) 0); }
+  .scroll-motion-ready .value-overlay-second { clip-path: inset(var(--value-open, 50%) var(--value-open, 50%) var(--value-open, 50%) var(--value-open, 50%)); }
+  .scroll-motion-ready .value-copy { min-height: 0; padding-top: 60px; padding-bottom: 45px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .scroll-motion-ready .vision { height: 200svh; }
+  .scroll-motion-ready .vision-stage { position: sticky; top: 0; height: 100svh; min-height: 0; }
+  .scroll-motion-ready .vision-intro, .scroll-motion-ready .vision-line, .scroll-motion-ready .vision-sign { opacity: var(--line-opacity, 0); transform: translateY(var(--line-y, 40px)); will-change: opacity, transform; }
+  .scroll-motion-ready .vision-char { color: rgba(255, 255, 255, .3); }
+}
+
+@media (max-width: 1024px) {
+  .values-sticky { display: block; min-height: 0; }
+  .value-base { display: none; }
+  .value-overlay { position: relative; clip-path: none !important; }
+  .value-copy { min-height: 570px; padding: 80px var(--gutter); }
+  .value-copy h2 { font-size: clamp(28px, 3.5vw, 42px); }
+  .value-copy p { font-size: 15px; }
+  .value-copy .value-word { font-size: 90px; }
+}
+
+@media (max-width: 768px) {
+  .about-stage { min-height: 616px; padding: 85px 26px 80px; }
+  .about-heading { padding-bottom: 35px; }
+  .about-symbol { width: 130px; margin: 0 auto 35px; }
+  .about-text { position: static; transform: none; text-align: center; }
+  .about h2 { font-size: clamp(22px, 4.7vw, 30px); line-height: 1.75; }
+  .about-paragraph + .about-paragraph { font-size: 14px; margin-top: 25px; }
+  .clinic-curve-desktop { display: none; }
+  .clinic-curve-mobile { display: block; width: min(112%, 480px); height: auto; aspect-ratio: 1; top: 30px; left: 50%; transform: translateX(-50%); opacity: .3; }
+  .clinic-row, .clinic-row.reverse { display: flex; flex-direction: column; align-items: stretch; gap: 35px; }
+  .clinic-row + .clinic-row { margin-top: 90px; }
+  .value-copy { min-height: 500px; padding: 65px 26px; }
+  .value-copy h2 { font-size: 28px; }
+  .value-copy p { font-size: 14px; }
+  .value-copy .value-word { font-size: 80px; }
+  .vision-stage { min-height: 620px; }
+  .vision .vision-words { font-size: clamp(23px, 5.7vw, 36px); line-height: 1.9; }
+  .vision .eyebrow { font-size: 10px; margin-bottom: 28px; }
+  .vision .vision-sign { font-size: 29px; margin-top: 30px; }
+  .vision-inner { padding: 75px 18px; }
+}
+
+@media (max-width: 768px) and (prefers-reduced-motion: no-preference) {
+  .scroll-motion-ready .about-symbol { opacity: .16; transition: opacity 1s ease; }
+  .scroll-motion-ready .about-text { opacity: 0; transition: opacity .6s .5s ease; }
+  .scroll-motion-ready .about-paragraph { opacity: 0; transform: translateY(30px); transition: opacity .8s .7s ease, transform .8s .7s var(--ease); }
+  .scroll-motion-ready .about-paragraph + .about-paragraph { transition-delay: .95s; }
+  .scroll-motion-ready .about.is-about-visible .about-symbol,
+  .scroll-motion-ready .about.is-about-visible .about-text,
+  .scroll-motion-ready .about.is-about-visible .about-paragraph { opacity: 1; transform: none; }
+}
+
+@media (max-height: 600px) and (min-width: 769px) {
+  .about h2 { font-size: 27px; }
+  .about-paragraph + .about-paragraph { margin-top: 20px; font-size: 14px; }
+  .scroll-motion-ready .about-symbol { width: 240px; }
+  .value-copy h2 { font-size: 26px; }
+  .value-copy .eyebrow { margin-bottom: 20px; }
+  .value-copy p { margin-top: 18px; font-size: 13px; }
+  .value-copy .value-word { font-size: 60px; margin-top: 18px; }
+  .value-copy .value-pagination { margin-top: 15px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-stage { min-height: 650px; }
+  .values-sticky { display: block; }
+  .value-base { display: none; }
+  .value-overlay { clip-path: none !important; }
+  .vision-char { color: #fff !important; }
+  .vision em .vision-char { color: #c8eee7 !important; }
+}
+/* Landscape phones need enough room for all copy inside the pinned viewport. */
+@media (max-height: 600px) {
+  .vision-inner { padding: 26px 20px; }
+  .vision .eyebrow { margin-bottom: 16px; font-size: 9px; }
+  .vision .vision-words { font-size: clamp(21px, 4.3vh, 28px); line-height: 1.65; }
+  .vision .vision-sign { margin-top: 18px; font-size: 24px; }
+}
+
+/* ===== assets/css/footer.css ===== */
+/* Visit information and centered dark footer, based on the supplied reference. */
+.visit-footer { color: var(--ink); background: #fff; }
+.visit-footer-inner { width: 100%; max-width: 1600px; margin-inline: auto; padding: 64px 5.4vw 84px; }
+.visit-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(32px, 3.6vw, 60px); align-items: start; }
+.visit-map { min-width: 0; aspect-ratio: 1.44 / 1; background: #dce4df; overflow: hidden; }
+.visit-content { min-width: 0; border-top: 1px solid #7e8986; }
+.visit-info-block { padding: 25px 16px; }
+.visit-info-block + .visit-info-block { border-top: 1px solid #cbd0cd; }
+.visit-info-block h2, .visit-info-block h3 { font-family: inherit; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: -.025em; margin: 0 0 18px; }
+.visit-address address { font-style: normal; font-size: 14px; line-height: 1.8; }
+.visit-transit { font-size: 13px; line-height: 1.8; margin-top: 4px; color: var(--gray); }
+.visit-directions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 22px; }
+.visit-direction { display: flex; justify-content: center; align-items: center; gap: 10px; min-height: 46px; padding: 10px 12px; border: 1px solid #c9cecb; border-radius: 3px; background: #fff; font-family: inherit; font-size: 12px; line-height: 1.5; white-space: nowrap; transition: border-color .2s, background .2s; }
+.visit-direction:not(:disabled):hover, .visit-direction:focus-visible { background: #f5f8f6; border-color: var(--teal); }
+.direction-icon { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.direction-naver { width: 18px; height: 18px; background: #03c75a; color: #fff; font-family: var(--font-sans); font-size: 15px; font-weight: 700; line-height: 1; }
+.direction-kakao { position: relative; width: 21px; height: 16px; border-radius: 50%; background: #fee500; color: #392020; font-family: var(--font-sans); font-size: 6px; font-weight: 700; letter-spacing: -.03em; }
+.direction-kakao::after { content: ''; position: absolute; width: 5px; height: 5px; background: #fee500; bottom: -2px; left: 4px; transform: skewY(-35deg); }
+.direction-arrow { margin-left: auto; color: #89928f; font-size: 16px; }
+.visit-inquiry { padding-top: 23px; padding-bottom: 23px; }
+.visit-inquiry h3 { margin-bottom: 12px; }
+.visit-phone { font-size: clamp(22px, 1.9vw, 28px); line-height: 1.5; font-weight: 400; letter-spacing: -.035em; }
+.visit-hours { padding-bottom: 0; }
+.visit-hours dl { font-size: 15px; line-height: 1.9; }
+.visit-hours dl > div { display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 16px; margin-top: 5px; }
+.visit-hours dd { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.visit-hours .visit-lunch { margin-top: 12px; color: var(--gray); }
+.visit-closed { display: inline-block; margin-top: 12px; padding: 5px 10px; background: #ff7054; color: #fff; font-size: 13px; font-weight: 500; line-height: 1.7; }
+.visit-footer-bottom { background: #101010; color: #b8bdbb; padding: 48px 24px 30px; text-align: center; }
+.visit-bottom-inner { max-width: 1400px; margin-inline: auto; }
+.visit-footer-logo { display: block; width: 240px; max-width: 80%; margin-inline: auto; }
+.visit-footer-logo img { width: 100%; height: auto; filter: brightness(0) invert(.8); }
+.visit-policy { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px 30px; margin-top: 28px; color: #f0f2f1; font-size: 12px; }
+.visit-policy button { padding: 5px 0; line-height: 1.8; transition: color .2s; }
+.visit-policy button:first-child { font-weight: 500; }
+.visit-policy button:not(:disabled):hover, .visit-policy button:focus-visible { color: #81d2c8; }
+.visit-business { margin-top: 22px; font-size: 11px; line-height: 1.9; }
+.visit-business ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 3px 0; }
+.visit-business li { padding: 0 10px; }
+.visit-business li + li { border-left: 1px solid #454a47; }
+.visit-business li span { margin-left: 5px; }
+.visit-copyright { margin-top: 8px; color: #878e8a; font-size: 9px; line-height: 1.8; }
+.visit-copyright p + p { margin-top: 3px; }
+.quick-menu.is-footer-visible { opacity: 0; visibility: hidden; pointer-events: none; }
+
+@media (min-width: 1600px) {
+  .visit-footer-inner { padding-inline: 70px; }
+}
+@media (max-width: 1100px) {
+  .visit-footer-inner { padding: 50px 32px 64px; }
+  .visit-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+  .visit-map { aspect-ratio: 1 / 1.1; }
+  .visit-info-block { padding-inline: 8px; }
+  .visit-direction { gap: 7px; padding-inline: 9px; }
+  .direction-arrow { display: none; }
+}
+@media (max-width: 820px) {
+  .visit-grid { grid-template-columns: 1fr; gap: 32px; }
+  .visit-map { aspect-ratio: 1.6 / 1; }
+  .visit-info-block { padding-inline: 12px; }
+  .visit-directions { max-width: 460px; }
+  .direction-arrow { display: inline; }
+}
+@media (max-width: 600px) {
+  .visit-footer-inner { padding: 36px 24px 50px; }
+  .visit-map { aspect-ratio: 1.25 / 1; }
+  .visit-grid { gap: 26px; }
+  .visit-info-block { padding: 22px 0; }
+  .visit-info-block h2, .visit-info-block h3 { font-size: 15px; margin-bottom: 15px; }
+  .visit-directions { gap: 8px; margin-top: 18px; }
+  .visit-direction { min-height: 48px; font-size: 11px; gap: 7px; padding-inline: 8px; }
+  .direction-arrow { display: none; }
+  .visit-phone { font-size: 24px; }
+  .visit-hours { padding-bottom: 0; }
+  .visit-hours dl { font-size: 14px; }
+  .visit-hours dl > div { grid-template-columns: 80px minmax(0, 1fr); gap: 14px; }
+  .visit-closed { font-size: 12px; }
+  .visit-footer-bottom { padding: 38px 24px 28px; }
+  .visit-footer-logo { width: 215px; }
+  .visit-policy { font-size: 11px; gap: 24px; margin-top: 24px; }
+  .visit-business { margin-top: 20px; font-size: 10px; }
+  .visit-business li { padding: 0 7px; }
+  .visit-business li:first-child { flex-basis: 100%; margin-bottom: 4px; }
+  .visit-business li:nth-child(2) { border-left: 0; }
+  .visit-copyright { font-size: 8px; margin-top: 12px; }
+}
+
+.visit-direction:disabled, .visit-policy button:disabled { cursor: default; opacity: 1; }
+</style>
+
+</head>
+<body>
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header" id="header">
+<a class="logo" href="#top" aria-label="스마일비뇨의학과 홈"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NDgiIGhlaWdodD0iMTQ3IiB2aWV3Qm94PSIwIDAgNzQ4IDE0NyI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iIzkxYmZiMyIvPjwvc3ZnPg==" alt="로고 이미지 자리" width="748" height="147"></a>
+<nav class="desktop-nav" aria-label="주 메뉴"><a href="#about">스마일 소개</a><a href="#clinic">비뇨의학 클리닉</a><a href="#services">맞춤 진료</a><a href="#values">진료 철학</a><a href="#space">공간 안내</a><a href="#news">스마일 소식</a></nav>
+<div class="header-actions"><a href="#contact" class="header-contact">진료 안내 <span>↗</span></a><button class="menu-toggle" aria-label="전체 메뉴 열기" aria-expanded="false" aria-controls="full-menu"><span></span><span></span></button></div>
+<div class="full-menu" id="full-menu" hidden inert aria-hidden="true"><div class="full-menu-inner"><div class="menu-intro"><span class="eyebrow">SMILE, WITH YOU</span><p>당신의 일상에<br>건강한 미소를.</p></div><nav aria-label="전체 메뉴"><a href="#about"><span>01</span>스마일 소개<i>↗</i></a><a href="#clinic"><span>02</span>비뇨의학 클리닉<i>↗</i></a><a href="#services"><span>03</span>맞춤 진료<i>↗</i></a><a href="#values"><span>04</span>진료 철학<i>↗</i></a><a href="#space"><span>05</span>공간 안내<i>↗</i></a><a href="#contact"><span>06</span>진료 안내<i>↗</i></a></nav></div></div>
+</header>
+<main id="main">
+<section class="hero" id="top" aria-label="스마일 소개 슬라이드" aria-roledescription="캐러셀">
+<div class="hero-backdrop" aria-hidden="true"></div>
+<div class="hero-slides">
+<article class="hero-slide is-active"><p class="eyebrow">A BETTER DAY, A HEALTHIER YOU</p><h1>편안한 진료가<br>일상의 <em>미소</em>로.</h1><p class="hero-description">조금 더 가까이, 조금 더 세심하게.<br>당신의 건강한 일상을 함께 생각합니다.</p><a href="#about" class="hero-link">스마일을 만나다 <span>↗</span></a></article>
+<article class="hero-slide" inert aria-hidden="true"><p class="eyebrow">CARE THAT STARTS WITH LISTENING</p><h2>작은 고민에도<br>충분한 <em>시간</em>을.</h2><p class="hero-description">쉽게 꺼내기 어려웠던 이야기까지.<br>편안하게 이야기할 수 있는 진료를 지향합니다.</p><a href="#values" class="hero-link">우리의 진료 철학 <span>↗</span></a></article>
+<article class="hero-slide" inert aria-hidden="true"><p class="eyebrow">YOUR COMFORT COMES FIRST</p><h2>머무는 순간도<br>마음이 <em>편안</em>하게.</h2><p class="hero-description">차분한 공간과 세심한 배려로<br>병원을 찾는 발걸음이 가벼워지도록.</p><a href="#space" class="hero-link">공간 둘러보기 <span>↗</span></a></article>
+</div>
+<div class="hero-bottom"><div class="hero-controls"><button data-hero-prev aria-label="이전 메인 슬라이드">‹</button><span class="hero-current">01</span><span class="hero-progress"><i></i></span><span class="hero-total">03</span><button data-hero-next aria-label="다음 메인 슬라이드">›</button><button class="hero-pause" aria-label="메인 슬라이드 자동 재생 정지" aria-pressed="false">Ⅱ</button></div><a href="#about" class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></a></div><span class="hero-side-label" aria-hidden="true">SMILE UROLOGY CLINIC</span>
+</section>
+<section class="about" id="about" aria-labelledby="about-title">
+  <div class="about-stage">
+    <div class="about-heading"><span class="eyebrow">HELLO, WE ARE SMILE</span><span class="small-index">01 — OUR STORY</span></div>
+    <div class="about-symbol" aria-hidden="true"><div class="about-symbol-crop"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NDgiIGhlaWdodD0iMTQ3IiB2aWV3Qm94PSIwIDAgNzQ4IDE0NyI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iIzkxYmZiMyIvPjwvc3ZnPg==" alt="" width="748" height="147"></div></div>
+    <div class="about-text">
+      <h2 class="about-paragraph" id="about-title">건강을 이야기하는 시간,<br>마음까지 편안할 수 있도록.<br><em>당신 곁에 스마일이 있습니다.</em></h2>
+      <p class="about-paragraph">한 사람의 이야기에 귀 기울이고,<br>이해하기 쉬운 설명으로 진료의 방향을 함께 찾습니다.<br>스마일이 생각하는 좋은 진료의 시작입니다.</p>
+    </div>
+  </div>
+</section>
+<section class="promise section-pad" aria-labelledby="promise-title">
+  <div class="promise-watermark" aria-hidden="true">Every day, a little better.</div>
+  <div class="promise-intro reveal"><span class="eyebrow">OUR PROMISE</span><h2 id="promise-title">진료의 중심에는<br>언제나 <em>당신</em>이.</h2><a class="pill-link" href="#values">스마일의 약속 <span>↗</span></a></div>
+  <div class="promise-photo reveal"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+" alt="이미지 자리" loading="lazy" width="1672" height="941"><span>THOUGHTFUL CARE, ALWAYS.</span></div>
+  <div class="promise-copy reveal"><span class="line-marker"></span><p>어떤 하루를 보내고 있는지,<br>무엇이 가장 불편했는지.</p><p>당신의 일상을 이해하는 것에서<br>우리의 진료는 시작됩니다.</p><p class="muted">차근차근 설명하고 함께 고민하며<br>건강한 내일을 향해 걸어갑니다.</p></div>
+</section>
+<section class="clinic section-pad" id="clinic">
+  <svg class="clinic-curve clinic-curve-desktop" viewBox="0 0 500 500" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+    <defs><linearGradient id="clinic-gradient" x1="425" y1="25" x2="75" y2="475" gradientUnits="userSpaceOnUse"><stop stop-color="#c2e9df"/><stop offset=".45" stop-color="#70bcb0"/><stop offset="1" stop-color="#4e998a"/></linearGradient></defs>
+    <path d="M 190 25 H 310 Q 325 25 325 40 V 160 Q 325 175 340 175 H 460 Q 475 175 475 190 V 310 Q 475 325 460 325 H 340 Q 325 325 325 340 V 460 Q 325 475 310 475 H 190 Q 175 475 175 460 V 340 Q 175 325 160 325 H 40 Q 25 325 25 310 V 190 Q 25 175 40 175 H 160 Q 175 175 175 160 V 40 Q 175 25 190 25 Z" stroke="url(#clinic-gradient)" stroke-width="12"/>
+  </svg>
+  <article class="clinic-row"><svg class="clinic-curve clinic-curve-mobile" viewBox="0 0 500 500" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><path d="M 190 25 H 310 Q 325 25 325 40 V 160 Q 325 175 340 175 H 460 Q 475 175 475 190 V 310 Q 475 325 460 325 H 340 Q 325 325 325 340 V 460 Q 325 475 310 475 H 190 Q 175 475 175 460 V 340 Q 175 325 160 325 H 40 Q 25 325 25 310 V 190 Q 25 175 40 175 H 160 Q 175 175 175 160 V 40 Q 175 25 190 25 Z" stroke="#76b9aa" stroke-width="10"/></svg><div class="clinic-copy reveal"><span class="eyebrow">UROLOGY CLINIC</span><h2>편안한 일상을 위한<br><em>비뇨의학 진료</em></h2><p class="body-copy">혼자 고민했던 작은 불편함도<br>이제 편안하게 이야기하세요.</p><p class="body-copy">증상과 생활 습관을 함께 살피며<br>개인에게 맞는 진료 방향을 찾아갑니다.</p><a class="pill-link" href="#services">진료 분야 살펴보기 <span>↗</span></a></div><div class="clinic-photo reveal"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+" alt="이미지 자리" loading="lazy" width="1672" height="941"><span class="photo-caption">01 / PERSONALIZED CARE</span></div></article>
+  <article class="clinic-row reverse"><svg class="clinic-curve clinic-curve-mobile" viewBox="0 0 500 500" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><path d="M 190 25 H 310 Q 325 25 325 40 V 160 Q 325 175 340 175 H 460 Q 475 175 475 190 V 310 Q 475 325 460 325 H 340 Q 325 325 325 340 V 460 Q 325 475 310 475 H 190 Q 175 475 175 460 V 340 Q 175 325 160 325 H 40 Q 25 325 25 310 V 190 Q 25 175 40 175 H 160 Q 175 175 175 160 V 40 Q 175 25 190 25 Z" stroke="#508f83" stroke-width="10"/></svg><div class="clinic-copy reveal"><span class="eyebrow">LIFELONG WELLNESS</span><h2>건강한 오늘이<br><em>더 나은 내일로</em></h2><p class="body-copy">연령과 생활 방식에 따라 달라지는 건강 고민.<br>지금의 나에게 필요한 관리를 함께 생각합니다.</p><p class="body-copy">한 번의 만남에서 그치지 않고<br>일상으로 이어지는 세심한 관심을 지향합니다.</p><a class="pill-link" href="#values">진료 철학 알아보기 <span>↗</span></a></div><div class="clinic-photo reveal"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+" alt="이미지 자리" loading="lazy" width="1672" height="941"><span class="photo-caption">02 / EVERYDAY WELLNESS</span></div></article>
+</section>
+<div class="marquee" aria-hidden="true"><div class="marquee-track"><span>A little care, a brighter day <i>✳</i> Your smile, our purpose <i>✳</i></span><span>A little care, a brighter day <i>✳</i> Your smile, our purpose <i>✳</i></span></div></div>
+<section class="services section-pad" id="services" aria-labelledby="services-title">
+  <div class="section-heading center reveal"><span class="eyebrow">CARE FOR YOUR EVERYDAY</span><h2 id="services-title">각자의 고민에 맞는,<br><em>세심한 진료를 만나다</em></h2><p class="body-copy">익숙했던 불편함을 편안한 일상으로.<br>스마일의 진료 분야를 살펴보세요.</p></div>
+  <div class="service-carousel" tabindex="0" aria-label="진료 분야 슬라이더. 좌우 화살표 키로 이동" aria-roledescription="캐러셀"><div class="service-track">
+    <button class="service-card" data-service="0" aria-label="배뇨 클리닉 선택"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+" alt="" loading="lazy" width="1672" height="941"><span class="service-number">01</span><span class="service-content"><span class="service-en">VOIDING CARE</span><strong>배뇨 클리닉</strong><span class="service-tags"><span>일상의 불편함</span><span>세심한 상담</span></span></span></button>
+    <button class="service-card" data-service="1" aria-label="전립선 클리닉 선택"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+" alt="" loading="lazy" width="1672" height="941"><span class="service-number">02</span><span class="service-content"><span class="service-en">PROSTATE CARE</span><strong>전립선 클리닉</strong><span class="service-tags"><span>건강한 변화</span><span>꾸준한 관심</span></span></span></button>
+    <button class="service-card is-active" data-service="2" aria-label="여성 비뇨의학 선택"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+" alt="" loading="lazy" width="1672" height="941"><span class="service-number">03</span><span class="service-content"><span class="service-en">WOMEN'S WELLNESS</span><strong>여성 비뇨의학</strong><span class="service-tags"><span>편안한 상담</span><span>개인 맞춤 진료</span></span></span></button>
+    <button class="service-card" data-service="3" aria-label="요로결석 클리닉 선택"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+" alt="" loading="lazy" width="1672" height="941"><span class="service-number">04</span><span class="service-content"><span class="service-en">STONE CARE</span><strong>요로결석 클리닉</strong><span class="service-tags"><span>상태 확인</span><span>진료 안내</span></span></span></button>
+    <button class="service-card" data-service="4" aria-label="건강 검진 선택"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+" alt="" loading="lazy" width="1672" height="941"><span class="service-number">05</span><span class="service-content"><span class="service-en">HEALTH CHECKUP</span><strong>건강 검진</strong><span class="service-tags"><span>나를 위한 시간</span><span>건강한 내일</span></span></span></button>
+  </div></div>
+  <div class="carousel-controls"><button data-service-prev aria-label="이전 진료 분야">←</button><div class="carousel-dots" aria-label="진료 분야 선택"><button aria-label="배뇨 클리닉 보기" data-service-dot="0"></button><button aria-label="전립선 클리닉 보기" data-service-dot="1"></button><button class="is-active" aria-label="여성 비뇨의학 보기" data-service-dot="2" aria-current="true"></button><button aria-label="요로결석 클리닉 보기" data-service-dot="3"></button><button aria-label="건강 검진 보기" data-service-dot="4"></button></div><button data-service-next aria-label="다음 진료 분야">→</button></div>
+</section>
+<section class="values" id="values" aria-label="스마일의 진료 철학">
+  <div class="values-sticky">
+    <div class="value-half value-left">
+      <div class="value-base" aria-hidden="true"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+" alt="" width="1672" height="941" loading="lazy"></div>
+      <article class="value-overlay value-overlay-first">
+        <div class="value-copy">
+          <span class="eyebrow">THE WAY WE CARE <b>01</b></span>
+          <h2>이야기를 듣는 일.<br>진료의 첫 번째입니다.</h2>
+          <p>진료실 문을 열기까지의 마음을 생각합니다.<br>어떤 이야기든 편안히 꺼낼 수 있도록<br>충분히 듣고, 차근차근 설명하겠습니다.</p>
+          <span class="value-word" aria-hidden="true">Listen.</span>
+          <span class="value-pagination">01 <i></i> 02</span>
+        </div>
+      </article>
+    </div>
+    <div class="value-half value-right">
+      <div class="value-base" aria-hidden="true"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+" alt="" width="1672" height="941" loading="lazy"></div>
+      <article class="value-overlay value-overlay-second">
+        <div class="value-copy">
+          <span class="eyebrow">THE WAY WE CARE <b>02</b></span>
+          <h2>한 사람을 위한 배려.<br>작은 차이를 만듭니다.</h2>
+          <p>각자의 일상도, 건강의 모습도 다르기에.<br>당신의 상황을 이해하고 함께 고민하는<br>세심한 진료를 이어가겠습니다.</p>
+          <span class="value-word" aria-hidden="true">Understand.</span>
+          <span class="value-pagination">02 <i></i> 02</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="vision" id="vision" aria-label="스마일의 지향점">
+  <div class="vision-stage">
+    <div class="vision-background" aria-hidden="true"></div>
+    <div class="vision-inner">
+      <span class="eyebrow vision-intro">FOR ALL YOUR BETTER DAYS</span>
+      <h2 class="vision-words" aria-label="조금 더 가벼운 마음으로, 조금 더 건강한 일상으로. 다시, 미소 짓는 당신."><span class="vision-line" aria-hidden="true">조금 더 가벼운 마음으로,</span><span class="vision-line" aria-hidden="true">조금 더 건강한 일상으로.</span><em class="vision-line" aria-hidden="true">다시, 미소 짓는 당신.</em></h2>
+      <span class="vision-sign">With you, Smile.</span>
+    </div>
+  </div>
+</section>
+<section class="space section-pad" id="space"><div class="space-copy"><span class="eyebrow reveal">A SPACE FOR YOUR COMFORT</span><h2 class="reveal">잠시 머무는 시간도<br><em>편안할 수 있도록</em></h2><div class="space-description" aria-live="polite"><span class="space-name">The Lounge</span><h3>여유를 담은 대기 공간</h3><p class="body-copy">따뜻한 빛과 차분한 색감이 어우러진 공간.<br>마음의 긴장을 내려놓고 편안하게 머무세요.</p></div><div class="space-controls"><button data-space-prev aria-label="이전 공간">←</button><button data-space-next aria-label="다음 공간">→</button><span class="space-current">01</span><span class="space-line"></span><span>02</span></div><p class="image-note">공간 이미지는 추후 삽입 예정입니다.</p></div><div class="space-image"><img class="is-active" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+" alt="이미지 자리" loading="lazy" width="1672" height="941"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+" alt="이미지 자리" loading="lazy" width="1672" height="941"><span class="space-image-label">SMILE / OUR SPACE</span></div></section>
+<section class="news section-pad" id="news"><div class="news-heading reveal"><div><span class="eyebrow">WHAT'S NEW AT SMILE</span><h2>스마일의 <em>새로운 소식</em></h2></div><span class="news-sidenote">우리의 이야기를 전합니다.</span></div><div class="news-grid"><div class="news-feature"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+" alt="이미지 자리" loading="lazy" width="1672" height="941"><div><span class="eyebrow">SMILE JOURNAL</span><h3 class="news-preview-title">스마일의 새로운 공간을 소개합니다</h3></div><span class="news-hover-circle" aria-hidden="true">SMILE<br>JOURNAL</span></div><div class="news-list"><button data-news="0"><span class="news-meta">2026.09.01 <i>공간 이야기</i></span><strong>스마일의 새로운 공간을 소개합니다</strong><span class="news-arrow">↗</span></button><button data-news="1"><span class="news-meta">2026.08.25 <i>진료 안내</i></span><strong>처음 방문하신다면, 이렇게 준비해 주세요</strong><span class="news-arrow">↗</span></button><button data-news="2"><span class="news-meta">2026.08.18 <i>스마일 이야기</i></span><strong>편안한 상담을 위한 우리의 작은 약속</strong><span class="news-arrow">↗</span></button><button data-news="3"><span class="news-meta">2026.08.10 <i>이용 안내</i></span><strong>스마일 홈페이지에서 진료 분야를 만나보세요</strong><span class="news-arrow">↗</span></button></div></div></section>
+</main>
+<footer class="visit-footer" id="contact" aria-labelledby="visit-title">
+  <div class="visit-footer-inner">
+    <div class="visit-grid">
+      <!-- Map integration point: replace the empty box contents with the map later. -->
+      <div class="visit-map" id="clinic-map" role="img" aria-label="지도 연결 예정 영역"></div>
+      <div class="visit-content">
+        <section class="visit-address visit-info-block" aria-labelledby="visit-title">
+          <h2 id="visit-title">오시는 길</h2>
+          <address>병원 주소 입력 예정</address>
+          <p class="visit-transit">주차 및 대중교통 안내 예정</p>
+          <div class="visit-directions" role="group" aria-label="길찾기">
+            <!-- Connect each provider's destination URL after the clinic address is confirmed. -->
+            <button class="visit-direction" type="button" data-direction="naver" disabled aria-label="네이버 길찾기 연결 준비 중"><span class="direction-icon direction-naver" aria-hidden="true">N</span><span>네이버 길찾기</span><span class="direction-arrow" aria-hidden="true">↗</span></button>
+            <button class="visit-direction" type="button" data-direction="kakao" disabled aria-label="카카오 길찾기 연결 준비 중"><span class="direction-icon direction-kakao" aria-hidden="true">TALK</span><span>카카오 길찾기</span><span class="direction-arrow" aria-hidden="true">↗</span></button>
+          </div>
+        </section>
+        <section class="visit-inquiry visit-info-block" aria-labelledby="inquiry-title">
+          <h3 id="inquiry-title">상담 및 문의</h3>
+          <p class="visit-phone">대표전화 안내 예정</p>
+        </section>
+        <section class="visit-hours visit-info-block" aria-labelledby="hours-title">
+          <h3 id="hours-title">진료시간</h3>
+          <dl>
+            <div><dt>월–금요일</dt><dd>09:00 – 18:00</dd></div>
+            <div><dt>토요일</dt><dd>09:00 – 13:00</dd></div>
+            <div class="visit-lunch"><dt>점심시간</dt><dd>13:00 – 14:00</dd></div>
+          </dl>
+          <p class="visit-closed">일요일·공휴일 휴진</p>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="visit-footer-bottom">
+    <div class="visit-bottom-inner">
+      <a class="visit-footer-logo" href="#top" aria-label="스마일비뇨의학과 홈">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NDgiIGhlaWdodD0iMTQ3IiB2aWV3Qm94PSIwIDAgNzQ4IDE0NyI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iIzkxYmZiMyIvPjwvc3ZnPg==" alt="로고 이미지 자리" width="748" height="147" loading="lazy">
+      </a>
+      <nav class="visit-policy" aria-label="이용 정책"><button type="button" data-policy="privacy" disabled>개인정보처리방침</button><button type="button" data-policy="terms" disabled>이용안내</button></nav>
+      <div class="visit-business">
+        <ul aria-label="사업자 및 병원 연락 정보">
+          <li>스마일비뇨의학과</li><li>대표자 <span>—</span></li><li>주소 <span>병원 주소 입력 예정</span></li><li>대표전화 <span>—</span></li><li>사업자등록번호 <span>—</span></li><li>이메일 <span>—</span></li>
+        </ul>
+      </div>
+      <div class="visit-copyright">
+        <p>© 2026 SMILE UROLOGY CLINIC. ALL RIGHTS RESERVED.</p>
+        <p>DESIGN CONCEPT · 운영 정보는 예시입니다.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<aside class="quick-menu" aria-label="빠른 메뉴"><a href="#contact"><span>◷</span>진료 안내</a><a href="#space"><span>⌖</span>공간 안내</a><a href="#services"><span>＋</span>진료 항목</a><button class="back-top" aria-label="맨 위로"><span>↑</span>TOP</button></aside><div class="menu-scrim" hidden></div>
+
+<!-- Scripts run after the page markup, in their original load order. -->
+<script>
+// ===== assets/js/main.js =====
+(() => {
+'use strict';
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.body.classList.add('js-ready');
+const header=document.querySelector('.site-header'), menuButton=document.querySelector('.menu-toggle'), menu=document.querySelector('.full-menu'), scrim=document.querySelector('.menu-scrim');
+const menuInner=menu.querySelector('.full-menu-inner');
+const menuMotionPreference=window.matchMedia('(prefers-reduced-motion: reduce)');
+let menuOpen=false,menuAnimation=null;
+function sizeMenu(){
+  menu.style.setProperty('--menu-max-height',Math.max(0,window.innerHeight-header.getBoundingClientRect().bottom)+'px');
+}
+function finishMenu(){menu.hidden=!menuOpen;}
+function cancelMenuAnimation(){
+  if(menuAnimation){menuAnimation.cancel();menuAnimation=null;}
+}
+function setMenu(open){
+  if(open===menuOpen)return;
+  const fromHeight=menu.hidden?0:menu.getBoundingClientRect().height;
+  cancelMenuAnimation();
+  menuOpen=open;
+  if(!open&&menu.contains(document.activeElement))menuButton.focus({preventScroll:true});
+  menu.hidden=false;
+  if(open)menuInner.scrollTop=0;
+  menu.inert=!open;
+  menu.setAttribute('aria-hidden',String(!open));
+  scrim.hidden=!open;
+  menuButton.setAttribute('aria-expanded',String(open));
+  menuButton.setAttribute('aria-label',open?'전체 메뉴 닫기':'전체 메뉴 열기');
+  document.body.classList.toggle('menu-open',open);
+  sizeMenu();
+  const toHeight=open?menuInner.getBoundingClientRect().height:0;
+  if(menuMotionPreference.matches||typeof menu.animate!=='function')finishMenu();
+  else{
+    const animation=menu.animate([{height:fromHeight+'px'},{height:toHeight+'px'}],{duration:open?500:350,easing:'cubic-bezier(.22,1,.36,1)'});
+    menuAnimation=animation;
+    animation.onfinish=()=>{
+      if(menuAnimation!==animation)return;
+      menuAnimation=null;
+      finishMenu();
+    };
+  }
+  if(open)menu.querySelector('a').focus({preventScroll:true});
+}
+menuButton.addEventListener('click',()=>setMenu(!menuOpen));
+scrim.addEventListener('click',()=>setMenu(false));
+menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>setMenu(false)));
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&menuOpen){setMenu(false);menuButton.focus({preventScroll:true});}
+  if(e.key==='Tab'&&menuOpen){
+    const links=[...menu.querySelectorAll('a')];
+    if(e.shiftKey&&document.activeElement===links[0]){e.preventDefault();menuButton.focus({preventScroll:true});}
+    else if(!e.shiftKey&&document.activeElement===links.at(-1)){e.preventDefault();menuButton.focus({preventScroll:true});}
+    else if(document.activeElement===menuButton){
+      e.preventDefault();
+      (e.shiftKey?links.at(-1):links[0]).focus({preventScroll:true});
+      menuInner.scrollTop=e.shiftKey?menuInner.scrollHeight:0;
+    }
+  }
+});
+window.addEventListener('resize',()=>{sizeMenu();cancelMenuAnimation();finishMenu();});
+menuMotionPreference.addEventListener('change',()=>{
+  if(menuMotionPreference.matches){cancelMenuAnimation();finishMenu();}
+});
+const slides=[...document.querySelectorAll('.hero-slide')],hero=document.querySelector('.hero');let current=0,paused=reducedMotion,timer;
+function showSlide(index){current=(index+slides.length)%slides.length;slides.forEach((slide,i)=>{slide.classList.toggle('is-active',i===current);slide.inert=i!==current;slide.setAttribute('aria-hidden',String(i!==current));});document.querySelector('.hero-current').textContent=String(current+1).padStart(2,'0');document.querySelector('.hero-progress i').style.width=`${((current+1)/slides.length)*100}%`;hero.dataset.activeSlide=current;}
+function startTimer(){clearInterval(timer);if(!paused&&!document.hidden&&!hero.contains(document.activeElement)&&!hero.matches(':hover'))timer=setInterval(()=>showSlide(current+1),6500);}
+document.querySelector('[data-hero-prev]').addEventListener('click',()=>{showSlide(current-1);startTimer();});document.querySelector('[data-hero-next]').addEventListener('click',()=>{showSlide(current+1);startTimer();});
+const pause=document.querySelector('.hero-pause');function updatePause(){pause.textContent=paused?'▷':'Ⅱ';pause.setAttribute('aria-label',paused?'메인 슬라이드 자동 재생 시작':'메인 슬라이드 자동 재생 정지');pause.setAttribute('aria-pressed',String(paused));}
+pause.addEventListener('click',()=>{paused=!paused;updatePause();startTimer();});hero.addEventListener('pointerenter',()=>clearInterval(timer));hero.addEventListener('pointerleave',startTimer);hero.addEventListener('focusin',()=>clearInterval(timer));hero.addEventListener('focusout',e=>{if(!hero.contains(e.relatedTarget))startTimer();});document.addEventListener('visibilitychange',startTimer);
+let touchStart;hero.addEventListener('touchstart',e=>{touchStart=e.changedTouches[0].clientX;},{passive:true});hero.addEventListener('touchend',e=>{const delta=e.changedTouches[0].clientX-touchStart;if(Math.abs(delta)>60){showSlide(current+(delta<0?1:-1));startTimer();}},{passive:true});updatePause();startTimer();
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+function onScroll(){header.classList.toggle('is-scrolled',window.scrollY>30);}window.addEventListener('scroll',onScroll,{passive:true});onScroll();document.querySelector('.back-top').addEventListener('click',()=>window.scrollTo({top:0,behavior:reducedMotion?'instant':'smooth'}));
+const footerObserver=new IntersectionObserver(entries=>{
+  document.querySelector('.quick-menu').classList.toggle('is-footer-visible',entries[0].isIntersecting);
+},{threshold:0});
+footerObserver.observe(document.querySelector('.visit-footer'));
+// Keep the active treatment centered at every viewport width.
+const carousel=document.querySelector('.service-carousel'), track=document.querySelector('.service-track');
+const cards=[...document.querySelectorAll('.service-card')], dots=[...document.querySelectorAll('[data-service-dot]')];
+let activeService=2;
+function selectService(index){
+  activeService=(index+cards.length)%cards.length;
+  cards.forEach((card,i)=>{card.classList.toggle('is-active',i===activeService);card.setAttribute('aria-pressed',String(i===activeService));card.tabIndex=i===activeService?0:-1;});
+  dots.forEach((dot,i)=>{dot.classList.toggle('is-active',i===activeService);if(i===activeService)dot.setAttribute('aria-current','true');else dot.removeAttribute('aria-current');});
+  const selected=cards[activeService];
+  track.style.transform=`translateX(${carousel.clientWidth/2-selected.offsetLeft-selected.offsetWidth/2}px)`;
+}
+document.querySelector('[data-service-prev]').addEventListener('click',()=>selectService(activeService-1));
+document.querySelector('[data-service-next]').addEventListener('click',()=>selectService(activeService+1));
+dots.forEach(dot=>dot.addEventListener('click',()=>selectService(Number(dot.dataset.serviceDot))));
+carousel.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();const cardHadFocus=cards.includes(document.activeElement);selectService(activeService+(e.key==='ArrowRight'?1:-1));if(cardHadFocus)cards[activeService].focus({preventScroll:true});}});
+new ResizeObserver(()=>selectService(activeService)).observe(carousel);
+let dragStart=null,dragDelta=0,suppressClick=false;
+carousel.addEventListener('pointerdown',e=>{if(e.button!==0)return;dragStart=e.clientX;dragDelta=0;suppressClick=false;});
+window.addEventListener('pointermove',e=>{if(dragStart!==null)dragDelta=e.clientX-dragStart;},{passive:true});
+window.addEventListener('pointerup',()=>{if(dragStart===null)return;if(Math.abs(dragDelta)>45){suppressClick=true;selectService(activeService+(dragDelta<0?1:-1));}dragStart=null;});
+window.addEventListener('pointercancel',()=>{dragStart=null;dragDelta=0;});
+carousel.addEventListener('dragstart',e=>e.preventDefault());
+cards.forEach((card,index)=>card.addEventListener('click',()=>{
+  if(suppressClick){suppressClick=false;return;}
+  selectService(index);
+}));
+selectService(activeService);
+
+let activeSpace=0;
+const spaces=[{name:'The Lounge',title:'여유를 담은 대기 공간',lines:['따뜻한 빛과 차분한 색감이 어우러진 공간.','마음의 긴장을 내려놓고 편안하게 머무세요.']},{name:'The Care Room',title:'이야기에 집중하는 진료 공간',lines:['차분한 분위기에서 나누는 당신의 이야기.','프라이버시를 배려한 공간을 지향합니다.']}];
+function showSpace(index){activeSpace=(index+spaces.length)%spaces.length;const item=spaces[activeSpace];document.querySelector('.space-name').textContent=item.name;document.querySelector('.space-description h3').textContent=item.title;const p=document.querySelector('.space-description .body-copy');p.replaceChildren(document.createTextNode(item.lines[0]),document.createElement('br'),document.createTextNode(item.lines[1]));document.querySelectorAll('.space-image img').forEach((img,i)=>{img.classList.toggle('is-active',i===activeSpace);img.setAttribute('aria-hidden',String(i!==activeSpace));});document.querySelector('.space-current').textContent=String(activeSpace+1).padStart(2,'0');}
+document.querySelector('[data-space-prev]').addEventListener('click',()=>showSpace(activeSpace-1));document.querySelector('[data-space-next]').addEventListener('click',()=>showSpace(activeSpace+1));showSpace(0);
+document.querySelectorAll('[data-news]').forEach(button=>{
+  const index=Number(button.dataset.news);
+  const title=button.querySelector('strong').textContent;
+  function preview(){
+    document.querySelector('.news-preview-title').textContent=title;
+    document.querySelector('.news-feature img').src=index%2?'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlMmQ4Ii8+PC9zdmc+':'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjcyIiBoZWlnaHQ9Ijk0MSIgdmlld0JveD0iMCAwIDE2NzIgOTQxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYmJkM2M4Ii8+PC9zdmc+';
+  }
+  button.addEventListener('pointerenter',preview);
+  button.addEventListener('focus',preview);
+  button.addEventListener('click',preview);
+});
+})();
+
+// ===== assets/js/scroll-effects.js =====
+(() => {
+  'use strict';
+
+  const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const about = document.querySelector('#about');
+  const clinic = document.querySelector('#clinic');
+  const values = document.querySelector('#values');
+  const vision = document.querySelector('#vision');
+  const aboutStage = about.querySelector('.about-stage');
+  const valueStage = values.querySelector('.values-sticky');
+  const visionStage = vision.querySelector('.vision-stage');
+  const aboutParagraphs = [...about.querySelectorAll('.about-paragraph')];
+  const visionLines = [...vision.querySelectorAll('.vision-line')];
+  const visionIntro = vision.querySelector('.vision-intro');
+  const visionSign = vision.querySelector('.vision-sign');
+
+  // Split characters without changing the accessible, complete heading text.
+  const visionCharacters = [];
+  visionLines.forEach(line => {
+    const fragment = document.createDocumentFragment();
+    for (const char of Array.from(line.textContent)) {
+      if (/\s/.test(char)) { fragment.append(document.createTextNode(char)); continue; }
+      const span = document.createElement('span');
+      span.className = 'vision-char';
+      span.textContent = char;
+      fragment.append(span);
+      visionCharacters.push({ element: span, emphasized: line.tagName === 'EM' });
+    }
+    line.replaceChildren(fragment);
+  });
+
+  const desktopCurve = clinic.querySelector('.clinic-curve-desktop path');
+  const mobileCurves = [...clinic.querySelectorAll('.clinic-curve-mobile path')];
+  const curveLengths = new Map();
+  [desktopCurve, ...mobileCurves].forEach(path => {
+    const length = path.getTotalLength();
+    curveLengths.set(path, length);
+    path.style.strokeDasharray = String(length);
+  });
+
+  const clamp = value => Math.min(1, Math.max(0, value));
+  const phase = (value, start, end) => clamp((value - start) / (end - start));
+  const easeInOut = value => value < .5 ? 2 * value * value : 1 - Math.pow(-2 * value + 2, 2) / 2;
+  const state = { about: 0, clinic: 0, mobileCurve0: 0, mobileCurve1: 0, values: 0, vision: 0 };
+  const target = { ...state };
+  const mobileCurveFinished = [false, false];
+  let needsMeasure = true;
+  let frame = 0;
+  let lastFrame = 0;
+
+  function pinnedProgress(section, stage) {
+    return clamp(-section.getBoundingClientRect().top / Math.max(1, section.offsetHeight - stage.offsetHeight));
+  }
+
+  function measure() {
+    const vh = window.innerHeight;
+    const width = window.innerWidth;
+    target.about = width > 768 ? pinnedProgress(about, aboutStage) : 0;
+    if (width <= 768 && about.getBoundingClientRect().top < vh * .65) about.classList.add('is-about-visible');
+    target.values = width > 1024 ? pinnedProgress(values, valueStage) : 0;
+    target.vision = pinnedProgress(vision, visionStage);
+
+    const clinicRect = clinic.getBoundingClientRect();
+    target.clinic = clamp((vh * .75 - clinicRect.top) / Math.max(1, clinicRect.height - vh * .1));
+    const reverseRect = clinic.querySelector('.clinic-row.reverse').getBoundingClientRect();
+    const mobileProgress = [
+      clamp((vh * .85 - clinicRect.top) / (vh * .75)),
+      clamp((vh * .85 - reverseRect.top) / (vh * .75))
+    ];
+    mobileProgress.forEach((progress, index) => {
+      if (width <= 768 && progress === 1) mobileCurveFinished[index] = true;
+      target[`mobileCurve${index}`] = mobileCurveFinished[index] ? 1 : progress;
+    });
+    needsMeasure = false;
+  }
+
+  function drawCurve(path, progress) {
+    path.style.strokeDashoffset = String(curveLengths.get(path) * (1 - progress));
+  }
+
+  function renderAbout(progress) {
+    const time = progress * 9;
+    const move = easeInOut(phase(time, 3, 6));
+    about.style.setProperty('--about-shift', `${window.innerWidth * .28 * move}px`);
+    about.style.setProperty('--about-symbol-opacity', String(time < 3 ? .16 + .09 * phase(time, 0, 3) : .25 + .75 * move));
+    about.style.setProperty('--about-text-opacity', String(phase(time, 4.5, 6)));
+    aboutParagraphs.forEach((paragraph, index) => {
+      const visible = phase(time, 5 + index, 8 + index);
+      paragraph.style.setProperty('--paragraph-opacity', String(visible));
+      paragraph.style.setProperty('--paragraph-y', `${40 * (1 - visible)}px`);
+    });
+  }
+
+  function renderValues(progress) {
+    const reveal = phase(progress * 2.3, .3, 1.3);
+    values.style.setProperty('--value-close', `${50 * reveal}%`);
+    values.style.setProperty('--value-open', `${50 * (1 - reveal)}%`);
+  }
+
+  function revealGroup(element, progress) {
+    element.style.setProperty('--line-opacity', String(progress));
+    element.style.setProperty('--line-y', `${40 * (1 - progress)}px`);
+  }
+
+  function renderVision(progress) {
+    // A short entrance, staggered character filling, and a readable final hold.
+    const duration = 2.5 + (visionCharacters.length - 1) * .3 + 1.5;
+    const time = progress * duration;
+    revealGroup(visionIntro, phase(time, .5, 2));
+    visionLines.forEach((line, index) => revealGroup(line, phase(time, .5 + index * .3, 2 + index * .3)));
+    revealGroup(visionSign, phase(time, 1.1, 2.6));
+    visionCharacters.forEach(({ element, emphasized }, index) => {
+      const fill = phase(time, 2.5 + index * .3, 3 + index * .3);
+      const color = emphasized ? [200, 238, 231] : [255, 255, 255];
+      const rgb = color.map(channel => Math.round(255 + (channel - 255) * fill));
+      element.style.color = `rgba(${rgb.join(',')},${.3 + .7 * fill})`;
+    });
+  }
+
+  function render() {
+    renderAbout(state.about);
+    // Complete the closed medical outline while the clinic is still in view.
+    drawCurve(desktopCurve, phase(state.clinic, .02, .72));
+    mobileCurves.forEach((path, index) => drawCurve(path, state[`mobileCurve${index}`]));
+    renderValues(state.values);
+    renderVision(state.vision);
+  }
+
+  function tick(now) {
+    frame = 0;
+    if (motionPreference.matches) return;
+    if (needsMeasure) measure();
+    const dt = Math.min(64, lastFrame ? now - lastFrame : 16);
+    lastFrame = now;
+    let unsettled = false;
+    for (const key of Object.keys(state)) {
+      const difference = target[key] - state[key];
+      // Exponential settling keeps scroll reversal smooth without running at rest.
+      const smoothing = key === 'about' ? 160 : 100;
+      state[key] += difference * (1 - Math.exp(-dt / smoothing));
+      if (Math.abs(difference) < .0001) state[key] = target[key];
+      else unsettled = true;
+    }
+    render();
+    if (unsettled) frame = requestAnimationFrame(tick);
+    else lastFrame = 0;
+  }
+
+  function requestUpdate() {
+    needsMeasure = true;
+    if (!frame && !motionPreference.matches) frame = requestAnimationFrame(tick);
+  }
+
+  function configureMotion() {
+    const enabled = !motionPreference.matches;
+    document.documentElement.classList.toggle('scroll-motion-ready', enabled);
+    if (!enabled) {
+      cancelAnimationFrame(frame); frame = 0;
+      [desktopCurve, ...mobileCurves].forEach(path => drawCurve(path, 1));
+      visionCharacters.forEach(({ element }) => element.style.removeProperty('color'));
+    } else {
+      measure();
+      Object.assign(state, target);
+      render();
+      requestUpdate();
+    }
+  }
+
+window.addEventListener('scroll', requestUpdate, { passive: true });
+  window.addEventListener('resize', requestUpdate, { passive: true });
+  window.addEventListener('pageshow', requestUpdate);
+  window.addEventListener('load', requestUpdate, { once: true });
+  motionPreference.addEventListener('change', configureMotion);
+  document.fonts.ready.then(requestUpdate);
+  configureMotion();
+})();
+</script>
+</body>
+</html>
